@@ -1,0 +1,4 @@
+
+InspectDB = {
+	["green"] = false,
+}
