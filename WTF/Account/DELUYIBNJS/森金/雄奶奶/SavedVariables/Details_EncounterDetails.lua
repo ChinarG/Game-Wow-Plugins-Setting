@@ -1785,20 +1785,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "格里昂纳",
 		},
-		[1604] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "不眠的约萨希",
-		},
 		[62418] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "竞技场铁卫士",
+		},
+		[99845] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "雷奥利斯领主",
 		},
 		[64537] = {
 			["school"] = 68,
@@ -1991,12 +1990,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "无情之齐昂",
 		},
-		[99845] = {
-			["school"] = 4,
+		[1604] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "雷奥利斯领主",
+			["source"] = "不眠的约萨希",
 		},
 		[99606] = {
 			["school"] = 4,

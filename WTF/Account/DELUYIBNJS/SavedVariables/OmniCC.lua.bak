@@ -1,6 +1,9 @@
 
 OmniCC4Config = {
 	["minFinishEffectDuration"] = 1,
+	["groups"] = {
+	},
+	["version"] = "8.2.3",
 	["groupSettings"] = {
 		["base"] = {
 			["enabled"] = true,
@@ -33,19 +36,16 @@ OmniCC4Config = {
 				},
 			},
 			["effect"] = "pulse",
-			["yOff"] = 0,
-			["mmSSDuration"] = 0,
+			["fontSize"] = 16,
 			["minDuration"] = 2,
+			["scaleText"] = true,
 			["xOff"] = 0,
 			["tenthsDuration"] = 0,
 			["fontOutline"] = "OUTLINE",
 			["minSize"] = 0.5,
+			["mmSSDuration"] = 0,
 			["minEffectDuration"] = 30,
-			["scaleText"] = true,
-			["fontSize"] = 16,
+			["yOff"] = 0,
 		},
 	},
-	["groups"] = {
-	},
-	["version"] = "8.2.3",
 }

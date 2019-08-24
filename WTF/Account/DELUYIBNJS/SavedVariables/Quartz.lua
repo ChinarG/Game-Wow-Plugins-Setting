@@ -17,27 +17,27 @@ Quartz3DB = {
 		["Pet"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 867,
-					["y"] = 136.9998016357422,
+					["x"] = 814.0000610351563,
+					["y"] = 168.9995880126953,
 					["texture"] = "Blizzard",
 				},
 			},
+		},
+		["EnemyCasts"] = {
 		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
 					["h"] = 38,
 					["w"] = 266,
-					["y"] = 186.0000152587891,
+					["y"] = 195.0001525878906,
 					["font"] = "默认",
 					["iconalpha"] = 0.66,
 					["icongap"] = 0,
 					["border"] = "None",
-					["x"] = 813.0000610351563,
+					["x"] = 793.9999389648438,
 				},
 			},
-		},
-		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -59,6 +59,8 @@ Quartz3DB = {
 				},
 			},
 		},
+		["Range"] = {
+		},
 		["Mirror"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -66,16 +68,18 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Range"] = {
-		},
 		["Latency"] = {
 		},
 	},
 	["profileKeys"] = {
+		["独孤牛儿 - 森金"] = "Default",
 		["雄奶奶 - 森金"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
+			["modules"] = {
+				["GCD"] = false,
+			},
 			["bordercolor"] = {
 				0.5, -- [1]
 				0.5, -- [2]

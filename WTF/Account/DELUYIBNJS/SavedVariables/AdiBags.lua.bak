@@ -16,17 +16,17 @@ AdiBagsDB = {
 		},
 		["AdiBags_TooltipInfo"] = {
 		},
-		["MoneyFrame"] = {
+		["Equipment"] = {
+		},
+		["ItemSets"] = {
 		},
 		["CurrencyFrame"] = {
 		},
 		["DataSource"] = {
 		},
-		["ItemSets"] = {
-		},
 		["Junk"] = {
 		},
-		["Equipment"] = {
+		["MoneyFrame"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -44,9 +44,9 @@ AdiBagsDB = {
 					0.8235294117647058, -- [1]
 					1, -- [2]
 				},
-				["borderWidth"] = 1,
-				["background"] = "None",
 				["border"] = "None",
+				["background"] = "None",
+				["borderWidth"] = 1,
 				["insets"] = 0,
 			},
 			["bagFont"] = {

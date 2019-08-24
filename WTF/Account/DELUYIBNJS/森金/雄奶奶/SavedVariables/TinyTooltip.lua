@@ -349,9 +349,8 @@ TinyTooltipCharacterDB = {
 					["filter"] = "none",
 				},
 			},
-			["showModel"] = true,
-			["coloredBorder"] = "class",
 			["showTarget"] = false,
+			["coloredBorder"] = "class",
 			["anchor"] = {
 				["returnOnUnitFrame"] = false,
 				["position"] = "inherit",
@@ -360,6 +359,7 @@ TinyTooltipCharacterDB = {
 				["p"] = "BOTTOMRIGHT",
 				["returnInCombat"] = false,
 			},
+			["showModel"] = true,
 			["background"] = {
 				["colorfunc"] = "class",
 				["alpha"] = 0.9,

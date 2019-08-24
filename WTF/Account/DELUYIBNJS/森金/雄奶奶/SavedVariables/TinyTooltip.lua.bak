@@ -178,14 +178,7 @@ TinyTooltipCharacterDB = {
 		},
 		["player"] = {
 			["coloredBorder"] = "class",
-			["anchor"] = {
-				["returnOnUnitFrame"] = false,
-				["position"] = "inherit",
-				["hiddenInCombat"] = true,
-				["cp"] = "BOTTOM",
-				["p"] = "BOTTOMRIGHT",
-				["returnInCombat"] = false,
-			},
+			["showModel"] = true,
 			["elements"] = {
 				{
 					"raidIcon", -- [1]
@@ -358,8 +351,15 @@ TinyTooltipCharacterDB = {
 					["filter"] = "none",
 				},
 			},
-			["showModel"] = true,
 			["showTarget"] = false,
+			["anchor"] = {
+				["returnOnUnitFrame"] = false,
+				["position"] = "inherit",
+				["hiddenInCombat"] = true,
+				["cp"] = "BOTTOM",
+				["p"] = "BOTTOMRIGHT",
+				["returnInCombat"] = false,
+			},
 			["background"] = {
 				["colorfunc"] = "class",
 				["alpha"] = 0.9,

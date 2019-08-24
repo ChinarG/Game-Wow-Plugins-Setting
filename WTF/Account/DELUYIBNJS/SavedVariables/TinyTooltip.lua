@@ -67,20 +67,20 @@ BigTipDB = {
 		},
 		["statusbarPosition"] = "bottom",
 		["statusbarOffsetX"] = 0,
-		["skinMoreFrames"] = true,
-		["bodyFontSize"] = "default",
-		["bodyFontFlag"] = "default",
-		["bodyFont"] = "default",
-		["statusbarOffsetY"] = 0,
-		["statusbarTexture"] = "Interface\\TargetingFrame\\UI-StatusBar",
-		["headerFontSize"] = "default",
-		["statusbarText"] = false,
 		["statusbarHeight"] = 4,
-		["headerFontFlag"] = "default",
-		["borderCorner"] = "Blizzard Tooltip",
-		["statusbarColor"] = "auto",
-		["statusbarFontFlag"] = "THINOUTLINE",
+		["bodyFontSize"] = "default",
 		["alwaysShowIdInfo"] = true,
+		["statusbarFontFlag"] = "THINOUTLINE",
+		["statusbarOffsetY"] = 0,
+		["statusbarColor"] = "auto",
+		["borderCorner"] = "Blizzard Tooltip",
+		["statusbarText"] = false,
+		["skinMoreFrames"] = true,
+		["headerFontFlag"] = "default",
+		["headerFontSize"] = "default",
+		["statusbarTexture"] = "Interface\\TargetingFrame\\UI-StatusBar",
+		["bodyFont"] = "default",
+		["bodyFontFlag"] = "default",
 	},
 	["version"] = 2.6,
 	["variables"] = {
@@ -229,19 +229,23 @@ BigTipDB = {
 					["wildcard"] = "(%s)",
 					["filter"] = "none",
 				},
-				["guildName"] = {
+				["factionIcon"] = {
 					["enable"] = false,
-					["color"] = "ff00ff",
-					["wildcard"] = "<%s>",
 					["filter"] = "none",
 				},
 				["factionBig"] = {
 					["enable"] = true,
 					["filter"] = "none",
 				},
-				["className"] = {
+				["guildName"] = {
+					["enable"] = false,
+					["color"] = "ff00ff",
+					["wildcard"] = "<%s>",
+					["filter"] = "none",
+				},
+				["title"] = {
 					["enable"] = true,
-					["color"] = "ffffff",
+					["color"] = "ccffff",
 					["wildcard"] = "%s",
 					["filter"] = "none",
 				},
@@ -251,14 +255,10 @@ BigTipDB = {
 					["wildcard"] = "%s",
 					["filter"] = "none",
 				},
-				["title"] = {
+				["className"] = {
 					["enable"] = true,
-					["color"] = "ccffff",
+					["color"] = "ffffff",
 					["wildcard"] = "%s",
-					["filter"] = "none",
-				},
-				["factionIcon"] = {
-					["enable"] = false,
 					["filter"] = "none",
 				},
 				["classIcon"] = {
@@ -285,6 +285,7 @@ BigTipDB = {
 			["grayForDead"] = false,
 		},
 		["npc"] = {
+			["coloredBorder"] = "class",
 			["elements"] = {
 				{
 					"raidIcon", -- [1]
@@ -372,7 +373,7 @@ BigTipDB = {
 					["filter"] = "none",
 				},
 			},
-			["coloredBorder"] = "class",
+			["showTarget"] = true,
 			["anchor"] = {
 				["returnOnUnitFrame"] = false,
 				["position"] = "inherit",
@@ -381,7 +382,6 @@ BigTipDB = {
 				["p"] = "BOTTOMRIGHT",
 				["returnInCombat"] = false,
 			},
-			["showTarget"] = true,
 			["background"] = {
 				["colorfunc"] = "default",
 				["alpha"] = "0.86",

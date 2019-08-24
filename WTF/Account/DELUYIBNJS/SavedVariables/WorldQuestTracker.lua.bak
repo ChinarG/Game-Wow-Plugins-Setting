@@ -5,7 +5,9 @@ WQTrackerDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["TutorialTaxyMap"] = true,
+			["tomtom"] = {
+				["enabled"] = true,
+			},
 			["world_map_config"] = {
 				["summary_showbyzone"] = false,
 			},
@@ -34,11 +36,11 @@ WQTrackerDB = {
 				},
 				["name_cache"] = {
 					["失控的机械兽"] = 151933,
+					["戈拉坎"] = 124185,
+					["乌布拉金"] = 122004,
 				},
 			},
-			["tomtom"] = {
-				["enabled"] = true,
-			},
+			["TutorialTaxyMap"] = true,
 		},
 	},
 }

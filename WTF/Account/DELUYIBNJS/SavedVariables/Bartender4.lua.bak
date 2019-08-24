@@ -13,17 +13,83 @@ Bartender4DB = {
 						["point"] = "TOPLEFT",
 						["scale"] = 1.799999952316284,
 					},
-					["fadeoutalpha"] = 0,
 					["fadeout"] = true,
+					["fadeoutalpha"] = 0,
 				},
 			},
 		},
 		["ActionBars"] = {
 			["profiles"] = {
+				["奶奶的大刀 - 森金"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.4998474121094,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 94,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 94,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
 				["雄奶奶 - 森金"] = {
 					["actionbars"] = {
 						{
-							["fadeoutdelay"] = 0,
+							["fadeout"] = true,
 							["skin"] = {
 								["Zoom"] = true,
 							},
@@ -36,7 +102,7 @@ Bartender4DB = {
 								["point"] = "BOTTOM",
 								["scale"] = 1.25,
 							},
-							["fadeout"] = true,
+							["fadeoutdelay"] = 0,
 							["padding"] = 1,
 							["visibility"] = {
 								["always"] = false,
@@ -155,86 +221,12 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["奶奶的大刀 - 森金"] = {
-					["actionbars"] = {
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -227.4998474121094,
-								["x"] = -231.5001831054688,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["padding"] = 5,
-							["rows"] = 12,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [3]
-						{
-							["padding"] = 5,
-							["rows"] = 12,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [4]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 94,
-								["x"] = 3,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 94,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						[10] = {
-						},
-					},
-				},
 			},
 		},
 		["LibDualSpec-1.0"] = {
 		},
 		["ExtraActionBar"] = {
 			["profiles"] = {
-				["雄奶奶 - 森金"] = {
-					["position"] = {
-						["y"] = 134.9369964599609,
-						["x"] = 343.3898315429688,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-				},
 				["奶奶的大刀 - 森金"] = {
 					["version"] = 3,
 					["position"] = {
@@ -243,26 +235,18 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["雄奶奶 - 森金"] = {
+					["position"] = {
+						["y"] = 134.9369964599609,
+						["x"] = 343.3898315429688,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+				},
 			},
 		},
 		["MicroMenu"] = {
 			["profiles"] = {
-				["雄奶奶 - 森金"] = {
-					["skin"] = {
-						["Zoom"] = true,
-					},
-					["fadeout"] = true,
-					["fadeoutdelay"] = 0.3,
-					["position"] = {
-						["y"] = 4.99993896484375,
-						["x"] = -4.999999046325684,
-						["point"] = "TOPLEFT",
-						["scale"] = 1,
-					},
-					["version"] = 3,
-					["padding"] = -2,
-					["fadeoutalpha"] = 0,
-				},
 				["奶奶的大刀 - 森金"] = {
 					["padding"] = -2,
 					["version"] = 3,
@@ -273,10 +257,34 @@ Bartender4DB = {
 						["y"] = 41.75,
 					},
 				},
+				["雄奶奶 - 森金"] = {
+					["skin"] = {
+						["Zoom"] = true,
+					},
+					["version"] = 3,
+					["fadeoutdelay"] = 0.3,
+					["position"] = {
+						["y"] = 4.99993896484375,
+						["x"] = -4.999999046325684,
+						["point"] = "TOPLEFT",
+						["scale"] = 1,
+					},
+					["fadeoutalpha"] = 0,
+					["padding"] = -2,
+					["fadeout"] = true,
+				},
 			},
 		},
 		["BagBar"] = {
 			["profiles"] = {
+				["奶奶的大刀 - 森金"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
 				["雄奶奶 - 森金"] = {
 					["enabled"] = false,
 					["version"] = 3,
@@ -286,26 +294,10 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["奶奶的大刀 - 森金"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 38.5,
-						["x"] = 345,
-						["point"] = "BOTTOM",
-					},
-				},
 			},
 		},
 		["BlizzardArt"] = {
 			["profiles"] = {
-				["雄奶奶 - 森金"] = {
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-				},
 				["奶奶的大刀 - 森金"] = {
 					["enabled"] = true,
 					["version"] = 3,
@@ -315,78 +307,18 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-			},
-		},
-		["StanceBar"] = {
-			["profiles"] = {
 				["雄奶奶 - 森金"] = {
 					["position"] = {
-						["y"] = -14.99996185302734,
-						["x"] = -82.5,
-						["point"] = "CENTER",
-					},
-					["version"] = 3,
-				},
-				["奶奶的大刀 - 森金"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99996185302734,
-						["x"] = -82.5,
-						["point"] = "CENTER",
-					},
-				},
-			},
-		},
-		["Vehicle"] = {
-			["profiles"] = {
-				["雄奶奶 - 森金"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 38.0000114440918,
-						["x"] = 380.436767578125,
+						["y"] = 47,
+						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
-				},
-				["奶奶的大刀 - 森金"] = {
 					["version"] = 3,
-					["position"] = {
-						["y"] = 47.50003051757813,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-			},
-		},
-		["PetBar"] = {
-			["profiles"] = {
-				["雄奶奶 - 森金"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 171.2499694824219,
-						["x"] = -214.8601684570313,
-						["point"] = "BOTTOM",
-					},
-				},
-				["奶奶的大刀 - 森金"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
 				},
 			},
 		},
 		["ZoneAbilityBar"] = {
 			["profiles"] = {
-				["雄奶奶 - 森金"] = {
-					["position"] = {
-						["y"] = 193.25,
-						["x"] = 343.3898315429688,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-				},
 				["奶奶的大刀 - 森金"] = {
 					["version"] = 3,
 					["position"] = {
@@ -395,14 +327,87 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["雄奶奶 - 森金"] = {
+					["position"] = {
+						["y"] = 193.25,
+						["x"] = 343.3898315429688,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["奶奶的大刀 - 森金"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99996185302734,
+						["x"] = -82.5,
+						["point"] = "CENTER",
+					},
+				},
+				["雄奶奶 - 森金"] = {
+					["position"] = {
+						["y"] = -14.99996185302734,
+						["x"] = -82.5,
+						["point"] = "CENTER",
+					},
+					["version"] = 3,
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["奶奶的大刀 - 森金"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["雄奶奶 - 森金"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 171.2499694824219,
+						["x"] = -214.8601684570313,
+						["point"] = "BOTTOM",
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["奶奶的大刀 - 森金"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.50003051757813,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["雄奶奶 - 森金"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.0000114440918,
+						["x"] = 380.436767578125,
+						["point"] = "BOTTOM",
+					},
+				},
 			},
 		},
 	},
 	["profileKeys"] = {
-		["雄奶奶 - 森金"] = "雄奶奶 - 森金",
 		["奶奶的大刀 - 森金"] = "奶奶的大刀 - 森金",
+		["雄奶奶 - 森金"] = "雄奶奶 - 森金",
 	},
 	["profiles"] = {
+		["奶奶的大刀 - 森金"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
 		["雄奶奶 - 森金"] = {
 			["blizzardVehicle"] = true,
 			["focuscastmodifier"] = false,
@@ -410,11 +415,6 @@ Bartender4DB = {
 				["minimapPos"] = 147.6000825575116,
 				["hide"] = false,
 			},
-			["outofrange"] = "hotkey",
-		},
-		["奶奶的大刀 - 森金"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
 	},

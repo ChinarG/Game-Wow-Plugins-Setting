@@ -1,0 +1,12 @@
+VER 3 0100000000000002 "DB_Boomer" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Boomer
+END
+VER 3 0100000000000003 "DB_druid_bala_st" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_druid_bala_st
+END
+VER 3 0100000000000001 "扫击" "Ability_Druid_Maul"
+/cast 重殴
+/cast 横扫（熊）
+END

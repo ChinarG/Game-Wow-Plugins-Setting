@@ -1,6 +1,5 @@
 
 SexyMap2DB = {
-	["雄奶奶-森金"] = "global",
 	["global"] = {
 		["core"] = {
 			["clamp"] = false,
@@ -29,6 +28,10 @@ SexyMap2DB = {
 			["backgroundColor"] = {
 			},
 		},
+		["ping"] = {
+			["showPing"] = true,
+			["showAt"] = "map",
+		},
 		["buttons"] = {
 			["radius"] = 10,
 			["lockDragging"] = false,
@@ -36,12 +39,12 @@ SexyMap2DB = {
 			["visibilitySettings"] = {
 				["MinimapZoomIn"] = "never",
 				["MiniMapMailFrame"] = "always",
-				["TimeManagerClockButton"] = "hover",
+				["MiniMapWorldMapButton"] = "never",
 				["QueueStatusMinimapButton"] = "hover",
 				["GarrisonLandingPageMinimapButton"] = "hover",
-				["MinimapZoneTextButton"] = "always",
 				["MinimapZoomOut"] = "never",
-				["MiniMapWorldMapButton"] = "never",
+				["MinimapZoneTextButton"] = "always",
+				["TimeManagerClockButton"] = "hover",
 			},
 			["dragPositions"] = {
 				["LibDBIcon10_Bartender4"] = -37.82405362162969,
@@ -49,32 +52,26 @@ SexyMap2DB = {
 				["LibDBIcon10_DetailsStreamer"] = 145.4023405124975,
 				["LibDBIcon10_Skinner"] = 242.4238894450541,
 				["LibDBIcon10_AtlasLoot"] = -19.99804999455206,
-				["LibDBIcon10_Details"] = 177.2517673931866,
 				["MiniMapTracking"] = 113.8010591227356,
+				["LibDBIcon10_Details"] = 177.2517673931866,
 			},
 			["controlVisibility"] = true,
-		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
-			},
-			["lock"] = false,
 		},
 		["clock"] = {
 			["bgColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["font"] = "默认",
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["xOffset"] = 0,
 			["yOffset"] = 0,
@@ -133,33 +130,35 @@ SexyMap2DB = {
 		["zonetext"] = {
 			["bgColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["font"] = "默认",
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["xOffset"] = 0,
 			["yOffset"] = 0,
 		},
-		["ping"] = {
-			["showPing"] = true,
-			["showAt"] = "map",
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
+			},
+			["lock"] = false,
 		},
 	},
 	["presets"] = {
 	},
+	["雄奶奶-森金"] = "global",
 }
 SexyMap82 = {
 	["backup"] = {
-		["雄奶奶-森金"] = "global",
 		["global"] = {
 			["core"] = {
 				["clamp"] = false,
@@ -182,10 +181,14 @@ SexyMap82 = {
 				["borderColor"] = {
 				},
 				["xOffset"] = 0,
-				["updateRate"] = 1,
 				["backgroundColor"] = {
 				},
+				["updateRate"] = 1,
 				["yOffset"] = 10,
+			},
+			["ping"] = {
+				["showPing"] = true,
+				["showAt"] = "map",
 			},
 			["buttons"] = {
 				["radius"] = 10,
@@ -194,12 +197,12 @@ SexyMap82 = {
 				["visibilitySettings"] = {
 					["MinimapZoomIn"] = "never",
 					["MiniMapMailFrame"] = "always",
-					["TimeManagerClockButton"] = "always",
+					["MiniMapWorldMapButton"] = "never",
 					["QueueStatusMinimapButton"] = "always",
 					["GarrisonLandingPageMinimapButton"] = "always",
-					["MinimapZoneTextButton"] = "always",
 					["MinimapZoomOut"] = "never",
-					["MiniMapWorldMapButton"] = "never",
+					["MinimapZoneTextButton"] = "always",
+					["TimeManagerClockButton"] = "always",
 				},
 				["dragPositions"] = {
 					["LibDBIcon10_Skinner"] = 244.3588916129565,
@@ -207,27 +210,21 @@ SexyMap82 = {
 				},
 				["controlVisibility"] = true,
 			},
-			["movers"] = {
-				["enabled"] = false,
-				["framePositions"] = {
-				},
-				["lock"] = false,
-			},
 			["clock"] = {
 				["bgColor"] = {
 					["a"] = 1,
-					["b"] = 0,
-					["g"] = 0,
 					["r"] = 0,
+					["g"] = 0,
+					["b"] = 0,
 				},
 				["font"] = "默认",
 				["fontColor"] = {
 				},
 				["borderColor"] = {
 					["a"] = 1,
-					["b"] = 0,
-					["g"] = 0,
 					["r"] = 0,
+					["g"] = 0,
+					["b"] = 0,
 				},
 				["xOffset"] = 0,
 				["yOffset"] = 0,
@@ -286,29 +283,32 @@ SexyMap82 = {
 			["zonetext"] = {
 				["bgColor"] = {
 					["a"] = 1,
-					["b"] = 0,
-					["g"] = 0,
 					["r"] = 0,
+					["g"] = 0,
+					["b"] = 0,
 				},
 				["font"] = "默认",
 				["fontColor"] = {
 				},
 				["borderColor"] = {
 					["a"] = 1,
-					["b"] = 0,
-					["g"] = 0,
 					["r"] = 0,
+					["g"] = 0,
+					["b"] = 0,
 				},
 				["xOffset"] = 0,
 				["yOffset"] = 0,
 			},
-			["ping"] = {
-				["showPing"] = true,
-				["showAt"] = "map",
+			["movers"] = {
+				["enabled"] = false,
+				["framePositions"] = {
+				},
+				["lock"] = false,
 			},
 		},
 		["presets"] = {
 		},
+		["雄奶奶-森金"] = "global",
 	},
 	["convert"] = {
 	},

@@ -1074,13 +1074,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "能量电荷",
 		},
-		[99845] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "雷奥利斯领主",
-		},
 		[1604] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -1088,6 +1081,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "不眠的约萨希",
+		},
+		[62418] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "竞技场铁卫士",
 		},
 		[117921] = {
 			["school"] = 1,
@@ -1280,12 +1280,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "VX-001",
 		},
-		[62418] = {
-			["school"] = 1,
+		[99845] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "竞技场铁卫士",
+			["source"] = "雷奥利斯领主",
 		},
 		[99606] = {
 			["school"] = 4,
