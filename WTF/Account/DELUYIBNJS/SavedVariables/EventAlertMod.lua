@@ -28,73 +28,141 @@ EA_Config = {
 	},
 	["ICON_APPEND_SPELL_TIP"] = true,
 	["ShareSettings"] = true,
-	["ShowFlash"] = true,
-	["TimerFontSize"] = 20,
-	["IconSize"] = 50,
+	["ShowFlash"] = false,
+	["TimerFontSize"] = 18,
+	["IconSize"] = 45,
 	["ShowAuraValueWhenOver"] = 1000,
 	["AllowESC"] = false,
 	["OPTION_ICON"] = true,
-	["AlertSound"] = 568154,
+	["AlertSound"] = "Sound\\Spells\\ShaysBell.ogg",
 	["ShowFrame"] = true,
-	["SNameFontSize"] = 15,
+	["LockFrame"] = false,
 	["NewLineByIconCount"] = 0,
 	["HUNTER_GlowPetFocus"] = 50,
 	["Target_MyDebuff"] = true,
-	["AllowAltAlerts"] = true,
+	["AllowAltAlerts"] = false,
 	["AlertSoundValue"] = 1,
-	["StackFontSize"] = 17.5,
+	["StackFontSize"] = 13.5,
 	["ShowName"] = true,
-	["Version"] = "8.2.0.20190627",
+	["Version"] = "8.0.1.20180903",
 	["EA_SPELL_ITEM"] = {
-		[167152] = 113509,
-		[251685] = 152627,
-		[253937] = 141605,
-		[16739] = 1973,
+		[304699] = 170186,
+		[278712] = 163073,
+		[204192] = 133882,
+		[303378] = 170159,
+		[303993] = 170153,
+		[202594] = 133999,
+		[304372] = 170204,
+		[304545] = 169694,
+		[303112] = 169610,
+		[303992] = 170152,
+		[304673] = 170194,
+		[304672] = 170193,
+		[304373] = 170198,
+		[302499] = 169590,
+		[299554] = 168944,
+		[290183] = 166782,
+		[55884] = 166776,
+		[303634] = 169949,
+		[304675] = 170200,
+		[307281] = 168215,
+		[303541] = 170161,
+		[298280] = 168538,
+		[304000] = 170158,
+		[303856] = 170079,
+		[303998] = 170157,
+		[274914] = 169952,
+		[304660] = 170172,
+		[303857] = 170081,
+		[304692] = 170179,
+		[302933] = 169687,
+		[291514] = 167059,
+		[298869] = 168824,
+		[304504] = 170199,
+		[303591] = 170101,
+		[304662] = 170192,
+		[295858] = 168161,
+		[304505] = 170196,
+		[274911] = 167739,
+		[304663] = 170174,
+		[302348] = 169774,
+		[304502] = 170177,
+		[304701] = 170180,
+		[304668] = 170181,
+		[208883] = 136605,
+		[304696] = 170178,
+		[274913] = 169119,
+		[304665] = 170182,
+		[293404] = 167893,
+		[300539] = 167077,
+		[303579] = 170162,
+		[308599] = 169491,
+		[295610] = 168099,
+		[307596] = 168496,
+		[304370] = 170187,
+		[304037] = 170170,
+		[304620] = 170476,
+		[308844] = 172204,
 	},
-	["LockFrame"] = false,
+	["SNameFontSize"] = 13.5,
 	["UseFloatSec"] = 1,
 	["SCD_RemoveWhenCooldown"] = true,
 	["SCD_GlowWhenUsable"] = true,
 }
 EA_Position = {
 	["Execution"] = 0,
-	["GreenDebuff"] = 0.12,
-	["xOffset"] = -45,
+	["GreenDebuff"] = 0.5,
+	["xOffset"] = -40,
 	["TarAnchor"] = "TOP",
 	["yOffset"] = 0,
 	["PlayerLv2BOSS"] = true,
-	["relativePoint"] = "CENTER",
-	["Anchor"] = "CENTER",
-	["yLoc"] = -214.9995574951172,
-	["SCD_UseCooldown"] = true,
-	["Tar_yOffset"] = -102.9997329711914,
-	["RedDebuff"] = 0.12,
-	["Tar_xOffset"] = 184.9999542236328,
-	["xLoc"] = -347.9995422363281,
+	["relativePoint"] = "BOTTOM",
+	["Anchor"] = "BOTTOM",
+	["yLoc"] = 194.0670318603516,
+	["SCD_UseCooldown"] = false,
+	["Tar_yOffset"] = -163.6135559082031,
+	["RedDebuff"] = 0.5,
+	["Tar_xOffset"] = -52.59965515136719,
+	["xLoc"] = 321.6692810058594,
 	["TarrelativePoint"] = "TOP",
 	["Tar_NewLine"] = true,
 	["ScdAnchor"] = "BOTTOM",
-	["Scd_xOffset"] = 262.9990539550781,
-	["Scd_yOffset"] = 183.0002593994141,
+	["Scd_xOffset"] = -311.5534362792969,
+	["Scd_yOffset"] = 214.0284118652344,
 }
 EA_Items = {
-	["MAGE"] = {
-		[12042] = {
-			["enable"] = false,
-		},
-		[44544] = {
-			["enable"] = false,
-		},
-		[12051] = {
-			["enable"] = false,
-		},
-		[36032] = {
-			["enable"] = false,
-		},
-		[87023] = {
+	["HUNTER"] = {
+		[95712] = {
 			["enable"] = true,
 		},
-		[48108] = {
+		[34477] = {
+			["enable"] = true,
+		},
+		[118455] = {
+			["enable"] = true,
+		},
+		[193530] = {
+			["enable"] = true,
+		},
+		[186257] = {
+			["enable"] = true,
+		},
+		[70728] = {
+			["enable"] = true,
+		},
+		[186265] = {
+			["enable"] = true,
+		},
+		[61684] = {
+			["enable"] = true,
+		},
+		[186254] = {
+			["enable"] = true,
+		},
+		[185791] = {
+			["enable"] = true,
+		},
+		[217200] = {
 			["enable"] = true,
 		},
 	},
@@ -213,6 +281,37 @@ EA_Items = {
 			["name"] = "神聖禮頌",
 		},
 	},
+	["WARLOCK"] = {
+	},
+	["DEMONHUNTER"] = {
+		[163073] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[188501] = {
+			["enable"] = true,
+		},
+	},
+	["MAGE"] = {
+		[12042] = {
+			["enable"] = true,
+		},
+		[44544] = {
+			["enable"] = true,
+		},
+		[12051] = {
+			["enable"] = true,
+		},
+		[36032] = {
+			["enable"] = true,
+		},
+		[87023] = {
+			["enable"] = true,
+		},
+		[48108] = {
+			["enable"] = true,
+		},
+	},
 	["DRUID"] = {
 		[106951] = {
 			["enable"] = true,
@@ -238,13 +337,13 @@ EA_Items = {
 		[5217] = {
 			["enable"] = true,
 		},
-		[192081] = {
+		[137452] = {
 			["enable"] = true,
 		},
 		[164545] = {
 			["enable"] = true,
 		},
-		[137452] = {
+		[192081] = {
 			["enable"] = true,
 		},
 		[16870] = {
@@ -269,14 +368,268 @@ EA_Items = {
 			["enable"] = true,
 		},
 	},
+	["WARRIOR"] = {
+		[207982] = {
+			["enable"] = true,
+			["overgrow"] = 3,
+			["self"] = true,
+		},
+		[202164] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[85739] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[188923] = {
+			["enable"] = true,
+			["overgrow"] = 2,
+			["self"] = true,
+		},
+		[871] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[118038] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[206333] = {
+			["enable"] = true,
+			["overgrow"] = 6,
+			["self"] = true,
+		},
+		[215572] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[46924] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[23920] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[107574] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[202539] = {
+			["enable"] = true,
+			["overgrow"] = 3,
+			["self"] = true,
+		},
+		[184362] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[184364] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+	},
+	["DEATHKNIGHT"] = {
+		[207127] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[57330] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[81256] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[212552] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[48707] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[55233] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[81141] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[51124] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[59052] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[48792] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[194879] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[196770] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+	},
 }
 EA_AltItems = {
+	["HUNTER"] = {
+	},
+	["WARRIOR"] = {
+	},
+	["WARLOCK"] = {
+	},
+	["DEMONHUNTER"] = {
+	},
 	["MAGE"] = {
 	},
 	["DRUID"] = {
 	},
+	["DEATHKNIGHT"] = {
+	},
 }
 EA_TarItems = {
+	["HUNTER"] = {
+		[5116] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[117405] = {
+			["enable"] = true,
+			["self"] = false,
+		},
+		[131894] = {
+			["enable"] = true,
+			["self"] = false,
+		},
+		[54680] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[132951] = {
+			["enable"] = true,
+			["self"] = false,
+		},
+	},
+	["WARRIOR"] = {
+		[12975] = {
+			["enable"] = true,
+			["self"] = false,
+		},
+		[132169] = {
+			["enable"] = true,
+			["self"] = false,
+		},
+		[1715] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[208086] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[12323] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[215537] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[118038] = {
+			["enable"] = true,
+			["self"] = false,
+		},
+		[113344] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[147833] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[5246] = {
+			["enable"] = true,
+			["self"] = false,
+		},
+		[46924] = {
+			["enable"] = true,
+			["self"] = false,
+		},
+		[23920] = {
+			["enable"] = true,
+			["self"] = false,
+		},
+		[115804] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[132168] = {
+			["enable"] = true,
+			["self"] = false,
+		},
+		[772] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[871] = {
+			["enable"] = true,
+			["self"] = false,
+		},
+	},
+	["WARLOCK"] = {
+		[1490] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[48181] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[603] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[980] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[172] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[686] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[348] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[30108] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[29722] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[80240] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+	},
+	["DEMONHUNTER"] = {
+	},
 	["MAGE"] = {
 		[31589] = {
 			["enable"] = true,
@@ -300,15 +653,15 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = true,
 		},
+		[192090] = {
+			["enable"] = true,
+			["self"] = true,
+		},
 		[202347] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[197637] = {
-			["enable"] = true,
-			["self"] = true,
-		},
-		[192090] = {
+		[8921] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -320,7 +673,7 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[1822] = {
+		[197637] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -332,7 +685,11 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[8921] = {
+		[33763] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[1822] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -340,25 +697,252 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[33763] = {
+	},
+	["DEATHKNIGHT"] = {
+		[194310] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[55095] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[206940] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[55078] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[191587] = {
 			["enable"] = true,
 			["self"] = true,
 		},
 	},
 }
 EA_ScdItems = {
+	["HUNTER"] = {
+		[16827] = {
+			["enable"] = true,
+		},
+		[217200] = {
+			["enable"] = true,
+		},
+		[54644] = {
+			["enable"] = true,
+		},
+		[19574] = {
+			["enable"] = true,
+		},
+		[54680] = {
+			["enable"] = true,
+		},
+		[90361] = {
+			["enable"] = true,
+		},
+		[109304] = {
+			["enable"] = true,
+		},
+		[92380] = {
+			["enable"] = true,
+		},
+		[55709] = {
+			["enable"] = true,
+		},
+		[109248] = {
+			["enable"] = true,
+		},
+		[160065] = {
+			["enable"] = true,
+		},
+		[781] = {
+			["enable"] = true,
+		},
+		[131894] = {
+			["enable"] = true,
+		},
+		[193530] = {
+			["enable"] = true,
+		},
+		[186257] = {
+			["enable"] = true,
+		},
+		[17253] = {
+			["enable"] = true,
+		},
+		[61684] = {
+			["enable"] = true,
+		},
+		[147362] = {
+			["enable"] = true,
+		},
+	},
+	["WARRIOR"] = {
+		[12294] = {
+			["enable"] = true,
+		},
+		[34428] = {
+			["enable"] = true,
+		},
+		[1719] = {
+			["enable"] = true,
+		},
+		[1160] = {
+			["enable"] = true,
+		},
+		[6544] = {
+			["enable"] = true,
+		},
+		[228920] = {
+			["enable"] = true,
+		},
+		[46924] = {
+			["enable"] = true,
+		},
+		[107570] = {
+			["enable"] = true,
+		},
+		[107574] = {
+			["enable"] = true,
+		},
+		[2565] = {
+			["enable"] = true,
+		},
+		[85288] = {
+			["enable"] = true,
+		},
+		[207982] = {
+			["enable"] = true,
+		},
+		[18499] = {
+			["enable"] = true,
+		},
+		[198304] = {
+			["enable"] = true,
+		},
+		[23920] = {
+			["enable"] = true,
+		},
+		[23922] = {
+			["enable"] = true,
+		},
+		[46968] = {
+			["enable"] = true,
+		},
+		[100] = {
+			["enable"] = true,
+		},
+		[167105] = {
+			["enable"] = true,
+		},
+		[845] = {
+			["enable"] = true,
+		},
+		[152277] = {
+			["enable"] = true,
+		},
+		[118038] = {
+			["enable"] = true,
+		},
+		[23881] = {
+			["enable"] = true,
+		},
+		[184367] = {
+			["enable"] = true,
+		},
+		[871] = {
+			["enable"] = true,
+		},
+		[5308] = {
+			["enable"] = true,
+		},
+		[163201] = {
+			["enable"] = true,
+		},
+		[6572] = {
+			["enable"] = true,
+		},
+		[12292] = {
+			["enable"] = true,
+		},
+		[6552] = {
+			["enable"] = true,
+		},
+		[202168] = {
+			["enable"] = true,
+		},
+		[6343] = {
+			["enable"] = true,
+		},
+		[12975] = {
+			["enable"] = true,
+		},
+	},
+	["WARLOCK"] = {
+		[17962] = {
+			["enable"] = true,
+		},
+	},
+	["DEMONHUNTER"] = {
+		[131347] = {
+			["enable"] = true,
+		},
+		[202644] = {
+			["enable"] = true,
+		},
+		[192611] = {
+			["enable"] = true,
+		},
+		[178740] = {
+			["enable"] = true,
+		},
+		[207684] = {
+			["enable"] = true,
+		},
+		[203720] = {
+			["enable"] = true,
+		},
+		[204021] = {
+			["enable"] = true,
+		},
+		[204157] = {
+			["enable"] = true,
+		},
+		[185245] = {
+			["enable"] = true,
+		},
+		[195072] = {
+			["enable"] = true,
+		},
+		[162794] = {
+			["enable"] = true,
+		},
+		[204596] = {
+			["enable"] = true,
+		},
+		[187827] = {
+			["enable"] = true,
+		},
+		[189110] = {
+			["enable"] = true,
+		},
+		[188501] = {
+			["enable"] = true,
+		},
+	},
 	["MAGE"] = {
 		[12042] = {
-			["enable"] = false,
+			["enable"] = true,
 		},
 		[122] = {
-			["enable"] = false,
+			["enable"] = true,
 		},
 		[12051] = {
-			["enable"] = false,
+			["enable"] = true,
 		},
 		[1953] = {
-			["enable"] = false,
+			["enable"] = true,
 		},
 		[45438] = {
 			["enable"] = true,
@@ -383,13 +967,13 @@ EA_ScdItems = {
 		[78674] = {
 			["enable"] = true,
 		},
-		[102793] = {
+		[5215] = {
 			["enable"] = true,
 		},
 		[1850] = {
 			["enable"] = true,
 		},
-		[5215] = {
+		[102793] = {
 			["enable"] = true,
 		},
 		[52610] = {
@@ -438,705 +1022,163 @@ EA_ScdItems = {
 			["enable"] = true,
 		},
 	},
+	["DEATHKNIGHT"] = {
+		[108199] = {
+			["enable"] = true,
+		},
+		[47528] = {
+			["enable"] = true,
+		},
+		[194844] = {
+			["enable"] = true,
+		},
+		[48792] = {
+			["enable"] = true,
+		},
+		[194679] = {
+			["enable"] = true,
+		},
+		[45524] = {
+			["enable"] = true,
+		},
+		[49184] = {
+			["enable"] = true,
+		},
+		[219809] = {
+			["enable"] = true,
+		},
+		[51271] = {
+			["enable"] = true,
+		},
+		[49576] = {
+			["enable"] = true,
+		},
+		[47568] = {
+			["enable"] = true,
+		},
+		[77575] = {
+			["enable"] = true,
+		},
+		[47476] = {
+			["enable"] = true,
+		},
+		[49998] = {
+			["enable"] = true,
+		},
+		[196770] = {
+			["enable"] = true,
+		},
+		[55233] = {
+			["enable"] = true,
+		},
+		[43265] = {
+			["enable"] = true,
+		},
+		[152279] = {
+			["enable"] = true,
+		},
+		[47541] = {
+			["enable"] = true,
+		},
+		[206977] = {
+			["enable"] = true,
+		},
+		[194913] = {
+			["enable"] = true,
+		},
+		[206930] = {
+			["enable"] = true,
+		},
+		[207127] = {
+			["enable"] = true,
+		},
+		[221562] = {
+			["enable"] = true,
+		},
+		[55090] = {
+			["enable"] = true,
+		},
+		[49143] = {
+			["enable"] = true,
+		},
+		[207167] = {
+			["enable"] = true,
+		},
+		[49020] = {
+			["enable"] = true,
+		},
+		[48707] = {
+			["enable"] = true,
+		},
+		[207256] = {
+			["enable"] = true,
+		},
+		[212552] = {
+			["enable"] = true,
+		},
+		[195292] = {
+			["enable"] = true,
+		},
+		[85948] = {
+			["enable"] = true,
+		},
+		[195182] = {
+			["enable"] = true,
+		},
+		[221699] = {
+			["enable"] = true,
+		},
+	},
 }
 EA_GrpItems = {
+	["HUNTER"] = {
+	},
+	["WARRIOR"] = {
+	},
+	["WARLOCK"] = {
+	},
+	["DEMONHUNTER"] = {
+	},
 	["MAGE"] = {
 		{
-			["IconPoint"] = "CENTER",
-			["GroupResult"] = false,
-			["enable"] = false,
-			["LocY"] = -103.9997406005859,
-			["LocX"] = 342.0000305175781,
-			["ActiveTalentGroup"] = 3,
-			["GroupIconID"] = 0,
 			["IconAlpha"] = 0.5,
-			["IconSize"] = 130,
+			["GroupIconID"] = 0,
+			["enable"] = false,
 			["Spells"] = {
 				{
-					["SpellIconPath"] = 1698699,
+					["SpellIconPath"] = 136075,
 					["Checks"] = {
 						{
 							["SubChecks"] = {
 								{
-									["SubCheckAndOp"] = true,
-									["StackCompType"] = 4,
-									["TimeLessThanValue"] = 2,
-									["TimeCompType"] = 4,
-									["UnitType"] = "player",
-									["EventType"] = "UNIT_AURA",
-									["StackLessThanValue"] = 0,
-									["CheckAuraExist"] = 199844,
+									["CheckCD"] = 12051,
+									["EventType"] = "UNIT_POWER_UPDATE",
 									["SubCheckResult"] = false,
+									["PowerType"] = "MANA",
+									["UnitType"] = "player",
+									["PowerTypeNum"] = 0,
+									["SubCheckAndOp"] = true,
+									["PowerLessThanPercent"] = 40,
+									["PowerCompType"] = 2,
 								}, -- [1]
-								{
-									["SubCheckAndOp"] = true,
-									["EventType"] = "UNIT_AURA",
-									["SubCheckResult"] = false,
-									["TimeCompType"] = 4,
-									["UnitType"] = "player",
-									["StackLessThanValue"] = 0,
-									["TimeLessThanValue"] = 2,
-									["CheckAuraExist"] = 190446,
-									["StackCompType"] = 4,
-								}, -- [2]
 							},
 							["CheckResult"] = false,
 							["CheckAndOp"] = true,
 						}, -- [1]
-						{
-							["SubChecks"] = {
-								{
-									["SubCheckAndOp"] = true,
-									["StackCompType"] = 4,
-									["TimeLessThanValue"] = 2,
-									["TimeCompType"] = 4,
-									["UnitType"] = "player",
-									["EventType"] = "UNIT_AURA",
-									["StackLessThanValue"] = 0,
-									["CheckAuraExist"] = 199844,
-									["SubCheckResult"] = false,
-								}, -- [1]
-								{
-									["SubCheckAndOp"] = true,
-									["EventType"] = "UNIT_AURA",
-									["SubCheckResult"] = false,
-									["TimeCompType"] = 4,
-									["UnitType"] = "player",
-									["StackLessThanValue"] = 0,
-									["TimeLessThanValue"] = 2,
-									["CheckAuraExist"] = 198121,
-									["StackCompType"] = 4,
-								}, -- [2]
-							},
-							["CheckResult"] = false,
-							["CheckAndOp"] = false,
-						}, -- [2]
-						{
-							["SubChecks"] = {
-								{
-									["SubCheckAndOp"] = true,
-									["StackCompType"] = 4,
-									["TimeLessThanValue"] = 2,
-									["TimeCompType"] = 4,
-									["UnitType"] = "player",
-									["EventType"] = "UNIT_AURA",
-									["StackLessThanValue"] = 0,
-									["CheckAuraExist"] = 199844,
-									["SubCheckResult"] = false,
-								}, -- [1]
-								{
-									["PowerLessThanValue"] = 0,
-									["EventType"] = "UNIT_POWER_UPDATE",
-									["SubCheckResult"] = false,
-									["PowerType"] = "MANA",
-									["PowerTypeNum"] = 0,
-									["CheckCD"] = 157997,
-									["SubCheckAndOp"] = true,
-									["UnitType"] = "player",
-									["PowerCompType"] = 4,
-								}, -- [2]
-							},
-							["CheckResult"] = false,
-							["CheckAndOp"] = false,
-						}, -- [3]
-						{
-							["SubChecks"] = {
-								{
-									["SubCheckAndOp"] = true,
-									["StackCompType"] = 4,
-									["TimeLessThanValue"] = 2,
-									["TimeCompType"] = 4,
-									["UnitType"] = "player",
-									["EventType"] = "UNIT_AURA",
-									["StackLessThanValue"] = 0,
-									["CheckAuraExist"] = 199844,
-									["SubCheckResult"] = false,
-								}, -- [1]
-								{
-									["SubCheckAndOp"] = true,
-									["EventType"] = "UNIT_AURA",
-									["TimeLessThanValue"] = 2,
-									["TimeCompType"] = 4,
-									["UnitType"] = "target",
-									["StackLessThanValue"] = 0,
-									["SubCheckResult"] = false,
-									["CheckAuraExist"] = 33395,
-									["StackCompType"] = 4,
-								}, -- [2]
-							},
-							["CheckResult"] = false,
-							["CheckAndOp"] = false,
-						}, -- [4]
 					},
 					["SpellResult"] = false,
-					["SpellIconID"] = 199786,
-					["SpellName"] = "冰川尖刺",
+					["SpellIconID"] = 12051,
+					["SpellName"] = "唤醒",
 				}, -- [1]
 			},
+			["LocX"] = 0,
+			["GroupResult"] = false,
+			["LocY"] = -200,
+			["IconSize"] = 80,
+			["IconPoint"] = "Top",
 			["GroupIndex"] = 1,
-			["IconRelatePoint"] = "CENTER",
+			["IconRelatePoint"] = "Top",
 		}, -- [1]
-		{
-			["IconPoint"] = "Top",
-			["GroupResult"] = false,
-			["enable"] = false,
-			["LocY"] = -350,
-			["GroupIconID"] = 0,
-			["LocX"] = -80,
-			["ActiveTalentGroup"] = 3,
-			["IconAlpha"] = 0.7,
-			["Spells"] = {
-				{
-					["SpellIconPath"] = 135855,
-					["Checks"] = {
-						{
-							["SubChecks"] = {
-								{
-									["SubCheckAndOp"] = true,
-									["StackCompType"] = 4,
-									["TimeLessThanValue"] = 1,
-									["TimeCompType"] = 4,
-									["UnitType"] = "player",
-									["EventType"] = "UNIT_AURA",
-									["StackLessThanValue"] = 1,
-									["CheckAuraExist"] = 205473,
-									["SubCheckResult"] = false,
-								}, -- [1]
-							},
-							["CheckResult"] = false,
-							["CheckAndOp"] = true,
-						}, -- [1]
-					},
-					["SpellResult"] = false,
-					["SpellIconID"] = 205473,
-					["SpellName"] = "冰刺",
-				}, -- [1]
-			},
-			["IconSize"] = 40,
-			["HideOnLeaveCombat"] = true,
-			["GroupIndex"] = 2,
-			["IconRelatePoint"] = "Top",
-		}, -- [2]
-		{
-			["IconPoint"] = "Top",
-			["GroupResult"] = false,
-			["enable"] = false,
-			["LocY"] = -350,
-			["GroupIconID"] = 0,
-			["LocX"] = -40,
-			["ActiveTalentGroup"] = 3,
-			["IconAlpha"] = 0.7,
-			["Spells"] = {
-				{
-					["SpellIconPath"] = 135855,
-					["Checks"] = {
-						{
-							["CheckResult"] = false,
-							["SubChecks"] = {
-								{
-									["SubCheckAndOp"] = true,
-									["StackCompType"] = 4,
-									["TimeLessThanValue"] = 1,
-									["TimeCompType"] = 4,
-									["StackLessThanValue"] = 2,
-									["EventType"] = "UNIT_AURA",
-									["SubCheckResult"] = false,
-									["CheckAuraExist"] = 205473,
-									["UnitType"] = "player",
-								}, -- [1]
-							},
-							["CheckAndOp"] = true,
-						}, -- [1]
-					},
-					["SpellResult"] = false,
-					["SpellIconID"] = 205473,
-					["SpellName"] = "冰刺",
-				}, -- [1]
-			},
-			["IconSize"] = 40,
-			["HideOnLeaveCombat"] = true,
-			["GroupIndex"] = 3,
-			["IconRelatePoint"] = "Top",
-		}, -- [3]
-		{
-			["IconPoint"] = "Top",
-			["GroupResult"] = false,
-			["enable"] = false,
-			["LocY"] = -350,
-			["GroupIconID"] = 0,
-			["LocX"] = 0,
-			["ActiveTalentGroup"] = 3,
-			["IconAlpha"] = 0.7,
-			["Spells"] = {
-				{
-					["SpellIconPath"] = 135855,
-					["Checks"] = {
-						{
-							["CheckResult"] = false,
-							["SubChecks"] = {
-								{
-									["SubCheckAndOp"] = true,
-									["StackCompType"] = 4,
-									["TimeLessThanValue"] = 1,
-									["TimeCompType"] = 4,
-									["UnitType"] = "player",
-									["EventType"] = "UNIT_AURA",
-									["SubCheckResult"] = false,
-									["CheckAuraExist"] = 205473,
-									["StackLessThanValue"] = 3,
-								}, -- [1]
-							},
-							["CheckAndOp"] = true,
-						}, -- [1]
-					},
-					["SpellResult"] = false,
-					["SpellIconID"] = 205473,
-					["SpellName"] = "冰刺",
-				}, -- [1]
-			},
-			["IconSize"] = 40,
-			["HideOnLeaveCombat"] = true,
-			["GroupIndex"] = 4,
-			["IconRelatePoint"] = "Top",
-		}, -- [4]
-		{
-			["IconPoint"] = "Top",
-			["GroupResult"] = false,
-			["enable"] = false,
-			["LocY"] = -350,
-			["GroupIconID"] = 0,
-			["LocX"] = 40,
-			["ActiveTalentGroup"] = 3,
-			["IconAlpha"] = 0.7,
-			["Spells"] = {
-				{
-					["SpellIconPath"] = 135855,
-					["Checks"] = {
-						{
-							["CheckResult"] = false,
-							["SubChecks"] = {
-								{
-									["SubCheckAndOp"] = true,
-									["EventType"] = "UNIT_AURA",
-									["TimeLessThanValue"] = 1,
-									["TimeCompType"] = 4,
-									["UnitType"] = "player",
-									["StackCompType"] = 4,
-									["SubCheckResult"] = false,
-									["CheckAuraExist"] = 205473,
-									["StackLessThanValue"] = 4,
-								}, -- [1]
-							},
-							["CheckAndOp"] = true,
-						}, -- [1]
-					},
-					["SpellResult"] = false,
-					["SpellIconID"] = 205473,
-					["SpellName"] = "冰刺",
-				}, -- [1]
-			},
-			["IconSize"] = 40,
-			["HideOnLeaveCombat"] = true,
-			["GroupIndex"] = 5,
-			["IconRelatePoint"] = "Top",
-		}, -- [5]
-		{
-			["IconPoint"] = "Top",
-			["GroupResult"] = false,
-			["enable"] = false,
-			["LocY"] = -350,
-			["GroupIconID"] = 0,
-			["LocX"] = 80,
-			["ActiveTalentGroup"] = 3,
-			["IconAlpha"] = 0.7,
-			["Spells"] = {
-				{
-					["SpellIconPath"] = 135855,
-					["Checks"] = {
-						{
-							["SubChecks"] = {
-								{
-									["SubCheckAndOp"] = true,
-									["StackCompType"] = 4,
-									["TimeLessThanValue"] = 1,
-									["TimeCompType"] = 4,
-									["UnitType"] = "player",
-									["EventType"] = "UNIT_AURA",
-									["StackLessThanValue"] = 5,
-									["CheckAuraExist"] = 205473,
-									["SubCheckResult"] = false,
-								}, -- [1]
-							},
-							["CheckResult"] = false,
-							["CheckAndOp"] = true,
-						}, -- [1]
-					},
-					["SpellResult"] = false,
-					["SpellIconID"] = 205473,
-					["SpellName"] = "冰刺",
-				}, -- [1]
-			},
-			["IconSize"] = 40,
-			["HideOnLeaveCombat"] = true,
-			["GroupIndex"] = 6,
-			["IconRelatePoint"] = "Top",
-		}, -- [6]
-		{
-			["IconPoint"] = "Top",
-			["GroupResult"] = false,
-			["enable"] = false,
-			["LocY"] = -400,
-			["LocX"] = 0,
-			["GroupIconID"] = 0,
-			["Spells"] = {
-				{
-					["SpellIconPath"] = 135857,
-					["Checks"] = {
-						{
-							["SubChecks"] = {
-								{
-									["PowerLessThanValue"] = 2500,
-									["EventType"] = "UNIT_POWER_UPDATE",
-									["SubCheckResult"] = false,
-									["PowerType"] = "MANA",
-									["PowerTypeNum"] = 0,
-									["CheckCD"] = 190356,
-									["SubCheckAndOp"] = true,
-									["UnitType"] = "player",
-									["PowerCompType"] = 4,
-								}, -- [1]
-							},
-							["CheckResult"] = false,
-							["CheckAndOp"] = true,
-						}, -- [1]
-					},
-					["SpellResult"] = false,
-					["SpellIconID"] = 190356,
-					["SpellName"] = "暴风雪",
-				}, -- [1]
-			},
-			["IconAlpha"] = 0.407895202636719,
-			["IconSize"] = 130,
-			["HideOnLeaveCombat"] = true,
-			["GroupIndex"] = 7,
-			["IconRelatePoint"] = "Top",
-		}, -- [7]
-		{
-			["GroupIndex"] = 8,
-			["GroupResult"] = false,
-			["enable"] = false,
-			["LocY"] = 17.6666660308838,
-			["LocX"] = -127.111190795898,
-			["ActiveTalentGroup"] = 3,
-			["GroupIconID"] = 0,
-			["IconAlpha"] = 0.5,
-			["IconSize"] = 130,
-			["Spells"] = {
-				{
-					["SpellIconPath"] = 2126034,
-					["Checks"] = {
-						{
-							["SubChecks"] = {
-								{
-									["CheckCD"] = 153595,
-									["StackCompType"] = 4,
-									["SubCheckResult"] = false,
-									["TimeCompType"] = 4,
-									["StackLessThanValue"] = 0,
-									["EventType"] = "UNIT_AURA",
-									["SubCheckAndOp"] = true,
-									["UnitType"] = "target",
-									["CheckAuraExist"] = 228600,
-									["TimeLessThanValue"] = 2,
-								}, -- [1]
-								{
-									["CheckCD"] = 153595,
-									["StackCompType"] = 4,
-									["SubCheckResult"] = false,
-									["TimeCompType"] = 4,
-									["StackLessThanValue"] = 0,
-									["EventType"] = "UNIT_AURA",
-									["SubCheckAndOp"] = false,
-									["UnitType"] = "target",
-									["CheckAuraExist"] = 198121,
-									["TimeLessThanValue"] = 2,
-								}, -- [2]
-								{
-									["CheckCD"] = 153595,
-									["EventType"] = "UNIT_AURA",
-									["SubCheckResult"] = false,
-									["TimeCompType"] = 4,
-									["StackLessThanValue"] = 0,
-									["SubCheckAndOp"] = false,
-									["UnitType"] = "player",
-									["TimeLessThanValue"] = 1,
-									["CheckAuraExist"] = 190446,
-									["StackCompType"] = 4,
-								}, -- [3]
-							},
-							["CheckResult"] = false,
-							["CheckAndOp"] = true,
-						}, -- [1]
-					},
-					["SpellResult"] = false,
-					["SpellIconID"] = 153595,
-					["SpellName"] = "彗星风暴",
-				}, -- [1]
-			},
-			["IconPoint"] = "CENTER",
-			["IconRelatePoint"] = "CENTER",
-		}, -- [8]
-		{
-			["IconPoint"] = "Top",
-			["GroupResult"] = false,
-			["enable"] = false,
-			["LocY"] = -400,
-			["GroupIconID"] = 0,
-			["LocX"] = 260,
-			["Spells"] = {
-				{
-					["SpellIconPath"] = 1033909,
-					["Checks"] = {
-						{
-							["SubChecks"] = {
-								{
-									["PowerLessThanValue"] = 0,
-									["EventType"] = "UNIT_POWER_UPDATE",
-									["SubCheckResult"] = false,
-									["PowerType"] = "MANA",
-									["PowerTypeNum"] = 0,
-									["CheckCD"] = 157997,
-									["SubCheckAndOp"] = true,
-									["UnitType"] = "player",
-									["PowerCompType"] = 4,
-								}, -- [1]
-								{
-									["SubCheckResult"] = false,
-									["UnitType"] = "target",
-									["CheckCD"] = 157997,
-									["CheckAuraNotExist"] = 157997,
-									["EventType"] = "UNIT_AURA",
-									["SubCheckAndOp"] = false,
-								}, -- [2]
-							},
-							["CheckResult"] = false,
-							["CheckAndOp"] = true,
-						}, -- [1]
-					},
-					["SpellResult"] = false,
-					["SpellIconID"] = 157997,
-					["SpellName"] = "寒冰新星",
-				}, -- [1]
-			},
-			["IconAlpha"] = 0.5,
-			["IconSize"] = 130,
-			["HideOnLostTarget"] = true,
-			["HideOnLeaveCombat"] = true,
-			["GroupIndex"] = 9,
-			["IconRelatePoint"] = "Top",
-		}, -- [9]
-		{
-			["IconPoint"] = "CENTER",
-			["GroupResult"] = false,
-			["enable"] = false,
-			["LocY"] = -91.6113204956055,
-			["GroupIconID"] = 0,
-			["LocX"] = 321.777770996094,
-			["ActiveTalentGroup"] = 3,
-			["IconAlpha"] = 0.5,
-			["Spells"] = {
-				{
-					["SpellIconPath"] = 236219,
-					["Checks"] = {
-						{
-							["SubChecks"] = {
-								{
-									["SubCheckAndOp"] = true,
-									["StackCompType"] = 4,
-									["TimeLessThanValue"] = 0,
-									["TimeCompType"] = 7,
-									["UnitType"] = "player",
-									["EventType"] = "UNIT_AURA",
-									["StackLessThanValue"] = 1,
-									["CheckAuraExist"] = 116267,
-									["SubCheckResult"] = false,
-								}, -- [1]
-							},
-							["CheckResult"] = false,
-							["CheckAndOp"] = true,
-						}, -- [1]
-					},
-					["SpellResult"] = false,
-					["SpellIconID"] = 116267,
-					["SpellName"] = "咒术洪流",
-				}, -- [1]
-			},
-			["IconSize"] = 60.555549621582,
-			["HideOnLeaveCombat"] = true,
-			["GroupIndex"] = 10,
-			["IconRelatePoint"] = "CENTER",
-		}, -- [10]
-		{
-			["IconPoint"] = "CENTER",
-			["GroupResult"] = false,
-			["enable"] = false,
-			["LocY"] = -8.05568027496338,
-			["GroupIconID"] = 0,
-			["LocX"] = 321.776275634766,
-			["ActiveTalentGroup"] = 3,
-			["IconAlpha"] = 0.5,
-			["Spells"] = {
-				{
-					["SpellIconPath"] = 236219,
-					["Checks"] = {
-						{
-							["CheckResult"] = false,
-							["SubChecks"] = {
-								{
-									["SubCheckAndOp"] = true,
-									["EventType"] = "UNIT_AURA",
-									["SubCheckResult"] = false,
-									["TimeCompType"] = 7,
-									["UnitType"] = "player",
-									["StackLessThanValue"] = 2,
-									["TimeLessThanValue"] = 0,
-									["CheckAuraExist"] = 116267,
-									["StackCompType"] = 4,
-								}, -- [1]
-							},
-							["CheckAndOp"] = true,
-						}, -- [1]
-					},
-					["SpellResult"] = false,
-					["SpellIconID"] = 116267,
-					["SpellName"] = "咒术洪流",
-				}, -- [1]
-			},
-			["IconSize"] = 60.555549621582,
-			["HideOnLeaveCombat"] = true,
-			["GroupIndex"] = 11,
-			["IconRelatePoint"] = "CENTER",
-		}, -- [11]
-		{
-			["IconPoint"] = "CENTER",
-			["GroupResult"] = false,
-			["enable"] = false,
-			["LocY"] = 75.038459777832,
-			["LocX"] = 322.666320800781,
-			["GroupIconID"] = 0,
-			["Spells"] = {
-				{
-					["SpellIconPath"] = 236219,
-					["Checks"] = {
-						{
-							["CheckResult"] = false,
-							["SubChecks"] = {
-								{
-									["SubCheckAndOp"] = true,
-									["StackCompType"] = 4,
-									["SubCheckResult"] = false,
-									["TimeCompType"] = 7,
-									["UnitType"] = "player",
-									["StackLessThanValue"] = 3,
-									["TimeLessThanValue"] = 0,
-									["CheckAuraExist"] = 116267,
-									["EventType"] = "UNIT_AURA",
-								}, -- [1]
-							},
-							["CheckAndOp"] = true,
-						}, -- [1]
-					},
-					["SpellResult"] = false,
-					["SpellIconID"] = 116267,
-					["SpellName"] = "咒术洪流",
-				}, -- [1]
-			},
-			["IconAlpha"] = 0.5,
-			["IconSize"] = 59.700813293457,
-			["HideOnLeaveCombat"] = true,
-			["GroupIndex"] = 12,
-			["IconRelatePoint"] = "CENTER",
-		}, -- [12]
-		{
-			["IconPoint"] = "CENTER",
-			["GroupResult"] = false,
-			["enable"] = false,
-			["LocY"] = 159.483062744141,
-			["LocX"] = 322.666900634766,
-			["GroupIconID"] = 0,
-			["Spells"] = {
-				{
-					["SpellIconPath"] = 236219,
-					["Checks"] = {
-						{
-							["CheckResult"] = false,
-							["SubChecks"] = {
-								{
-									["SubCheckAndOp"] = true,
-									["EventType"] = "UNIT_AURA",
-									["SubCheckResult"] = false,
-									["TimeCompType"] = 7,
-									["StackLessThanValue"] = 4,
-									["UnitType"] = "player",
-									["TimeLessThanValue"] = 0,
-									["CheckAuraExist"] = 116267,
-									["StackCompType"] = 4,
-								}, -- [1]
-							},
-							["CheckAndOp"] = true,
-						}, -- [1]
-					},
-					["SpellResult"] = false,
-					["SpellIconID"] = 116267,
-					["SpellName"] = "咒术洪流",
-				}, -- [1]
-			},
-			["IconAlpha"] = 0.5,
-			["IconSize"] = 59.700740814209,
-			["HideOnLeaveCombat"] = true,
-			["GroupIndex"] = 13,
-			["IconRelatePoint"] = "CENTER",
-		}, -- [13]
-		{
-			["IconPoint"] = "TOP",
-			["GroupResult"] = false,
-			["enable"] = false,
-			["LocY"] = -209.777725219727,
-			["LocX"] = 325.333892822266,
-			["GroupIconID"] = 0,
-			["Spells"] = {
-				{
-					["SpellIconPath"] = 236219,
-					["Checks"] = {
-						{
-							["CheckResult"] = false,
-							["SubChecks"] = {
-								{
-									["SubCheckAndOp"] = true,
-									["StackCompType"] = 4,
-									["SubCheckResult"] = false,
-									["TimeCompType"] = 7,
-									["UnitType"] = "player",
-									["StackLessThanValue"] = 5,
-									["TimeLessThanValue"] = 0,
-									["CheckAuraExist"] = 116267,
-									["EventType"] = "UNIT_AURA",
-								}, -- [1]
-							},
-							["CheckAndOp"] = true,
-						}, -- [1]
-					},
-					["SpellResult"] = false,
-					["SpellIconID"] = 116267,
-					["SpellName"] = "咒术洪流",
-				}, -- [1]
-			},
-			["IconAlpha"] = 0.5,
-			["IconSize"] = 59.700813293457,
-			["HideOnLeaveCombat"] = true,
-			["GroupIndex"] = 14,
-			["IconRelatePoint"] = "TOP",
-		}, -- [14]
 	},
 	["DRUID"] = {
 		{
@@ -1366,13 +1408,13 @@ EA_GrpItems = {
 								}, -- [1]
 								{
 									["SubCheckResult"] = false,
-									["CheckAuraExist"] = 33745,
-									["UnitType"] = "target",
-									["SubCheckAndOp"] = false,
 									["EventType"] = "UNIT_AURA",
+									["StackLessThanValue"] = 2,
+									["SubCheckAndOp"] = false,
+									["CheckAuraExist"] = 33745,
 									["CastByPlayer"] = true,
 									["StackCompType"] = 2,
-									["StackLessThanValue"] = 2,
+									["UnitType"] = "target",
 								}, -- [2]
 								{
 									["TimeLessThanValue"] = 3,
@@ -1381,8 +1423,8 @@ EA_GrpItems = {
 									["SubCheckAndOp"] = false,
 									["SubCheckResult"] = false,
 									["CastByPlayer"] = true,
-									["EventType"] = "UNIT_AURA",
 									["CheckAuraExist"] = 33745,
+									["EventType"] = "UNIT_AURA",
 								}, -- [3]
 							},
 							["CheckResult"] = false,
@@ -1426,8 +1468,8 @@ EA_GrpItems = {
 									["UnitType"] = "player",
 									["SubCheckAndOp"] = true,
 									["SubCheckResult"] = false,
-									["EventType"] = "UNIT_AURA",
 									["CheckAuraExist"] = 80951,
+									["EventType"] = "UNIT_AURA",
 								}, -- [1]
 								{
 									["SubCheckResult"] = false,
@@ -1498,258 +1540,338 @@ EA_GrpItems = {
 			["IconRelatePoint"] = "Top",
 		}, -- [5]
 	},
+	["DEATHKNIGHT"] = {
+		{
+			["IconAlpha"] = 0.5,
+			["GroupIconID"] = 0,
+			["enable"] = false,
+			["Spells"] = {
+				{
+					["SpellIconPath"] = 134228,
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["SubCheckResult"] = false,
+									["UnitType"] = "player",
+									["SubCheckAndOp"] = true,
+									["CheckAuraNotExist"] = 57330,
+									["EventType"] = "UNIT_AURA",
+									["CheckCD"] = 57330,
+								}, -- [1]
+								{
+									["SubCheckResult"] = false,
+									["UnitType"] = "player",
+									["SubCheckAndOp"] = true,
+									["CheckAuraNotExist"] = 6673,
+									["EventType"] = "UNIT_AURA",
+								}, -- [2]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 57330,
+					["SpellName"] = "寒冬号角",
+				}, -- [1]
+			},
+			["LocX"] = 0,
+			["GroupResult"] = false,
+			["LocY"] = -200,
+			["IconSize"] = 80,
+			["IconPoint"] = "Top",
+			["GroupIndex"] = 1,
+			["IconRelatePoint"] = "Top",
+		}, -- [1]
+		{
+			["IconPoint"] = "Top",
+			["GroupIconID"] = 0,
+			["enable"] = false,
+			["LocY"] = -200,
+			["LocX"] = 80,
+			["ActiveTalentGroup"] = 1,
+			["GroupResult"] = false,
+			["IconAlpha"] = 0.5,
+			["IconSize"] = 80,
+			["Spells"] = {
+				{
+					["SpellResult"] = false,
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["SubCheckResult"] = false,
+									["UnitType"] = "player",
+									["SubCheckAndOp"] = true,
+									["CheckAuraNotExist"] = 49222,
+									["EventType"] = "UNIT_AURA",
+									["CheckCD"] = 49222,
+								}, -- [1]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+					},
+					["SpellIconID"] = 49222,
+				}, -- [1]
+			},
+			["GroupIndex"] = 2,
+			["IconRelatePoint"] = "Top",
+		}, -- [2]
+	},
 }
 EA_Pos = {
 	["DEATHKNIGHT"] = {
 		["Execution"] = 0,
-		["GreenDebuff"] = 0.12,
-		["xOffset"] = -45,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = -40,
 		["TarAnchor"] = "CENTER",
 		["yOffset"] = 0,
 		["PlayerLv2BOSS"] = true,
 		["relativePoint"] = "CENTER",
 		["Anchor"] = "CENTER",
-		["yLoc"] = -214.9995574951172,
-		["SCD_UseCooldown"] = true,
-		["Tar_yOffset"] = -196.9995880126953,
-		["RedDebuff"] = 0.12,
-		["Tar_xOffset"] = 354.0001525878906,
-		["xLoc"] = -347.9995422363281,
+		["yLoc"] = -140,
+		["SCD_UseCooldown"] = false,
+		["Tar_yOffset"] = -220,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["xLoc"] = 0,
 		["TarrelativePoint"] = "CENTER",
 		["Tar_NewLine"] = true,
-		["ScdAnchor"] = "BOTTOM",
-		["Scd_xOffset"] = 262.9990539550781,
-		["Scd_yOffset"] = 183.0002593994141,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
 	},
 	["WARRIOR"] = {
 		["Execution"] = 0,
-		["GreenDebuff"] = 0.12,
-		["xOffset"] = -45,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = -40,
 		["TarAnchor"] = "CENTER",
 		["yOffset"] = 0,
 		["PlayerLv2BOSS"] = true,
 		["relativePoint"] = "CENTER",
 		["Anchor"] = "CENTER",
-		["yLoc"] = -214.9995574951172,
-		["SCD_UseCooldown"] = true,
-		["Tar_yOffset"] = -196.9995880126953,
-		["RedDebuff"] = 0.12,
-		["Tar_xOffset"] = 354.0001525878906,
-		["xLoc"] = -347.9995422363281,
+		["yLoc"] = -140,
+		["SCD_UseCooldown"] = false,
+		["Tar_yOffset"] = -220,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["xLoc"] = 0,
 		["TarrelativePoint"] = "CENTER",
 		["Tar_NewLine"] = true,
-		["ScdAnchor"] = "BOTTOM",
-		["Scd_xOffset"] = 262.9990539550781,
-		["Scd_yOffset"] = 183.0002593994141,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
 	},
 	["PALADIN"] = {
 		["Execution"] = 0,
-		["GreenDebuff"] = 0.12,
-		["xOffset"] = -45,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = -40,
 		["TarAnchor"] = "CENTER",
 		["yOffset"] = 0,
 		["PlayerLv2BOSS"] = true,
 		["relativePoint"] = "CENTER",
 		["Anchor"] = "CENTER",
-		["yLoc"] = -214.9995574951172,
-		["SCD_UseCooldown"] = true,
-		["Tar_yOffset"] = -196.9995880126953,
-		["RedDebuff"] = 0.12,
-		["Tar_xOffset"] = 354.0001525878906,
-		["xLoc"] = -347.9995422363281,
+		["yLoc"] = -140,
+		["SCD_UseCooldown"] = false,
+		["Tar_yOffset"] = -220,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["xLoc"] = 0,
 		["TarrelativePoint"] = "CENTER",
 		["Tar_NewLine"] = true,
-		["ScdAnchor"] = "BOTTOM",
-		["Scd_xOffset"] = 262.9990539550781,
-		["Scd_yOffset"] = 183.0002593994141,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
 	},
 	["MAGE"] = {
 		["Execution"] = 0,
-		["GreenDebuff"] = 0.12,
-		["xOffset"] = -45,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = -40,
 		["TarAnchor"] = "CENTER",
 		["yOffset"] = 0,
 		["PlayerLv2BOSS"] = true,
 		["relativePoint"] = "CENTER",
 		["Anchor"] = "CENTER",
-		["yLoc"] = -214.9995574951172,
-		["SCD_UseCooldown"] = true,
-		["Tar_yOffset"] = -196.9995880126953,
-		["RedDebuff"] = 0.12,
-		["Tar_xOffset"] = 354.0001525878906,
-		["xLoc"] = -347.9995422363281,
+		["yLoc"] = -140,
+		["SCD_UseCooldown"] = false,
+		["Tar_yOffset"] = -220,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["xLoc"] = 0,
 		["TarrelativePoint"] = "CENTER",
 		["Tar_NewLine"] = true,
-		["ScdAnchor"] = "BOTTOM",
-		["Scd_xOffset"] = 262.9990539550781,
-		["Scd_yOffset"] = 183.0002593994141,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
 	},
 	["PRIEST"] = {
 		["Execution"] = 0,
-		["GreenDebuff"] = 0.12,
-		["xOffset"] = -45,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = -40,
 		["TarAnchor"] = "CENTER",
 		["yOffset"] = 0,
 		["PlayerLv2BOSS"] = true,
 		["relativePoint"] = "CENTER",
 		["Anchor"] = "CENTER",
-		["yLoc"] = -214.9995574951172,
-		["SCD_UseCooldown"] = true,
-		["Tar_yOffset"] = -196.9995880126953,
-		["RedDebuff"] = 0.12,
-		["Tar_xOffset"] = 354.0001525878906,
-		["xLoc"] = -347.9995422363281,
+		["yLoc"] = -140,
+		["SCD_UseCooldown"] = false,
+		["Tar_yOffset"] = -220,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["xLoc"] = 0,
 		["TarrelativePoint"] = "CENTER",
 		["Tar_NewLine"] = true,
-		["ScdAnchor"] = "BOTTOM",
-		["Scd_xOffset"] = 262.9990539550781,
-		["Scd_yOffset"] = 183.0002593994141,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
 	},
 	["ROGUE"] = {
 		["Execution"] = 0,
-		["GreenDebuff"] = 0.12,
-		["xOffset"] = -45,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = -40,
 		["TarAnchor"] = "CENTER",
 		["yOffset"] = 0,
 		["PlayerLv2BOSS"] = true,
 		["relativePoint"] = "CENTER",
 		["Anchor"] = "CENTER",
-		["yLoc"] = -214.9995574951172,
-		["SCD_UseCooldown"] = true,
-		["Tar_yOffset"] = -196.9995880126953,
-		["RedDebuff"] = 0.12,
-		["Tar_xOffset"] = 354.0001525878906,
-		["xLoc"] = -347.9995422363281,
+		["yLoc"] = -140,
+		["SCD_UseCooldown"] = false,
+		["Tar_yOffset"] = -220,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["xLoc"] = 0,
 		["TarrelativePoint"] = "CENTER",
 		["Tar_NewLine"] = true,
-		["ScdAnchor"] = "BOTTOM",
-		["Scd_xOffset"] = 262.9990539550781,
-		["Scd_yOffset"] = 183.0002593994141,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
 	},
 	["WARLOCK"] = {
 		["Execution"] = 0,
-		["GreenDebuff"] = 0.12,
-		["xOffset"] = -45,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = -40,
 		["TarAnchor"] = "CENTER",
 		["yOffset"] = 0,
 		["PlayerLv2BOSS"] = true,
 		["relativePoint"] = "CENTER",
 		["Anchor"] = "CENTER",
-		["yLoc"] = -214.9995574951172,
-		["SCD_UseCooldown"] = true,
-		["Tar_yOffset"] = -196.9995880126953,
-		["RedDebuff"] = 0.12,
-		["Tar_xOffset"] = 354.0001525878906,
-		["xLoc"] = -347.9995422363281,
+		["yLoc"] = -140,
+		["SCD_UseCooldown"] = false,
+		["Tar_yOffset"] = -220,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["xLoc"] = 0,
 		["TarrelativePoint"] = "CENTER",
 		["Tar_NewLine"] = true,
-		["ScdAnchor"] = "BOTTOM",
-		["Scd_xOffset"] = 262.9990539550781,
-		["Scd_yOffset"] = 183.0002593994141,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
 	},
 	["DEMONHUNTER"] = {
 		["Execution"] = 0,
-		["GreenDebuff"] = 0.12,
-		["xOffset"] = -45,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = -40,
 		["TarAnchor"] = "CENTER",
 		["yOffset"] = 0,
 		["PlayerLv2BOSS"] = true,
 		["relativePoint"] = "CENTER",
 		["Anchor"] = "CENTER",
-		["yLoc"] = -214.9995574951172,
-		["SCD_UseCooldown"] = true,
-		["Tar_yOffset"] = -196.9995880126953,
-		["RedDebuff"] = 0.12,
-		["Tar_xOffset"] = 354.0001525878906,
-		["xLoc"] = -347.9995422363281,
+		["yLoc"] = -140,
+		["SCD_UseCooldown"] = false,
+		["Tar_yOffset"] = -220,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["xLoc"] = 0,
 		["TarrelativePoint"] = "CENTER",
 		["Tar_NewLine"] = true,
-		["ScdAnchor"] = "BOTTOM",
-		["Scd_xOffset"] = 262.9990539550781,
-		["Scd_yOffset"] = 183.0002593994141,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
 	},
 	["HUNTER"] = {
 		["Execution"] = 0,
-		["GreenDebuff"] = 0.12,
-		["xOffset"] = -45,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = -40,
 		["TarAnchor"] = "CENTER",
 		["yOffset"] = 0,
 		["PlayerLv2BOSS"] = true,
 		["relativePoint"] = "CENTER",
 		["Anchor"] = "CENTER",
-		["yLoc"] = -214.9995574951172,
-		["SCD_UseCooldown"] = true,
-		["Tar_yOffset"] = -196.9995880126953,
-		["RedDebuff"] = 0.12,
-		["Tar_xOffset"] = 354.0001525878906,
-		["xLoc"] = -347.9995422363281,
+		["yLoc"] = -140,
+		["SCD_UseCooldown"] = false,
+		["Tar_yOffset"] = -220,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["xLoc"] = 0,
 		["TarrelativePoint"] = "CENTER",
 		["Tar_NewLine"] = true,
-		["ScdAnchor"] = "BOTTOM",
-		["Scd_xOffset"] = 262.9990539550781,
-		["Scd_yOffset"] = 183.0002593994141,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
 	},
 	["DRUID"] = {
 		["Execution"] = 0,
-		["GreenDebuff"] = 0.12,
-		["xOffset"] = -45,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = -40,
 		["TarAnchor"] = "CENTER",
 		["yOffset"] = 0,
 		["PlayerLv2BOSS"] = true,
 		["relativePoint"] = "CENTER",
 		["Anchor"] = "CENTER",
-		["yLoc"] = -214.9995574951172,
-		["SCD_UseCooldown"] = true,
-		["Tar_yOffset"] = -196.9995880126953,
-		["RedDebuff"] = 0.12,
-		["Tar_xOffset"] = 354.0001525878906,
-		["xLoc"] = -347.9995422363281,
+		["yLoc"] = -140,
+		["SCD_UseCooldown"] = false,
+		["Tar_yOffset"] = -220,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["xLoc"] = 0,
 		["TarrelativePoint"] = "CENTER",
 		["Tar_NewLine"] = true,
-		["ScdAnchor"] = "BOTTOM",
-		["Scd_xOffset"] = 262.9990539550781,
-		["Scd_yOffset"] = 183.0002593994141,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
 	},
 	["MONK"] = {
 		["Execution"] = 0,
-		["GreenDebuff"] = 0.12,
-		["xOffset"] = -45,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = -40,
 		["TarAnchor"] = "CENTER",
 		["yOffset"] = 0,
 		["PlayerLv2BOSS"] = true,
 		["relativePoint"] = "CENTER",
 		["Anchor"] = "CENTER",
-		["yLoc"] = -214.9995574951172,
-		["SCD_UseCooldown"] = true,
-		["Tar_yOffset"] = -196.9995880126953,
-		["RedDebuff"] = 0.12,
-		["Tar_xOffset"] = 354.0001525878906,
-		["xLoc"] = -347.9995422363281,
+		["yLoc"] = -140,
+		["SCD_UseCooldown"] = false,
+		["Tar_yOffset"] = -220,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["xLoc"] = 0,
 		["TarrelativePoint"] = "CENTER",
 		["Tar_NewLine"] = true,
-		["ScdAnchor"] = "BOTTOM",
-		["Scd_xOffset"] = 262.9990539550781,
-		["Scd_yOffset"] = 183.0002593994141,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
 	},
 	["SHAMAN"] = {
 		["Execution"] = 0,
-		["GreenDebuff"] = 0.12,
-		["xOffset"] = -45,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = -40,
 		["TarAnchor"] = "CENTER",
 		["yOffset"] = 0,
 		["PlayerLv2BOSS"] = true,
 		["relativePoint"] = "CENTER",
 		["Anchor"] = "CENTER",
-		["yLoc"] = -214.9995574951172,
-		["SCD_UseCooldown"] = true,
-		["Tar_yOffset"] = -196.9995880126953,
-		["RedDebuff"] = 0.12,
-		["Tar_xOffset"] = 354.0001525878906,
-		["xLoc"] = -347.9995422363281,
+		["yLoc"] = -140,
+		["SCD_UseCooldown"] = false,
+		["Tar_yOffset"] = -220,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["xLoc"] = 0,
 		["TarrelativePoint"] = "CENTER",
 		["Tar_NewLine"] = true,
-		["ScdAnchor"] = "BOTTOM",
-		["Scd_xOffset"] = 262.9990539550781,
-		["Scd_yOffset"] = 183.0002593994141,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
 	},
 }

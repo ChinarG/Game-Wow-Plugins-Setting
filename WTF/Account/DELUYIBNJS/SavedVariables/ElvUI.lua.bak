@@ -1,0 +1,6131 @@
+
+ElvDB = {
+	["profileKeys"] = {
+		["独孤牛儿 - 森金"] = "牛爹爹 - 屠魔山谷",
+		["风雨思年华 - 森金"] = "雄奶奶 - 森金",
+		["仔酷 - 森金"] = "雄奶奶 - 森金",
+		["午盾 - 森金"] = "雄奶奶 - 森金",
+		["牛爹爹 - 屠魔山谷"] = "牛爹爹 - 屠魔山谷",
+		["雄奶奶 - 森金"] = "雄奶奶 - 森金",
+		["巨目巨目巨目 - 森金"] = "雄奶奶 - 森金",
+		["奶奶的大刀 - 森金"] = "雄奶奶 - 森金",
+	},
+	["gold"] = {
+		["森金"] = {
+			["奶奶的大刀"] = {
+				["money"] = 6797088,
+			},
+			["独孤牛儿"] = {
+				["money"] = 1314174,
+			},
+			["风雨思年华"] = {
+				["money"] = 1759016,
+			},
+			["巨目巨目巨目"] = {
+				["money"] = 26202927,
+			},
+			["仔酷"] = {
+				["money"] = 3229654,
+			},
+			["雄奶奶"] = {
+				["money"] = 2360609047,
+			},
+			["午盾"] = {
+				["money"] = 158277953,
+			},
+		},
+		["屠魔山谷"] = {
+			["牛爹爹"] = {
+				["money"] = 617520805,
+			},
+		},
+	},
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["global"] = {
+		["general"] = {
+			["AceGUI"] = {
+				["height"] = 600,
+				["width"] = 800,
+			},
+			["mapAlphaWhenMoving"] = 0.33,
+			["locale"] = "zhCN",
+			["UIScale"] = 0.76,
+		},
+		["Ver"] = "20190717A",
+		["unitframe"] = {
+			["aurafilters"] = {
+				["Blacklist"] = {
+					["spells"] = {
+						[227723] = {
+							["enable"] = true,
+							["priority"] = 0,
+						},
+						[41252] = {
+							["enable"] = true,
+							["priority"] = 0,
+						},
+						[11426] = {
+							["enable"] = true,
+							["priority"] = 0,
+						},
+						[270661] = {
+							["enable"] = true,
+							["priority"] = 0,
+						},
+						[225787] = {
+							["enable"] = true,
+							["priority"] = 0,
+						},
+					},
+				},
+			},
+		},
+	},
+	["profiles"] = {
+		["HUNTER"] = {
+			["unitframe"] = {
+				["units"] = {
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["player"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focus"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+						["fader"] = {
+							["enable"] = false,
+							["range"] = false,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pet"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+				},
+			},
+			["chat"] = {
+				["panelColor"] = {
+					["a"] = 0.9,
+				},
+				["panelColorConverted"] = true,
+			},
+			["movers"] = {
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,982",
+			},
+		},
+		["Minimalistic"] = {
+			["currentTutorial"] = 2,
+			["general"] = {
+				["font"] = "Expressway",
+				["backdropfadecolor"] = {
+					["a"] = 0.80000001192093,
+					["b"] = 0.058823529411765,
+					["g"] = 0.058823529411765,
+					["r"] = 0.058823529411765,
+				},
+				["valuecolor"] = {
+					["a"] = 1,
+					["b"] = 1,
+					["g"] = 1,
+					["r"] = 1,
+				},
+				["bordercolor"] = {
+					["b"] = 0.30588235294118,
+					["g"] = 0.30588235294118,
+					["r"] = 0.30588235294118,
+				},
+				["reputation"] = {
+					["orientation"] = "HORIZONTAL",
+					["textFormat"] = "PERCENT",
+					["height"] = 16,
+					["width"] = 200,
+				},
+				["fontSize"] = 11,
+			},
+			["movers"] = {
+				["PetAB"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-50,-428",
+				["ElvUF_RaidMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,51,120",
+				["LeftChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,50,50",
+				["GMMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,250,-50",
+				["BossButton"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-117,-298",
+				["LootFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,249,-216",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,50,827",
+				["MicrobarMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-52",
+				["VehicleSeatMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,51,-87",
+				["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,143",
+				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,392,1073",
+				["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,0,50",
+				["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,90",
+				["ElvAB_4"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-50,-394",
+				["AltPowerBarMover"] = "TOP,ElvUIParent,TOP,0,-186",
+				["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,305,50",
+				["ElvAB_5"] = "BOTTOM,ElvUIParent,BOTTOM,-305,50",
+				["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,51,937",
+				["ReputationBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-50,-228",
+				["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-122,-393",
+				["BNETMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,50,232",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,50,1150",
+				["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,133",
+				["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-50,50",
+				["ElvAB_6"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-488,330",
+				["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-50,50",
+				["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,50,995",
+				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,463,50",
+				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,200",
+				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-230,140",
+				["ElvUF_PartyMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,184,773",
+				["AlertFrameMover"] = "TOP,ElvUIParent,TOP,0,-50",
+				["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,230,140",
+				["MinimapMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-50,-50",
+			},
+			["bags"] = {
+				["countFontSize"] = 9,
+				["itemLevelFontSize"] = 9,
+			},
+			["hideTutorial"] = true,
+			["auras"] = {
+				["debuffs"] = {
+					["countFontSize"] = 11,
+					["durationFontSize"] = 11,
+				},
+				["buffs"] = {
+					["countFontSize"] = 11,
+					["maxWraps"] = 2,
+					["durationFontSize"] = 11,
+				},
+				["font"] = "Expressway",
+			},
+			["unitframe"] = {
+				["fontSize"] = 9,
+				["fontOutline"] = "THICKOUTLINE",
+				["font"] = "Expressway",
+				["statusbar"] = "ElvUI Blank",
+				["smoothbars"] = true,
+				["units"] = {
+					["tank"] = {
+						["enable"] = false,
+					},
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["player"] = {
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+						["debuffs"] = {
+							["perrow"] = 7,
+						},
+						["name"] = {
+							["attachTextTo"] = "InfoPanel",
+							["text_format"] = "[namecolor][name]",
+						},
+						["power"] = {
+							["attachTextTo"] = "InfoPanel",
+							["text_format"] = "[powercolor][power:current-max]",
+							["height"] = 15,
+						},
+						["height"] = 80,
+						["health"] = {
+							["attachTextTo"] = "InfoPanel",
+							["frequentUpdates"] = true,
+							["text_format"] = "[healthcolor][health:current-max]",
+						},
+						["classbar"] = {
+							["height"] = 15,
+							["autoHide"] = true,
+						},
+						["castbar"] = {
+							["iconSize"] = 54,
+							["height"] = 35,
+							["iconAttached"] = false,
+							["width"] = 478,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+						["debuffs"] = {
+							["enable"] = false,
+						},
+						["name"] = {
+							["attachTextTo"] = "InfoPanel",
+							["yOffset"] = -2,
+							["position"] = "TOP",
+						},
+						["height"] = 50,
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+						["width"] = 122,
+					},
+					["arena"] = {
+						["castbar"] = {
+							["width"] = 246,
+						},
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+						["spacing"] = 26,
+					},
+					["assist"] = {
+						["enable"] = false,
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["raid40"] = {
+						["rdebuffs"] = {
+							["font"] = "Expressway",
+						},
+					},
+					["focus"] = {
+						["infoPanel"] = {
+							["enable"] = true,
+							["height"] = 17,
+						},
+						["health"] = {
+							["attachTextTo"] = "InfoPanel",
+							["frequentUpdates"] = true,
+							["text_format"] = "[healthcolor][health:current]",
+						},
+						["castbar"] = {
+							["iconSize"] = 26,
+							["width"] = 122,
+						},
+						["height"] = 56,
+						["name"] = {
+							["attachTextTo"] = "InfoPanel",
+							["position"] = "LEFT",
+						},
+						["threatStyle"] = "NONE",
+						["width"] = 189,
+					},
+					["target"] = {
+						["debuffs"] = {
+							["perrow"] = 7,
+						},
+						["power"] = {
+							["attachTextTo"] = "InfoPanel",
+							["text_format"] = "[powercolor][power:current-max]",
+							["height"] = 15,
+						},
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+						["fader"] = {
+							["enable"] = false,
+							["range"] = false,
+						},
+						["name"] = {
+							["attachTextTo"] = "InfoPanel",
+							["text_format"] = "[namecolor][name]",
+						},
+						["health"] = {
+							["attachTextTo"] = "InfoPanel",
+							["frequentUpdates"] = true,
+							["text_format"] = "[healthcolor][health:current-max]",
+						},
+						["height"] = 80,
+						["buffs"] = {
+							["perrow"] = 7,
+						},
+						["castbar"] = {
+							["iconAttached"] = false,
+							["iconSize"] = 54,
+						},
+						["smartAuraPosition"] = "DEBUFFS_ON_BUFFS",
+					},
+					["raid"] = {
+						["roleIcon"] = {
+							["position"] = "RIGHT",
+						},
+						["debuffs"] = {
+							["enable"] = true,
+							["sizeOverride"] = 27,
+							["perrow"] = 4,
+						},
+						["rdebuffs"] = {
+							["enable"] = false,
+							["font"] = "Expressway",
+						},
+						["growthDirection"] = "UP_RIGHT",
+						["name"] = {
+							["position"] = "LEFT",
+						},
+						["width"] = 140,
+						["height"] = 28,
+						["health"] = {
+							["yOffset"] = -6,
+						},
+						["visibility"] = "[nogroup] hide;show",
+						["groupsPerRowCol"] = 5,
+					},
+					["party"] = {
+						["horizontalSpacing"] = 3,
+						["debuffs"] = {
+							["anchorPoint"] = "BOTTOM",
+							["numrows"] = 4,
+							["perrow"] = 1,
+						},
+						["power"] = {
+							["text_format"] = "",
+							["height"] = 5,
+						},
+						["enable"] = false,
+						["healPrediction"] = {
+							["enable"] = true,
+						},
+						["growthDirection"] = "RIGHT_DOWN",
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+						["name"] = {
+							["attachTextTo"] = "InfoPanel",
+							["text_format"] = "[namecolor][name:short]",
+							["position"] = "LEFT",
+						},
+						["health"] = {
+							["attachTextTo"] = "InfoPanel",
+							["orientation"] = "VERTICAL",
+							["text_format"] = "[healthcolor][health:current]",
+							["position"] = "RIGHT",
+						},
+						["height"] = 59,
+						["verticalSpacing"] = 0,
+						["width"] = 110,
+						["rdebuffs"] = {
+							["font"] = "Expressway",
+						},
+					},
+					["pet"] = {
+						["infoPanel"] = {
+							["height"] = 14,
+							["enable"] = true,
+						},
+						["debuffs"] = {
+							["enable"] = true,
+						},
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+						["castbar"] = {
+							["width"] = 122,
+						},
+						["height"] = 50,
+						["portrait"] = {
+							["camDistanceScale"] = 2,
+						},
+						["threatStyle"] = "NONE",
+						["width"] = 122,
+					},
+				},
+			},
+			["datatexts"] = {
+				["minimapPanels"] = false,
+				["fontSize"] = 11,
+				["font"] = "Expressway",
+				["goldFormat"] = "SHORT",
+				["panelTransparency"] = true,
+				["leftChatPanel"] = false,
+				["panels"] = {
+					["LeftMiniPanel"] = "",
+					["RightMiniPanel"] = "",
+					["RightChatDataPanel"] = {
+						["right"] = "",
+						["left"] = "",
+						["middle"] = "",
+					},
+					["BottomMiniPanel"] = "Time",
+					["LeftChatDataPanel"] = {
+						["right"] = "",
+						["left"] = "",
+						["middle"] = "",
+					},
+				},
+				["rightChatPanel"] = false,
+			},
+			["actionbar"] = {
+				["bar3"] = {
+					["inheritGlobalFade"] = true,
+					["buttonsize"] = 38,
+					["buttonsPerRow"] = 3,
+				},
+				["fontSize"] = 9,
+				["bar2"] = {
+					["enabled"] = true,
+					["inheritGlobalFade"] = true,
+					["buttonsize"] = 38,
+				},
+				["bar1"] = {
+					["heightMult"] = 2,
+					["inheritGlobalFade"] = true,
+					["buttonsize"] = 38,
+				},
+				["bar5"] = {
+					["inheritGlobalFade"] = true,
+					["buttonsize"] = 38,
+					["buttonsPerRow"] = 3,
+				},
+				["globalFadeAlpha"] = 0.87,
+				["stanceBar"] = {
+					["inheritGlobalFade"] = true,
+				},
+				["bar6"] = {
+					["buttonsize"] = 38,
+				},
+				["bar4"] = {
+					["enabled"] = false,
+					["backdrop"] = false,
+					["buttonsize"] = 38,
+				},
+			},
+			["layoutSet"] = "dpsMelee",
+			["tooltip"] = {
+				["textFontSize"] = 11,
+				["font"] = "Expressway",
+				["healthBar"] = {
+					["font"] = "Expressway",
+				},
+				["smallTextFontSize"] = 11,
+				["fontSize"] = 11,
+				["headerFontSize"] = 11,
+			},
+			["chat"] = {
+				["fontSize"] = 11,
+				["tabFont"] = "Expressway",
+				["panelColor"] = {
+					["a"] = 0.80000001192093,
+					["r"] = 0.058823529411765,
+					["g"] = 0.058823529411765,
+					["b"] = 0.058823529411765,
+				},
+				["tabFontSize"] = 11,
+				["fadeUndockedTabs"] = false,
+				["font"] = "Expressway",
+				["fadeTabsNoBackdrop"] = false,
+				["panelColorConverted"] = true,
+				["editBoxPosition"] = "ABOVE_CHAT",
+				["panelBackdrop"] = "HIDEBOTH",
+			},
+		},
+		["森金"] = {
+			["unitframe"] = {
+				["units"] = {
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["player"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focus"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+						["fader"] = {
+							["enable"] = false,
+							["range"] = false,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pet"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+				},
+			},
+			["chat"] = {
+				["panelColor"] = {
+					["a"] = 0.9,
+				},
+				["panelColorConverted"] = true,
+			},
+			["movers"] = {
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,982",
+			},
+		},
+		["仔酷 - 森金"] = {
+			["currentTutorial"] = 1,
+			["movers"] = {
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,983",
+			},
+			["unitframe"] = {
+				["units"] = {
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["player"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pet"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focus"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["fader"] = {
+							["enable"] = false,
+							["range"] = false,
+						},
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+				},
+			},
+			["v11NamePlateReset"] = true,
+			["AuraWatch"] = {
+				["loadDefault"] = true,
+				["myclass"] = "DEATHKNIGHT",
+				["ver"] = 2,
+				["DB"] = {
+					{
+						["IconSize"] = 42,
+						["Direction"] = "RIGHT",
+						["Name"] = "玩家增益",
+						["List"] = {
+							{
+								["AuraID"] = 47568,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [1]
+							{
+								["AuraID"] = 48265,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [2]
+							{
+								["AuraID"] = 196770,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [3]
+							{
+								["AuraID"] = 207127,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [4]
+							{
+								["AuraID"] = 195181,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [5]
+							{
+								["AuraID"] = 55233,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [6]
+							{
+								["AuraID"] = 48792,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [7]
+							{
+								["AuraID"] = 48707,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [8]
+							{
+								["AuraID"] = 81256,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [9]
+							{
+								["AuraID"] = 194679,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [10]
+							{
+								["AuraID"] = 51271,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [11]
+							{
+								["AuraID"] = 115018,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [12]
+							{
+								["AuraID"] = 115989,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [13]
+							{
+								["AuraID"] = 49206,
+								["duration"] = 30,
+								["trigger"] = "NONE",
+								["filter"] = "ICD",
+							}, -- [14]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							12, -- [5]
+						},
+					}, -- [1]
+					{
+						["IconSize"] = 42,
+						["Direction"] = "RIGHT",
+						["Name"] = "玩家重要增益",
+						["List"] = {
+							{
+								["AuraID"] = 194879,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [1]
+							{
+								["AuraID"] = 81141,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [2]
+							{
+								["AuraID"] = 59052,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [3]
+							{
+								["AuraID"] = 51124,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [4]
+							{
+								["AuraID"] = 81340,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [5]
+							{
+								["AuraID"] = 53365,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [6]
+							{
+								["AuraID"] = 63560,
+								["filter"] = "BUFF",
+								["UnitID"] = "pet",
+								["Caster"] = "player",
+							}, -- [7]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							55, -- [5]
+						},
+					}, -- [2]
+					{
+						["IconSize"] = 48,
+						["Direction"] = "RIGHT",
+						["Name"] = "目标减益",
+						["List"] = {
+							{
+								["AuraID"] = 194310,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [1]
+							{
+								["AuraID"] = 191587,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [2]
+							{
+								["AuraID"] = 55078,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [3]
+							{
+								["AuraID"] = 55095,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [4]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Target", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							68, -- [5]
+						},
+					}, -- [3]
+					{
+						["IconSize"] = 48,
+						["Direction"] = "RIGHT",
+						["Name"] = "冷却监视",
+						["List"] = {
+							{
+								["AuraID"] = 220143,
+								["filter"] = "CD",
+							}, -- [1]
+							{
+								["AuraID"] = 190778,
+								["filter"] = "CD",
+							}, -- [2]
+							{
+								["AuraID"] = 205223,
+								["filter"] = "CD",
+							}, -- [3]
+							{
+								["AuraID"] = 194844,
+								["filter"] = "CD",
+							}, -- [4]
+							{
+								["AuraID"] = 221562,
+								["filter"] = "CD",
+							}, -- [5]
+							{
+								["AuraID"] = 207167,
+								["filter"] = "CD",
+							}, -- [6]
+							{
+								["AuraID"] = 207127,
+								["filter"] = "CD",
+							}, -- [7]
+							{
+								["AuraID"] = 47528,
+								["filter"] = "CD",
+							}, -- [8]
+							{
+								["AuraID"] = 47476,
+								["filter"] = "CD",
+							}, -- [9]
+							{
+								["AuraID"] = 47481,
+								["filter"] = "CD",
+							}, -- [10]
+							{
+								["AuraID"] = 196770,
+								["filter"] = "CD",
+							}, -- [11]
+							{
+								["AuraID"] = 77606,
+								["filter"] = "CD",
+							}, -- [12]
+							{
+								["AuraID"] = 130736,
+								["filter"] = "CD",
+							}, -- [13]
+							{
+								["AuraID"] = 49576,
+								["filter"] = "CD",
+							}, -- [14]
+							{
+								["AuraID"] = 123693,
+								["filter"] = "CD",
+							}, -- [15]
+							{
+								["AuraID"] = 43265,
+								["filter"] = "CD",
+							}, -- [16]
+							{
+								["AuraID"] = 194679,
+								["filter"] = "CD",
+							}, -- [17]
+							{
+								["AuraID"] = 48707,
+								["filter"] = "CD",
+							}, -- [18]
+							{
+								["AuraID"] = 221699,
+								["filter"] = "CD",
+							}, -- [19]
+							{
+								["AuraID"] = 55233,
+								["filter"] = "CD",
+							}, -- [20]
+							{
+								["AuraID"] = 51271,
+								["filter"] = "CD",
+							}, -- [21]
+							{
+								["AuraID"] = 77575,
+								["filter"] = "CD",
+							}, -- [22]
+							{
+								["AuraID"] = 108199,
+								["filter"] = "CD",
+							}, -- [23]
+							{
+								["AuraID"] = 46584,
+								["filter"] = "CD",
+							}, -- [24]
+							{
+								["AuraID"] = 49028,
+								["filter"] = "CD",
+							}, -- [25]
+							{
+								["AuraID"] = 115989,
+								["filter"] = "CD",
+							}, -- [26]
+							{
+								["AuraID"] = 152279,
+								["filter"] = "CD",
+							}, -- [27]
+							{
+								["AuraID"] = 108201,
+								["filter"] = "CD",
+							}, -- [28]
+							{
+								["AuraID"] = 48743,
+								["filter"] = "CD",
+							}, -- [29]
+							{
+								["AuraID"] = 51052,
+								["filter"] = "CD",
+							}, -- [30]
+							{
+								["AuraID"] = 48792,
+								["filter"] = "CD",
+							}, -- [31]
+							{
+								["AuraID"] = 49206,
+								["filter"] = "CD",
+							}, -- [32]
+							{
+								["AuraID"] = 195710,
+								["filter"] = "CD",
+							}, -- [33]
+							{
+								["AuraID"] = 69179,
+								["filter"] = "CD",
+							}, -- [34]
+							{
+								["AuraID"] = 26297,
+								["filter"] = "CD",
+							}, -- [35]
+							{
+								["AuraID"] = 20572,
+								["filter"] = "CD",
+							}, -- [36]
+							{
+								["AuraID"] = 20577,
+								["filter"] = "CD",
+							}, -- [37]
+							{
+								["AuraID"] = 68992,
+								["filter"] = "CD",
+							}, -- [38]
+							{
+								["AuraID"] = 20589,
+								["filter"] = "CD",
+							}, -- [39]
+							{
+								["AuraID"] = 59752,
+								["filter"] = "CD",
+							}, -- [40]
+							{
+								["AuraID"] = 28880,
+								["filter"] = "CD",
+							}, -- [41]
+							{
+								["AuraID"] = 69070,
+								["filter"] = "CD",
+							}, -- [42]
+							{
+								["AuraID"] = 58984,
+								["filter"] = "CD",
+							}, -- [43]
+							{
+								["AuraID"] = 20594,
+								["filter"] = "CD",
+							}, -- [44]
+							{
+								["AuraID"] = 20549,
+								["filter"] = "CD",
+							}, -- [45]
+							{
+								["AuraID"] = 7744,
+								["filter"] = "CD",
+							}, -- [46]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							99, -- [5]
+						},
+					}, -- [4]
+				},
+			},
+			["chat"] = {
+				["panelColor"] = {
+					["a"] = 0.9,
+				},
+				["panelColorConverted"] = true,
+			},
+		},
+		["风雨思年华 - 森金"] = {
+			["databars"] = {
+				["azerite"] = {
+					["textFormat"] = "CURPERCREM",
+					["hideInVehicle"] = true,
+					["orientation"] = "HORIZONTAL",
+					["height"] = 18,
+					["mouseover"] = true,
+					["textSize"] = 18,
+					["width"] = 1774,
+				},
+				["experience"] = {
+					["textFormat"] = "CURPERCREM",
+					["orientation"] = "HORIZONTAL",
+					["height"] = 18,
+					["mouseover"] = true,
+					["textSize"] = 18,
+					["width"] = 1774,
+				},
+				["honor"] = {
+					["enable"] = false,
+				},
+			},
+			["currentTutorial"] = 6,
+			["general"] = {
+				["interruptAnnounce"] = "PARTY",
+				["valuecolor"] = {
+					["b"] = 0.1725490196078431,
+					["g"] = 0.4823529411764706,
+					["r"] = 0.996078431372549,
+				},
+				["backdropfadecolor"] = {
+					["b"] = 0.13,
+					["g"] = 0.13,
+					["r"] = 0.13,
+				},
+				["topPanel"] = false,
+				["bordercolor"] = {
+					["b"] = 0,
+					["g"] = 0,
+					["r"] = 0,
+				},
+				["objectiveFrameAutoHide"] = true,
+				["minimap"] = {
+					["resetZoom"] = {
+						["enable"] = true,
+						["time"] = 5,
+					},
+					["locationFontSize"] = 28,
+					["size"] = 226,
+				},
+			},
+			["Myslot"] = {
+				["sets"] = {
+					["武僧"] = "@ Myslot ( V24)\r\n@ 时间:Sun Aug 18 13:39:23 2019\r\n@ 玩家:牛爹爹\r\n@ 职业:武僧\r\n@ 专精:踏风\r\n@ 等级:110\r\n@ \r\n@ 问题/建议  farmer1992@gmail.com\r\n@ --------------------\r\nGFYEFldo91MKCAgDEAEYxaABCggIBBABGLSoDQoICAUQARiskwYKCAgGEAEYsJMGCggICBABGKezCAoICAkQARi71wcKCAgKEAEYhoMHCggICxABGMzUBgoICAwQARiqmQYKCAgNEAEY4Y8HCggIDhABGP+KBwoICA8QARipmQYKCAgQEAEY+PcGCggIEhABGMCZBwoICBMQARjR3AoKCAgUEAEYpMcGCggIFRABGOa8BwoICBYQARiIgwcKBwgXEAkYmwMKCAgYEAEY2oYHCggIGRACGKDHCAoICB8QAhigxwgKBgggEAYYAQoICCEQAhil0ggKBwgjEAkYnwMKCAgkEAEY9o8FCgcIJhAJGJwCCggIKBABGOqDBwoGCCkQBhgCCgcIKhACGKQ2CggIMRABGOGPBwoICDIQARj/igcKCAgzEAEYqZkGCggINBABGPj3BgoICDUQARikxwYKCAg3EAEYwJkHCggIOBABGNHcCgoICDkQARjmvAcKCAg6EAEYiIMHCggIOxABGIuaBgoICDwQARi8qQcKCAg9EAIYzecCCggIPhACGLyTCAoICD8QAhidwQgKCAhAEAIYkNYICggIQRABGNqGBwoICEIQAhiToQIKCAhEEAEY6vcRCgcIRRAJGIgDCgcIRhAJGKgBCgcIRxAJGLMHCgkISBAJGP///38SCAgCEgQIVxAAEggIAxIECFMQABIICAQSBAhBEAASCAgFEgQIRBAAEggICBIECH0QABIICAoSBAhcEAASCAgLEgQIWxADEggIDBIECG0QABIICA0SBAhsEAASCAgOEgQIeRAAEggIEBIECHQQABIICBESBAhlEAASCAgSEgQIaRAAEggIExIECGgQABIICBQSBAhoEAESCAgVEgQIUhABEggIFxIECGkQAhIICBgSBAhoEAISCAgZEgQIaBBrEggIGhIECDgQABIICBsSBAg5EAASCAgcEgQIOhAAEggIHRIECDsQABIICB4SBAh+EAASCAgfEgQIfxAAEggIIBIECH4QAxIICCESBAh/EAMSCAgiEgQIURADEggIIxIECEUQAxIICCQSBAhREAASCAglEgQIRRAAEggIJhIECAEQAhIICCcSBAgCEAISCAgoEgQIAxACEggIKRIECAQQAhIICCoSBAgFEAISCAgrEgQIBhACEggILBIECAcQAhIICC0SBAgIEAISCAgxEgQIORACEggIMhIECDoQAhIICDQSBAg8EAISCAg1EgQIPRACEggINhIECD4QAhIICDcSBAg/EAISCAg4EgQIQBACEggIORIECDcQAhIJCMYBEgQIOBADEgkIxwESBAg5EAMSCQjIARIECDoQAxIJCMkBEgQIOxADEgkIygESBAg8EAMSCQjLARIECFoQAxIJCMwBEgQIQxADEgkIzQESBAhWEAMSCQjOARIECEYQAxIJCM8BEgQIRxADEgkI0AESBAhSEAMSCQjRARIECFgQAxIJCNIBEgQIWhAAEgkI0wESBAhYEAASCQjUARIECEMQABIJCNUBEgQIVhAAEgkI1gESBAhGEAASCQjXARIECEcQABIJCNgBEgQIUhAAEgkI2QESBAhUEAASCQjaARIECH4QARIJCNsBEgQIfxABEgkI3AESBAh+EAISCQjdARIECH8QAhIJCN4BEgQIcRAAEgkI6wESBAhvEAASCAhUEgQIchAAEggIVRIECHIQARIICFYSBAhyEAISCAhXEgQIchBrEggIXBIECAEQABIICF8SBAgEEAASCAhgEgQIBRAAEggIYRIECAEQARIICGISBAgCEAESCAhjEgQIAxABEggIZBIECAQQARIICGUSBAgFEAESCAhoEgQIZBAAEggIaRIECFYQARIICGoSBAhWEAISCAhwEgQIVBABEgkIhgESBAh1EAASDgh2EgQIQhABGgQIDBAAEggIdxIECAgQABIICHgSBAgJEAASCAh5EgQIChAAEggIehIECAsQABIICHUSBAhDEAESCQiEARIECFUQABIICH0SBAhQEAASCAh+EgQISxAAEggIfxIECEkQARIJCIEBEgQIThAAEgkIlgESBAhZEAASCQiXARIECFkQARIJCIUBEgQIURABEgkIiAESBAhbEAASCQiTARIECE0QARIJCI0BEgQIWBABEgkIigESBAhGEAESCQi1AhIECEkQABIJCLYCEgQISRACEgkIggESBAhIEAASCQi3AhIECFAQARIJCLgCEgQIWhABEgkIpgISBAhKEAESCQicARIECHwQABIJCJ0BEgQIexAAEgkIngESBAhNEAISCQifARIECFMQAhIJCKABEgQIXRACEgkIoQESBAhcEAISCQikARIECFIQAhIKCKUBEgUIgQEQABIJCLIBEgQIahAAEgkIswESBAhrEAASCQi0ARIECHAQABIJCLUBEgQIbhAAEgkI/wESBAgyEAASCQiBAhIECDAQABqrAwoG5Z2Q6aqREpYDI3Nob3d0b29sdGlwCi9zdGFydGF0dGFjawovY2FzdHNlcXVlbmNlIFtub2NoYW5uZWxpbmddIHJlc2V0PTgvY29tYmF0IOi0r+aXpeWHuyznjJvomY7mjows6LSv5pel5Ye7LOaXreaXpeS4nOWNh+i4oizotK/ml6Xlh7ss5bm754Gt6LiiLOi0r+aXpeWHuyzlubvnga3ouKIs6LSv5pel5Ye7LOaXreaXpeS4nOWNh+i4oizotK/ml6Xlh7ss5bm754Gt6LiiLOecn+awlOazoizotK/ml6Xlh7ss54yb6JmO5o6MLOi0r+aXpeWHuyzomY7nnLzphZIs5pet5pel5Lic5Y2H6LiiLOi0r+aXpeWHuyzlubvnga3ouKIs56e76Iqx5o6l5pyoLOaAkumbt+egtCzotK/ml6Xlh7ss5pet5pel5Lic5Y2H6LiiLOecn+awlOazoizotK/ml6Xlh7ss5bm754Gt6LiiCi/mlr3mlL4g55m96JmO5LiL5YehCi/mlr3mlL4g6LGq6IO96YWSChgBIgYxMzIyMjYa5wEKA+mlvxLVAS9ydW4gbG9jYWwgYT17NDU0NzAsNDcyMDcsNDcyMDgsNDcyMDksNDcyMTAsNDcyMTEsNDcyMTIsNDcyMTN9Zm9yIGkscSBpbiBpcGFpcnMoYSlkbyBwcmludChmb3JtYXQoIuesrCVzIOW8oDogJXMiLGksIElzUXVlc3RGbGFnZ2VkQ29tcGxldGVkKHEpIGFuZCAiMTI0Y0ZGMDBGRjAw5bey5a6M5oiQMTI0ciIgb3IgIjEyNGNGRkZGMDAwMOacquWujOaIkDEyNHIiKSkgZW5kChgCIgYxMzYxMDNwGHoJ54mb54i554i5",
+				},
+			},
+			["v11NamePlateReset"] = true,
+			["hideTutorial"] = true,
+			["auras"] = {
+				["debuffs"] = {
+					["horizontalSpacing"] = 0,
+				},
+				["buffs"] = {
+					["horizontalSpacing"] = 0,
+					["verticalSpacing"] = 0,
+				},
+			},
+			["CooldownFlash"] = {
+				["enable"] = true,
+			},
+			["euiscript"] = {
+				["teleportie"] = {
+					["frame_size"] = 47.9997673034668,
+					["framePos"] = {
+						"BOTTOM", -- [1]
+						nil, -- [2]
+						"BOTTOM", -- [3]
+						376.3975524902344, -- [4]
+						118.0317306518555, -- [5]
+					},
+				},
+				["idq"] = true,
+			},
+			["RightChatPanelFaded"] = true,
+			["movers"] = {
+				["TopCenterContainerMover"] = "TOP,ElvUIParent,TOP,153,-442",
+				["EuiInfoBar1Mover"] = "TOP,ElvUIParent,TOP,44,0",
+				["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,53,220",
+				["ElvUF_RaidMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,403",
+				["LeftChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,0",
+				["GMMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-75,-5",
+				["BuffsMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,144,-297",
+				["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,279,852",
+				["BagsMover"] = "BOTTOM,ElvUIParent,BOTTOM,-239,288",
+				["BossButton"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-477,179",
+				["LootFrameMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-458,261",
+				["ZoneAbility"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-413,179",
+				["SocialMenuMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,0,0",
+				["ElvUF_PetTargetMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,409,-1",
+				["ElvUF_PlayerSwingBarMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,280,4",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+				["RightChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,294",
+				["AutoButtonAnchor2Mover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-346,98",
+				["ElvUF_FocusMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-482,-113",
+				["ElvUF_TargetTargetMover"] = "TOP,ElvUIParent,TOP,243,-33",
+				["AutoButtonAnchorMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-307,137",
+				["ClassBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-238,165",
+				["MicrobarMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,0,26",
+				["ElvUIBagMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,353,334",
+				["VehicleSeatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-324,0",
+				["ElvUIBankMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,349,315",
+				["ExperienceBarMover"] = "TOP,ElvUIParent,TOP,-1,-16",
+				["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,5,55",
+				["ElvUF_TargetMover"] = "TOP,ElvUIParent,TOP,0,-34",
+				["EuiExecuteMover"] = "BOTTOM,ElvUIParent,BOTTOM,225,196",
+				["LossControlMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-449,0",
+				["LevelUpBossBannerMover"] = "TOP,ElvUIParent,TOP,7,-474",
+				["MirrorTimer1Mover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-293,-9",
+				["EuiInfoBar4Mover"] = "TOP,ElvUIParent,TOP,-99,0",
+				["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,5,0",
+				["EuiInfoBar3Mover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-257,0",
+				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,294",
+				["ElvUF_PlayerAuraMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,0,-81",
+				["ElvAB_4"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,279",
+				["ElvUF_FocusCastbarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-480,-150",
+				["AzeriteBarMover"] = "TOP,ElvUIParent,TOP,-1,0",
+				["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,5,110",
+				["ElvAB_5"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-55,279",
+				["ArenaHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-112,280",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,872,197",
+				["EuiInfoBar2Mover"] = "TOP,ElvUIParent,TOP,140,0",
+				["ElvNP_PlayerMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-459,292",
+				["ElvUF_PetMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,280,0",
+				["VOICECHAT"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,0,-174",
+				["TalkingHeadFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,0,-186",
+				["AltPowerBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,0,-82",
+				["ElvUF_TargetCastbarMover"] = "TOP,ElvUIParent,TOP,0,-100",
+				["TooltipMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,212,316",
+				["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,279,916",
+				["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-206,-175",
+				["ElvUF_PlayerMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,0,0",
+				["PetAB"] = "BOTTOM,ElvUIParent,BOTTOM,-152,165",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,375",
+				["AlertFrameMover"] = "BOTTOM,ElvUIParent,BOTTOM,2,459",
+				["DebuffsMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,395,-146",
+				["MinimapMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,0",
+			},
+			["AuraWatch"] = {
+				["loadDefault"] = true,
+				["myclass"] = "HUNTER",
+				["DB"] = {
+					{
+						["Interval"] = 6,
+						["Direction"] = "RIGHT",
+						["Name"] = "玩家增益",
+						["List"] = {
+							{
+								["AuraID"] = 45438,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [1]
+							{
+								["AuraID"] = 66,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["absID"] = true,
+								["filter"] = "BUFF",
+							}, -- [2]
+							{
+								["AuraID"] = 32612,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["absID"] = true,
+								["filter"] = "BUFF",
+							}, -- [3]
+							{
+								["AuraID"] = 110960,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["absID"] = true,
+								["filter"] = "BUFF",
+							}, -- [4]
+							{
+								["AuraID"] = 12472,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [5]
+							{
+								["AuraID"] = 12042,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [6]
+							{
+								["AuraID"] = 190319,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [7]
+							{
+								["AuraID"] = 235313,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [8]
+							{
+								["AuraID"] = 235450,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [9]
+							{
+								["AuraID"] = 11426,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [10]
+							{
+								["AuraID"] = 48107,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [11]
+							{
+								["AuraID"] = 108839,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [12]
+							{
+								["AuraID"] = 198111,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [13]
+							{
+								["AuraID"] = 55342,
+								["duration"] = 40,
+								["trigger"] = "NONE",
+								["filter"] = "ICD",
+							}, -- [14]
+							{
+								["AuraID"] = 205473,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [15]
+						},
+						["IconSize"] = 42,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							12, -- [5]
+						},
+					}, -- [1]
+					{
+						["Interval"] = 6,
+						["Direction"] = "RIGHT",
+						["Name"] = "玩家重要增益",
+						["List"] = {
+							{
+								["AuraID"] = 44544,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [1]
+							{
+								["AuraID"] = 190446,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [2]
+							{
+								["AuraID"] = 199844,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [3]
+							{
+								["AuraID"] = 48108,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [4]
+							{
+								["AuraID"] = 269651,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [5]
+							{
+								["AuraID"] = 263725,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [6]
+						},
+						["IconSize"] = 42,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							55, -- [5]
+						},
+					}, -- [2]
+					{
+						["Interval"] = 6,
+						["Direction"] = "RIGHT",
+						["Name"] = "目标减益",
+						["List"] = {
+							{
+								["AuraID"] = 36032,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "DEBUFF",
+							}, -- [1]
+							{
+								["AuraID"] = 44457,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [2]
+							{
+								["AuraID"] = 114923,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [3]
+							{
+								["AuraID"] = 33395,
+								["Caster"] = "all",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [4]
+							{
+								["AuraID"] = 198121,
+								["Caster"] = "all",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [5]
+							{
+								["AuraID"] = 122,
+								["Caster"] = "all",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [6]
+							{
+								["AuraID"] = 120,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [7]
+							{
+								["AuraID"] = 228354,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["absID"] = true,
+								["filter"] = "DEBUFF",
+							}, -- [8]
+							{
+								["AuraID"] = 157997,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [9]
+							{
+								["AuraID"] = 31589,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [10]
+						},
+						["IconSize"] = 42,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Target", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							68, -- [5]
+						},
+					}, -- [3]
+					{
+						["Interval"] = 6,
+						["Direction"] = "RIGHT",
+						["Name"] = "冷却监视",
+						["List"] = {
+							{
+								["AuraID"] = 475,
+								["filter"] = "CD",
+							}, -- [1]
+							{
+								["AuraID"] = 2139,
+								["filter"] = "CD",
+							}, -- [2]
+							{
+								["AuraID"] = 44457,
+								["filter"] = "CD",
+							}, -- [3]
+							{
+								["AuraID"] = 1953,
+								["filter"] = "CD",
+							}, -- [4]
+							{
+								["AuraID"] = 122,
+								["filter"] = "CD",
+							}, -- [5]
+							{
+								["AuraID"] = 157997,
+								["filter"] = "CD",
+							}, -- [6]
+							{
+								["AuraID"] = 113724,
+								["filter"] = "CD",
+							}, -- [7]
+							{
+								["AuraID"] = 235313,
+								["filter"] = "CD",
+							}, -- [8]
+							{
+								["AuraID"] = 235450,
+								["filter"] = "CD",
+							}, -- [9]
+							{
+								["AuraID"] = 11426,
+								["filter"] = "CD",
+							}, -- [10]
+							{
+								["AuraID"] = 198111,
+								["filter"] = "CD",
+							}, -- [11]
+							{
+								["AuraID"] = 108853,
+								["filter"] = "CD",
+							}, -- [12]
+							{
+								["AuraID"] = 120,
+								["filter"] = "CD",
+							}, -- [13]
+							{
+								["AuraID"] = 153595,
+								["filter"] = "CD",
+							}, -- [14]
+							{
+								["AuraID"] = 108839,
+								["filter"] = "CD",
+							}, -- [15]
+							{
+								["AuraID"] = 214634,
+								["filter"] = "CD",
+							}, -- [16]
+							{
+								["AuraID"] = 194466,
+								["filter"] = "CD",
+							}, -- [17]
+							{
+								["AuraID"] = 224968,
+								["filter"] = "CD",
+							}, -- [18]
+							{
+								["AuraID"] = 84714,
+								["filter"] = "CD",
+							}, -- [19]
+							{
+								["AuraID"] = 153561,
+								["filter"] = "CD",
+							}, -- [20]
+							{
+								["AuraID"] = 31661,
+								["filter"] = "CD",
+							}, -- [21]
+							{
+								["AuraID"] = 12042,
+								["filter"] = "CD",
+							}, -- [22]
+							{
+								["AuraID"] = 116011,
+								["filter"] = "CD",
+							}, -- [23]
+							{
+								["AuraID"] = 205025,
+								["filter"] = "CD",
+							}, -- [24]
+							{
+								["AuraID"] = 195676,
+								["filter"] = "CD",
+							}, -- [25]
+							{
+								["AuraID"] = 205032,
+								["filter"] = "CD",
+							}, -- [26]
+							{
+								["AuraID"] = 157980,
+								["filter"] = "CD",
+							}, -- [27]
+							{
+								["AuraID"] = 12051,
+								["filter"] = "CD",
+							}, -- [28]
+							{
+								["AuraID"] = 12472,
+								["filter"] = "CD",
+							}, -- [29]
+							{
+								["AuraID"] = 55342,
+								["filter"] = "CD",
+							}, -- [30]
+							{
+								["AuraID"] = 190319,
+								["filter"] = "CD",
+							}, -- [31]
+							{
+								["AuraID"] = 235219,
+								["filter"] = "CD",
+							}, -- [32]
+							{
+								["AuraID"] = 45438,
+								["filter"] = "CD",
+							}, -- [33]
+							{
+								["AuraID"] = 66,
+								["filter"] = "CD",
+							}, -- [34]
+							{
+								["AuraID"] = 195710,
+								["filter"] = "CD",
+							}, -- [35]
+							{
+								["AuraID"] = 69179,
+								["filter"] = "CD",
+							}, -- [36]
+							{
+								["AuraID"] = 26297,
+								["filter"] = "CD",
+							}, -- [37]
+							{
+								["AuraID"] = 20572,
+								["filter"] = "CD",
+							}, -- [38]
+							{
+								["AuraID"] = 20577,
+								["filter"] = "CD",
+							}, -- [39]
+							{
+								["AuraID"] = 68992,
+								["filter"] = "CD",
+							}, -- [40]
+							{
+								["AuraID"] = 20589,
+								["filter"] = "CD",
+							}, -- [41]
+							{
+								["AuraID"] = 59752,
+								["filter"] = "CD",
+							}, -- [42]
+							{
+								["AuraID"] = 28880,
+								["filter"] = "CD",
+							}, -- [43]
+							{
+								["AuraID"] = 107079,
+								["filter"] = "CD",
+							}, -- [44]
+							{
+								["AuraID"] = 69070,
+								["filter"] = "CD",
+							}, -- [45]
+							{
+								["AuraID"] = 58984,
+								["filter"] = "CD",
+							}, -- [46]
+							{
+								["AuraID"] = 20594,
+								["filter"] = "CD",
+							}, -- [47]
+							{
+								["AuraID"] = 7744,
+								["filter"] = "CD",
+							}, -- [48]
+						},
+						["IconSize"] = 48,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							99, -- [5]
+						},
+					}, -- [4]
+				},
+				["ver"] = 2,
+			},
+			["bags"] = {
+				["bagSize"] = 38,
+				["reverseLoot"] = true,
+				["bankWidth"] = 450,
+				["junkIcon"] = true,
+				["junkDesaturate"] = true,
+				["bagWidth"] = 388,
+				["countFontSize"] = 12,
+			},
+			["unitframe"] = {
+				["number"] = "CNW",
+				["fontSize"] = 26,
+				["colors"] = {
+					["classbackdrop"] = true,
+					["borderColor"] = {
+						["b"] = 0,
+						["g"] = 0,
+						["r"] = 0,
+					},
+					["castColor"] = {
+						["b"] = 0.31,
+						["g"] = 0.31,
+						["r"] = 0.31,
+					},
+					["frameGlow"] = {
+						["mainGlow"] = {
+							["enable"] = true,
+							["class"] = true,
+						},
+						["mouseoverGlow"] = {
+							["class"] = true,
+						},
+					},
+					["healthclass"] = true,
+				},
+				["unitframeType"] = 3,
+				["statusbar"] = "Sinaris",
+				["units"] = {
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["enable"] = true,
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["party"] = {
+						["portrait"] = {
+							["enable"] = true,
+						},
+						["power"] = {
+							["attachTextTo"] = "Power",
+							["height"] = 13,
+						},
+						["showPlayer"] = false,
+						["width"] = 266,
+						["name"] = {
+							["position"] = "TOPRIGHT",
+						},
+						["height"] = 56,
+						["healPrediction"] = {
+							["enable"] = true,
+						},
+						["visibility"] = "[@raid2,exists][@party1,noexists] hide;show",
+						["health"] = {
+							["xOffset"] = 4,
+							["bgUseBarTexture"] = false,
+						},
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pet"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focus"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["middleClickFocus"] = false,
+						["debuffs"] = {
+							["anchorPoint"] = "BOTTOMLEFT",
+							["maxDuration"] = 0,
+							["attachTo"] = "FRAME",
+						},
+						["disableTargetGlow"] = false,
+						["castbar"] = {
+							["height"] = 26,
+							["width"] = 388,
+							["InterruptSound"] = true,
+						},
+						["power"] = {
+							["attachTextTo"] = "Power",
+							["xOffset"] = 0,
+							["text_format"] = "[powercolor][power:current-percent]",
+							["height"] = 18,
+						},
+						["range"] = {
+							["fontSize"] = 18,
+						},
+						["width"] = 388,
+						["portrait"] = {
+							["detachHideBackdrop"] = false,
+							["fullOverlay"] = true,
+							["detachedWidth"] = 15,
+							["camDistanceScale"] = 1,
+							["detachedHeight"] = 169,
+						},
+						["name"] = {
+							["text_format"] = "",
+							["position"] = "CENTER",
+						},
+						["health"] = {
+							["xOffset"] = 2,
+							["frequentUpdates"] = true,
+						},
+						["orientation"] = "LEFT",
+						["height"] = 66,
+						["buffs"] = {
+							["anchorPoint"] = "BOTTOMLEFT",
+							["sizeOverride"] = 0,
+							["yOffset"] = 50,
+							["numrows"] = 3,
+							["attachTo"] = "DEBUFFS",
+							["perrow"] = 12,
+						},
+						["fader"] = {
+							["hover"] = true,
+							["combat"] = true,
+							["power"] = true,
+							["enable"] = false,
+							["range"] = false,
+							["playertarget"] = true,
+							["vehicle"] = true,
+							["health"] = true,
+							["casting"] = true,
+						},
+						["aurabar"] = {
+							["enable"] = false,
+							["maxDuration"] = 300,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["health"] = {
+							["bgUseBarTexture"] = false,
+							["frequentUpdates"] = true,
+						},
+						["power"] = {
+							["height"] = 28,
+						},
+						["height"] = 88,
+						["buffs"] = {
+							["attachTo"] = "DEBUFFS",
+						},
+						["width"] = 100,
+						["raidicon"] = {
+							["enable"] = false,
+						},
+					},
+					["player"] = {
+						["portrait"] = {
+							["xOffset"] = 0.21,
+							["camDistanceScale"] = 1.66,
+							["yOffset"] = -0.03000000000000003,
+						},
+						["power"] = {
+							["attachTextTo"] = "Power",
+							["xOffset"] = 0,
+							["height"] = 28,
+						},
+						["width"] = 280,
+						["fader"] = {
+							["enable"] = true,
+						},
+						["health"] = {
+							["frequentUpdates"] = true,
+							["bgUseBarTexture"] = true,
+						},
+						["CombatIcon"] = {
+							["size"] = 28,
+						},
+						["height"] = 100,
+						["buffs"] = {
+							["anchorPoint"] = "BOTTOMLEFT",
+							["sizeOverride"] = 0,
+							["enable"] = true,
+							["numrows"] = 2,
+							["yOffset"] = -100,
+						},
+						["classbar"] = {
+							["detachFromFrame"] = true,
+							["spacing"] = 10,
+							["detachedWidth"] = 188,
+							["height"] = 16,
+							["fill"] = "fill",
+						},
+						["castbar"] = {
+							["height"] = 50,
+							["width"] = 280,
+						},
+					},
+				},
+			},
+			["datatexts"] = {
+				["noCombatClick"] = true,
+				["fontSize"] = 14,
+				["panelTransparency"] = true,
+				["noCombatHover"] = true,
+				["panelBackdrop"] = false,
+			},
+			["actionbar"] = {
+				["bar3"] = {
+					["buttons"] = 12,
+					["buttonspacing"] = 1,
+					["backdrop"] = false,
+					["heightMult"] = 3,
+					["inheritGlobalFade"] = true,
+					["showGrid"] = false,
+					["buttonsPerRow"] = 12,
+					["backdropSpacing"] = 1,
+					["buttonsize"] = 55,
+				},
+				["bar6"] = {
+					["backdrop"] = false,
+					["inheritGlobalFade"] = false,
+				},
+				["movementModifier"] = "ALT",
+				["bar8"] = {
+					["backdrop"] = false,
+				},
+				["useRangeColorText"] = true,
+				["desaturateOnCooldown"] = true,
+				["bar9"] = {
+					["backdrop"] = false,
+				},
+				["euiabstyle"] = "Low",
+				["hideCooldownBling"] = true,
+				["bar2"] = {
+					["heightMult"] = 3,
+					["inheritGlobalFade"] = true,
+					["enabled"] = true,
+					["buttonspacing"] = 1,
+					["backdropSpacing"] = 1,
+					["buttonsize"] = 55,
+					["showGrid"] = false,
+				},
+				["rightClickSelfCast"] = true,
+				["bar5"] = {
+					["backdrop"] = false,
+					["backdropSpacing"] = 0,
+					["buttonspacing"] = 0,
+					["buttons"] = 5,
+					["showGrid"] = false,
+					["buttonsPerRow"] = 1,
+					["buttonsize"] = 56,
+					["alpha"] = 0.2,
+				},
+				["bar1"] = {
+					["heightMult"] = 3,
+					["inheritGlobalFade"] = true,
+					["backdrop"] = false,
+					["buttonspacing"] = 1,
+					["backdropSpacing"] = 1,
+					["buttonsize"] = 55,
+					["showGrid"] = false,
+				},
+				["bar7"] = {
+					["backdrop"] = false,
+				},
+				["fontSize"] = 12,
+				["macrotext"] = true,
+				["microbar"] = {
+					["mouseover"] = true,
+					["buttonSpacing"] = -1,
+					["buttonSize"] = 26,
+				},
+				["barPet"] = {
+					["inheritGlobalFade"] = true,
+					["backdrop"] = false,
+					["buttonsPerRow"] = 10,
+				},
+				["bar4"] = {
+					["backdrop"] = false,
+					["backdropSpacing"] = 0,
+					["buttons"] = 5,
+					["showGrid"] = false,
+					["alpha"] = 0.24,
+					["buttonsize"] = 56,
+					["buttonspacing"] = 0,
+				},
+			},
+			["nameplates"] = {
+				["statusbar"] = "Frost Vertical",
+			},
+			["infobar"] = {
+				["height"] = 35,
+				["width"] = 96,
+			},
+			["chat"] = {
+				["socialQueueMessages"] = true,
+				["pinVoiceButtons"] = false,
+				["panelColor"] = {
+					["a"] = 0.9000000059604645,
+					["b"] = 0.05882352941176471,
+					["g"] = 0.05882352941176471,
+					["r"] = 0.05882352941176471,
+				},
+				["tabFontSize"] = 15,
+				["panelWidth"] = 558,
+				["panelHeightRight"] = 158,
+				["font"] = "伤害数字",
+				["tabFont"] = "默认",
+				["panelHeight"] = 266,
+				["lockPositions"] = false,
+				["panelWidthRight"] = 558,
+				["panelColorConverted"] = true,
+				["panelBackdrop"] = "HIDEBOTH",
+			},
+			["tooltip"] = {
+				["hh"] = false,
+				["targetInfo"] = false,
+				["cursorAnchor"] = true,
+				["playerTitles"] = false,
+				["guildRanks"] = false,
+			},
+		},
+		["巨目巨目巨目 - 森金"] = {
+			["unitframe"] = {
+				["units"] = {
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["player"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focus"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+						["fader"] = {
+							["enable"] = false,
+							["range"] = false,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pet"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+				},
+			},
+			["movers"] = {
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,735",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,982",
+			},
+			["v11NamePlateReset"] = true,
+			["AuraWatch"] = {
+				["loadDefault"] = true,
+				["myclass"] = "WARLOCK",
+				["ver"] = 2,
+				["DB"] = {
+					{
+						["IconSize"] = 42,
+						["Direction"] = "RIGHT",
+						["Name"] = "玩家增益",
+						["List"] = {
+							{
+								["AuraID"] = 113860,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [1]
+							{
+								["AuraID"] = 113858,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [2]
+							{
+								["AuraID"] = 216708,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [3]
+							{
+								["AuraID"] = 104773,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [4]
+							{
+								["AuraID"] = 196098,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [5]
+							{
+								["AuraID"] = 235156,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [6]
+							{
+								["AuraID"] = 86211,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [7]
+							{
+								["AuraID"] = 108359,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [8]
+							{
+								["AuraID"] = 111400,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [9]
+							{
+								["AuraID"] = 108416,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [10]
+							{
+								["AuraID"] = 6262,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [11]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							12, -- [5]
+						},
+					}, -- [1]
+					{
+						["IconSize"] = 42,
+						["Direction"] = "RIGHT",
+						["Name"] = "玩家重要增益",
+						["List"] = {
+							{
+								["AuraID"] = 117828,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [1]
+							{
+								["AuraID"] = 171982,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [2]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							55, -- [5]
+						},
+					}, -- [2]
+					{
+						["IconSize"] = 42,
+						["Direction"] = "RIGHT",
+						["Name"] = "目标减益",
+						["List"] = {
+							{
+								["AuraID"] = 1098,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [1]
+							{
+								["AuraID"] = 80240,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [2]
+							{
+								["AuraID"] = 603,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [3]
+							{
+								["AuraID"] = 980,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [4]
+							{
+								["AuraID"] = 146739,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [5]
+							{
+								["AuraID"] = 27243,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [6]
+							{
+								["AuraID"] = 348,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [7]
+							{
+								["AuraID"] = 233490,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["absID"] = true,
+								["filter"] = "DEBUFF",
+							}, -- [8]
+							{
+								["AuraID"] = 233496,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["absID"] = true,
+								["filter"] = "DEBUFF",
+							}, -- [9]
+							{
+								["AuraID"] = 233497,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["absID"] = true,
+								["filter"] = "DEBUFF",
+							}, -- [10]
+							{
+								["AuraID"] = 233498,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["absID"] = true,
+								["filter"] = "DEBUFF",
+							}, -- [11]
+							{
+								["AuraID"] = 233499,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["absID"] = true,
+								["filter"] = "DEBUFF",
+							}, -- [12]
+							{
+								["AuraID"] = 63106,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [13]
+							{
+								["AuraID"] = 205178,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [14]
+							{
+								["AuraID"] = 205179,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [15]
+							{
+								["AuraID"] = 48181,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [16]
+							{
+								["AuraID"] = 205181,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [17]
+							{
+								["AuraID"] = 196414,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [18]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Target", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							68, -- [5]
+						},
+					}, -- [3]
+					{
+						["IconSize"] = 48,
+						["Direction"] = "RIGHT",
+						["Name"] = "冷却监视",
+						["List"] = {
+							{
+								["AuraID"] = 19505,
+								["filter"] = "CD",
+							}, -- [1]
+							{
+								["AuraID"] = 19647,
+								["filter"] = "CD",
+							}, -- [2]
+							{
+								["AuraID"] = 30283,
+								["filter"] = "CD",
+							}, -- [3]
+							{
+								["AuraID"] = 5484,
+								["filter"] = "CD",
+							}, -- [4]
+							{
+								["AuraID"] = 6789,
+								["filter"] = "CD",
+							}, -- [5]
+							{
+								["AuraID"] = 48018,
+								["filter"] = "CD",
+							}, -- [6]
+							{
+								["AuraID"] = 89751,
+								["filter"] = "CD",
+							}, -- [7]
+							{
+								["AuraID"] = 152108,
+								["filter"] = "CD",
+							}, -- [8]
+							{
+								["AuraID"] = 196098,
+								["filter"] = "CD",
+							}, -- [9]
+							{
+								["AuraID"] = 108501,
+								["filter"] = "CD",
+							}, -- [10]
+							{
+								["AuraID"] = 205181,
+								["filter"] = "CD",
+							}, -- [11]
+							{
+								["AuraID"] = 205180,
+								["filter"] = "CD",
+							}, -- [12]
+							{
+								["AuraID"] = 195710,
+								["filter"] = "CD",
+							}, -- [13]
+							{
+								["AuraID"] = 69179,
+								["filter"] = "CD",
+							}, -- [14]
+							{
+								["AuraID"] = 26297,
+								["filter"] = "CD",
+							}, -- [15]
+							{
+								["AuraID"] = 20572,
+								["filter"] = "CD",
+							}, -- [16]
+							{
+								["AuraID"] = 20577,
+								["filter"] = "CD",
+							}, -- [17]
+							{
+								["AuraID"] = 68992,
+								["filter"] = "CD",
+							}, -- [18]
+							{
+								["AuraID"] = 20589,
+								["filter"] = "CD",
+							}, -- [19]
+							{
+								["AuraID"] = 59752,
+								["filter"] = "CD",
+							}, -- [20]
+							{
+								["AuraID"] = 69070,
+								["filter"] = "CD",
+							}, -- [21]
+							{
+								["AuraID"] = 20594,
+								["filter"] = "CD",
+							}, -- [22]
+							{
+								["AuraID"] = 7744,
+								["filter"] = "CD",
+							}, -- [23]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							99, -- [5]
+						},
+					}, -- [4]
+				},
+			},
+			["chat"] = {
+				["panelColorConverted"] = true,
+				["panelColor"] = {
+					["a"] = 0.9,
+				},
+			},
+		},
+		["奶奶的大刀 - 森金"] = {
+			["currentTutorial"] = 1,
+			["movers"] = {
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,735",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,982",
+				["PetAB"] = "RIGHT,ElvUIParent,RIGHT,-80,0",
+				["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,0,4",
+				["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,38",
+				["ElvAB_4"] = "RIGHT,ElvUIParent,RIGHT,-4,0",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvAB_5"] = "RIGHT,ElvUIParent,RIGHT,-38,0",
+				["ElvUF_RaidMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,0,72",
+			},
+			["actionbar"] = {
+				["bar3"] = {
+					["buttonsPerRow"] = 12,
+					["backdrop"] = false,
+					["buttons"] = 12,
+				},
+				["bar2"] = {
+					["enabled"] = true,
+				},
+				["bar1"] = {
+					["heightMult"] = 3,
+				},
+				["euiabstyle"] = "Low",
+				["bar5"] = {
+					["buttonsPerRow"] = 1,
+					["backdrop"] = false,
+					["buttons"] = 12,
+				},
+				["bar4"] = {
+					["widthMult"] = 2,
+				},
+			},
+			["unitframe"] = {
+				["units"] = {
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["player"] = {
+						["portrait"] = {
+							["overlay"] = true,
+						},
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focus"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["portrait"] = {
+							["overlay"] = true,
+						},
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+						["fader"] = {
+							["enable"] = false,
+							["range"] = false,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pet"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+				},
+			},
+			["v11NamePlateReset"] = true,
+			["AuraWatch"] = {
+				["loadDefault"] = true,
+				["myclass"] = "DEMONHUNTER",
+				["DB"] = {
+					{
+						["Interval"] = 6,
+						["Direction"] = "RIGHT",
+						["Name"] = "玩家增益",
+						["List"] = {
+							{
+								["AuraID"] = 187827,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [1]
+							{
+								["AuraID"] = 196718,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [2]
+							{
+								["AuraID"] = 178740,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [3]
+							{
+								["AuraID"] = 203720,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [4]
+							{
+								["AuraID"] = 227225,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [5]
+							{
+								["AuraID"] = 212800,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [6]
+							{
+								["AuraID"] = 196555,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [7]
+							{
+								["AuraID"] = 207810,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [8]
+						},
+						["IconSize"] = 42,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							12, -- [5]
+						},
+					}, -- [1]
+					{
+						["Interval"] = 6,
+						["Direction"] = "RIGHT",
+						["Name"] = "玩家重要增益",
+						["List"] = {
+							{
+								["AuraID"] = 203981,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [1]
+							{
+								["AuraID"] = 212988,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [2]
+							{
+								["AuraID"] = 208628,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [3]
+						},
+						["IconSize"] = 42,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							55, -- [5]
+						},
+					}, -- [2]
+					{
+						["Interval"] = 6,
+						["Direction"] = "RIGHT",
+						["Name"] = "目标减益",
+						["List"] = {
+							{
+								["AuraID"] = 258860,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [1]
+							{
+								["AuraID"] = 206491,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [2]
+							{
+								["AuraID"] = 204598,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [3]
+							{
+								["AuraID"] = 204490,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [4]
+							{
+								["AuraID"] = 207685,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [5]
+							{
+								["AuraID"] = 204843,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [6]
+							{
+								["AuraID"] = 207744,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [7]
+							{
+								["AuraID"] = 224509,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [8]
+							{
+								["AuraID"] = 207690,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [9]
+						},
+						["IconSize"] = 42,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Target", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							68, -- [5]
+						},
+					}, -- [3]
+					{
+						["Interval"] = 6,
+						["Direction"] = "RIGHT",
+						["Name"] = "冷却监视",
+						["List"] = {
+							{
+								["AuraID"] = 183752,
+								["filter"] = "CD",
+							}, -- [1]
+							{
+								["AuraID"] = 195072,
+								["absID"] = true,
+								["filter"] = "CD",
+							}, -- [2]
+							{
+								["AuraID"] = 189110,
+								["filter"] = "CD",
+							}, -- [3]
+							{
+								["AuraID"] = 185245,
+								["filter"] = "CD",
+							}, -- [4]
+							{
+								["AuraID"] = 203720,
+								["filter"] = "CD",
+							}, -- [5]
+							{
+								["AuraID"] = 178740,
+								["filter"] = "CD",
+							}, -- [6]
+							{
+								["AuraID"] = 213241,
+								["filter"] = "CD",
+							}, -- [7]
+							{
+								["AuraID"] = 185123,
+								["filter"] = "CD",
+							}, -- [8]
+							{
+								["AuraID"] = 227225,
+								["filter"] = "CD",
+							}, -- [9]
+							{
+								["AuraID"] = 188499,
+								["filter"] = "CD",
+							}, -- [10]
+							{
+								["AuraID"] = 211053,
+								["filter"] = "CD",
+							}, -- [11]
+							{
+								["AuraID"] = 198793,
+								["absID"] = true,
+								["filter"] = "CD",
+							}, -- [12]
+							{
+								["AuraID"] = 207407,
+								["filter"] = "CD",
+							}, -- [13]
+							{
+								["AuraID"] = 202137,
+								["filter"] = "CD",
+							}, -- [14]
+							{
+								["AuraID"] = 207684,
+								["filter"] = "CD",
+							}, -- [15]
+							{
+								["AuraID"] = 188501,
+								["filter"] = "CD",
+							}, -- [16]
+							{
+								["AuraID"] = 204021,
+								["filter"] = "CD",
+							}, -- [17]
+							{
+								["AuraID"] = 198013,
+								["absID"] = true,
+								["filter"] = "CD",
+							}, -- [18]
+							{
+								["AuraID"] = 179057,
+								["absID"] = true,
+								["filter"] = "CD",
+							}, -- [19]
+							{
+								["AuraID"] = 202138,
+								["filter"] = "CD",
+							}, -- [20]
+							{
+								["AuraID"] = 211881,
+								["filter"] = "CD",
+							}, -- [21]
+							{
+								["AuraID"] = 212084,
+								["filter"] = "CD",
+							}, -- [22]
+							{
+								["AuraID"] = 207810,
+								["filter"] = "CD",
+							}, -- [23]
+							{
+								["AuraID"] = 236189,
+								["filter"] = "CD",
+							}, -- [24]
+							{
+								["AuraID"] = 198589,
+								["filter"] = "CD",
+							}, -- [25]
+							{
+								["AuraID"] = 201467,
+								["filter"] = "CD",
+							}, -- [26]
+							{
+								["AuraID"] = 196555,
+								["filter"] = "CD",
+							}, -- [27]
+							{
+								["AuraID"] = 206491,
+								["filter"] = "CD",
+							}, -- [28]
+							{
+								["AuraID"] = 187827,
+								["filter"] = "CD",
+							}, -- [29]
+							{
+								["AuraID"] = 196718,
+								["filter"] = "CD",
+							}, -- [30]
+							{
+								["AuraID"] = 195710,
+								["filter"] = "CD",
+							}, -- [31]
+							{
+								["AuraID"] = 202719,
+								["filter"] = "CD",
+							}, -- [32]
+							{
+								["AuraID"] = 58984,
+								["filter"] = "CD",
+							}, -- [33]
+						},
+						["IconSize"] = 48,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							99, -- [5]
+						},
+					}, -- [4]
+				},
+				["ver"] = 2,
+			},
+			["chat"] = {
+				["panelColorConverted"] = true,
+				["panelColor"] = {
+					["a"] = 0.9,
+				},
+			},
+		},
+		["牛爹爹 - 屠魔山谷"] = {
+			["databars"] = {
+				["azerite"] = {
+					["textFormat"] = "CURPERCREM",
+					["hideInVehicle"] = true,
+					["orientation"] = "HORIZONTAL",
+					["height"] = 18,
+					["mouseover"] = true,
+					["textSize"] = 18,
+					["width"] = 1774,
+				},
+				["experience"] = {
+					["textFormat"] = "CURPERCREM",
+					["orientation"] = "HORIZONTAL",
+					["height"] = 18,
+					["mouseover"] = true,
+					["textSize"] = 18,
+					["width"] = 1774,
+				},
+				["honor"] = {
+					["enable"] = false,
+				},
+			},
+			["currentTutorial"] = 6,
+			["general"] = {
+				["interruptAnnounce"] = "PARTY",
+				["valuecolor"] = {
+					["b"] = 0.1725490196078431,
+					["g"] = 0.4823529411764706,
+					["r"] = 0.996078431372549,
+				},
+				["backdropfadecolor"] = {
+					["b"] = 0.13,
+					["g"] = 0.13,
+					["r"] = 0.13,
+				},
+				["topPanel"] = false,
+				["bordercolor"] = {
+					["b"] = 0,
+					["g"] = 0,
+					["r"] = 0,
+				},
+				["objectiveFrameAutoHide"] = true,
+				["minimap"] = {
+					["resetZoom"] = {
+						["enable"] = true,
+						["time"] = 5,
+					},
+					["locationFontSize"] = 28,
+					["size"] = 226,
+				},
+			},
+			["Myslot"] = {
+				["sets"] = {
+					["武僧"] = "@ Myslot ( V24)\r\n@ 时间:Sun Aug 18 13:39:23 2019\r\n@ 玩家:牛爹爹\r\n@ 职业:武僧\r\n@ 专精:踏风\r\n@ 等级:110\r\n@ \r\n@ 问题/建议  farmer1992@gmail.com\r\n@ --------------------\r\nGFYEFldo91MKCAgDEAEYxaABCggIBBABGLSoDQoICAUQARiskwYKCAgGEAEYsJMGCggICBABGKezCAoICAkQARi71wcKCAgKEAEYhoMHCggICxABGMzUBgoICAwQARiqmQYKCAgNEAEY4Y8HCggIDhABGP+KBwoICA8QARipmQYKCAgQEAEY+PcGCggIEhABGMCZBwoICBMQARjR3AoKCAgUEAEYpMcGCggIFRABGOa8BwoICBYQARiIgwcKBwgXEAkYmwMKCAgYEAEY2oYHCggIGRACGKDHCAoICB8QAhigxwgKBgggEAYYAQoICCEQAhil0ggKBwgjEAkYnwMKCAgkEAEY9o8FCgcIJhAJGJwCCggIKBABGOqDBwoGCCkQBhgCCgcIKhACGKQ2CggIMRABGOGPBwoICDIQARj/igcKCAgzEAEYqZkGCggINBABGPj3BgoICDUQARikxwYKCAg3EAEYwJkHCggIOBABGNHcCgoICDkQARjmvAcKCAg6EAEYiIMHCggIOxABGIuaBgoICDwQARi8qQcKCAg9EAIYzecCCggIPhACGLyTCAoICD8QAhidwQgKCAhAEAIYkNYICggIQRABGNqGBwoICEIQAhiToQIKCAhEEAEY6vcRCgcIRRAJGIgDCgcIRhAJGKgBCgcIRxAJGLMHCgkISBAJGP///38SCAgCEgQIVxAAEggIAxIECFMQABIICAQSBAhBEAASCAgFEgQIRBAAEggICBIECH0QABIICAoSBAhcEAASCAgLEgQIWxADEggIDBIECG0QABIICA0SBAhsEAASCAgOEgQIeRAAEggIEBIECHQQABIICBESBAhlEAASCAgSEgQIaRAAEggIExIECGgQABIICBQSBAhoEAESCAgVEgQIUhABEggIFxIECGkQAhIICBgSBAhoEAISCAgZEgQIaBBrEggIGhIECDgQABIICBsSBAg5EAASCAgcEgQIOhAAEggIHRIECDsQABIICB4SBAh+EAASCAgfEgQIfxAAEggIIBIECH4QAxIICCESBAh/EAMSCAgiEgQIURADEggIIxIECEUQAxIICCQSBAhREAASCAglEgQIRRAAEggIJhIECAEQAhIICCcSBAgCEAISCAgoEgQIAxACEggIKRIECAQQAhIICCoSBAgFEAISCAgrEgQIBhACEggILBIECAcQAhIICC0SBAgIEAISCAgxEgQIORACEggIMhIECDoQAhIICDQSBAg8EAISCAg1EgQIPRACEggINhIECD4QAhIICDcSBAg/EAISCAg4EgQIQBACEggIORIECDcQAhIJCMYBEgQIOBADEgkIxwESBAg5EAMSCQjIARIECDoQAxIJCMkBEgQIOxADEgkIygESBAg8EAMSCQjLARIECFoQAxIJCMwBEgQIQxADEgkIzQESBAhWEAMSCQjOARIECEYQAxIJCM8BEgQIRxADEgkI0AESBAhSEAMSCQjRARIECFgQAxIJCNIBEgQIWhAAEgkI0wESBAhYEAASCQjUARIECEMQABIJCNUBEgQIVhAAEgkI1gESBAhGEAASCQjXARIECEcQABIJCNgBEgQIUhAAEgkI2QESBAhUEAASCQjaARIECH4QARIJCNsBEgQIfxABEgkI3AESBAh+EAISCQjdARIECH8QAhIJCN4BEgQIcRAAEgkI6wESBAhvEAASCAhUEgQIchAAEggIVRIECHIQARIICFYSBAhyEAISCAhXEgQIchBrEggIXBIECAEQABIICF8SBAgEEAASCAhgEgQIBRAAEggIYRIECAEQARIICGISBAgCEAESCAhjEgQIAxABEggIZBIECAQQARIICGUSBAgFEAESCAhoEgQIZBAAEggIaRIECFYQARIICGoSBAhWEAISCAhwEgQIVBABEgkIhgESBAh1EAASDgh2EgQIQhABGgQIDBAAEggIdxIECAgQABIICHgSBAgJEAASCAh5EgQIChAAEggIehIECAsQABIICHUSBAhDEAESCQiEARIECFUQABIICH0SBAhQEAASCAh+EgQISxAAEggIfxIECEkQARIJCIEBEgQIThAAEgkIlgESBAhZEAASCQiXARIECFkQARIJCIUBEgQIURABEgkIiAESBAhbEAASCQiTARIECE0QARIJCI0BEgQIWBABEgkIigESBAhGEAESCQi1AhIECEkQABIJCLYCEgQISRACEgkIggESBAhIEAASCQi3AhIECFAQARIJCLgCEgQIWhABEgkIpgISBAhKEAESCQicARIECHwQABIJCJ0BEgQIexAAEgkIngESBAhNEAISCQifARIECFMQAhIJCKABEgQIXRACEgkIoQESBAhcEAISCQikARIECFIQAhIKCKUBEgUIgQEQABIJCLIBEgQIahAAEgkIswESBAhrEAASCQi0ARIECHAQABIJCLUBEgQIbhAAEgkI/wESBAgyEAASCQiBAhIECDAQABqrAwoG5Z2Q6aqREpYDI3Nob3d0b29sdGlwCi9zdGFydGF0dGFjawovY2FzdHNlcXVlbmNlIFtub2NoYW5uZWxpbmddIHJlc2V0PTgvY29tYmF0IOi0r+aXpeWHuyznjJvomY7mjows6LSv5pel5Ye7LOaXreaXpeS4nOWNh+i4oizotK/ml6Xlh7ss5bm754Gt6LiiLOi0r+aXpeWHuyzlubvnga3ouKIs6LSv5pel5Ye7LOaXreaXpeS4nOWNh+i4oizotK/ml6Xlh7ss5bm754Gt6LiiLOecn+awlOazoizotK/ml6Xlh7ss54yb6JmO5o6MLOi0r+aXpeWHuyzomY7nnLzphZIs5pet5pel5Lic5Y2H6LiiLOi0r+aXpeWHuyzlubvnga3ouKIs56e76Iqx5o6l5pyoLOaAkumbt+egtCzotK/ml6Xlh7ss5pet5pel5Lic5Y2H6LiiLOecn+awlOazoizotK/ml6Xlh7ss5bm754Gt6LiiCi/mlr3mlL4g55m96JmO5LiL5YehCi/mlr3mlL4g6LGq6IO96YWSChgBIgYxMzIyMjYa5wEKA+mlvxLVAS9ydW4gbG9jYWwgYT17NDU0NzAsNDcyMDcsNDcyMDgsNDcyMDksNDcyMTAsNDcyMTEsNDcyMTIsNDcyMTN9Zm9yIGkscSBpbiBpcGFpcnMoYSlkbyBwcmludChmb3JtYXQoIuesrCVzIOW8oDogJXMiLGksIElzUXVlc3RGbGFnZ2VkQ29tcGxldGVkKHEpIGFuZCAiMTI0Y0ZGMDBGRjAw5bey5a6M5oiQMTI0ciIgb3IgIjEyNGNGRkZGMDAwMOacquWujOaIkDEyNHIiKSkgZW5kChgCIgYxMzYxMDNwGHoJ54mb54i554i5",
+				},
+			},
+			["v11NamePlateReset"] = true,
+			["hideTutorial"] = true,
+			["auras"] = {
+				["debuffs"] = {
+					["horizontalSpacing"] = 0,
+				},
+				["buffs"] = {
+					["horizontalSpacing"] = 0,
+					["verticalSpacing"] = 0,
+				},
+			},
+			["CooldownFlash"] = {
+				["enable"] = true,
+			},
+			["euiscript"] = {
+				["teleportie"] = {
+					["frame_size"] = 47.9997673034668,
+					["framePos"] = {
+						"BOTTOM", -- [1]
+						nil, -- [2]
+						"BOTTOM", -- [3]
+						376.3975524902344, -- [4]
+						118.0317306518555, -- [5]
+					},
+				},
+				["idq"] = true,
+			},
+			["RightChatPanelFaded"] = true,
+			["movers"] = {
+				["TopCenterContainerMover"] = "TOP,ElvUIParent,TOP,153,-442",
+				["EuiInfoBar1Mover"] = "TOP,ElvUIParent,TOP,44,0",
+				["PetAB"] = "BOTTOM,ElvUIParent,BOTTOM,-152,165",
+				["ElvUF_RaidMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,403",
+				["LeftChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,0",
+				["GMMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-75,-5",
+				["BuffsMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,241,-216",
+				["MinimapMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,0",
+				["BagsMover"] = "BOTTOM,ElvUIParent,BOTTOM,-239,288",
+				["ElvUF_PetTargetMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,409,-1",
+				["LootFrameMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-458,261",
+				["ZoneAbility"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-413,179",
+				["SocialMenuMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,0,0",
+				["BossButton"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-477,179",
+				["AutoButtonAnchor2Mover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-346,98",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,375",
+				["ElvUF_PlayerSwingBarMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,280,4",
+				["ElvUF_FocusMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-482,-113",
+				["ElvUF_TargetMover"] = "TOP,ElvUIParent,TOP,0,-34",
+				["AutoButtonAnchorMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-307,137",
+				["ClassBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-238,165",
+				["MicrobarMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,0,26",
+				["ElvUF_PlayerMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,0,0",
+				["VehicleSeatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-324,0",
+				["ElvUF_TargetTargetMover"] = "TOP,ElvUIParent,TOP,268,-24",
+				["ExperienceBarMover"] = "TOP,ElvUIParent,TOP,-1,-16",
+				["EuiInfoBar3Mover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-257,0",
+				["ElvUIBankMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,349,315",
+				["EuiExecuteMover"] = "BOTTOM,ElvUIParent,BOTTOM,225,196",
+				["LossControlMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-449,0",
+				["LevelUpBossBannerMover"] = "TOP,ElvUIParent,TOP,7,-474",
+				["MirrorTimer1Mover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-293,-9",
+				["EuiInfoBar4Mover"] = "TOP,ElvUIParent,TOP,-99,0",
+				["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,5,0",
+				["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,5,55",
+				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,294",
+				["ElvUF_TargetCastbarMover"] = "TOP,ElvUIParent,TOP,0,-100",
+				["ElvAB_4"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,279",
+				["AzeriteBarMover"] = "TOP,ElvUIParent,TOP,-1,0",
+				["AltPowerBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,0,-82",
+				["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,5,110",
+				["ElvAB_5"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-55,279",
+				["TalkingHeadFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,0,-186",
+				["VOICECHAT"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,0,-174",
+				["ElvUF_PetMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,280,0",
+				["ElvNP_PlayerMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-459,292",
+				["EuiInfoBar2Mover"] = "TOP,ElvUIParent,TOP,140,0",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,872,197",
+				["ArenaHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-112,280",
+				["ElvUF_FocusCastbarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-480,-150",
+				["ElvUF_PlayerAuraMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,0,-81",
+				["TooltipMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,212,316",
+				["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,279,916",
+				["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-206,-175",
+				["ElvUIBagMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,353,334",
+				["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,53,220",
+				["RightChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,294",
+				["AlertFrameMover"] = "BOTTOM,ElvUIParent,BOTTOM,2,459",
+				["DebuffsMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,0,-141",
+				["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,279,852",
+			},
+			["tooltip"] = {
+				["hh"] = false,
+				["targetInfo"] = false,
+				["cursorAnchor"] = true,
+				["playerTitles"] = false,
+				["guildRanks"] = false,
+			},
+			["bags"] = {
+				["bagSize"] = 38,
+				["reverseLoot"] = true,
+				["bankWidth"] = 450,
+				["junkIcon"] = true,
+				["junkDesaturate"] = true,
+				["bagWidth"] = 388,
+				["countFontSize"] = 12,
+			},
+			["unitframe"] = {
+				["number"] = "CNW",
+				["fontSize"] = 26,
+				["colors"] = {
+					["classbackdrop"] = true,
+					["borderColor"] = {
+						["b"] = 0,
+						["g"] = 0,
+						["r"] = 0,
+					},
+					["castColor"] = {
+						["b"] = 0.31,
+						["g"] = 0.31,
+						["r"] = 0.31,
+					},
+					["frameGlow"] = {
+						["mainGlow"] = {
+							["enable"] = true,
+							["class"] = true,
+						},
+						["mouseoverGlow"] = {
+							["class"] = true,
+						},
+					},
+					["healthclass"] = true,
+				},
+				["unitframeType"] = 3,
+				["statusbar"] = "Sinaris",
+				["units"] = {
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["enable"] = true,
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["player"] = {
+						["portrait"] = {
+							["xOffset"] = 0.21,
+							["camDistanceScale"] = 1.66,
+							["yOffset"] = -0.03000000000000003,
+						},
+						["castbar"] = {
+							["height"] = 50,
+							["width"] = 280,
+						},
+						["width"] = 280,
+						["health"] = {
+							["frequentUpdates"] = true,
+							["bgUseBarTexture"] = true,
+						},
+						["fader"] = {
+							["enable"] = true,
+						},
+						["classbar"] = {
+							["detachFromFrame"] = true,
+							["spacing"] = 10,
+							["detachedWidth"] = 188,
+							["height"] = 16,
+							["fill"] = "fill",
+						},
+						["height"] = 100,
+						["buffs"] = {
+							["anchorPoint"] = "BOTTOMLEFT",
+							["sizeOverride"] = 0,
+							["enable"] = true,
+							["numrows"] = 2,
+							["yOffset"] = -100,
+						},
+						["CombatIcon"] = {
+							["size"] = 28,
+						},
+						["power"] = {
+							["attachTextTo"] = "Power",
+							["xOffset"] = 0,
+							["height"] = 28,
+						},
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pet"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focus"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["middleClickFocus"] = false,
+						["debuffs"] = {
+							["anchorPoint"] = "BOTTOMLEFT",
+							["maxDuration"] = 0,
+							["attachTo"] = "FRAME",
+						},
+						["disableTargetGlow"] = false,
+						["castbar"] = {
+							["height"] = 26,
+							["width"] = 388,
+							["InterruptSound"] = true,
+						},
+						["power"] = {
+							["attachTextTo"] = "Power",
+							["xOffset"] = 0,
+							["text_format"] = "[powercolor][power:current-percent]",
+							["height"] = 18,
+						},
+						["range"] = {
+							["fontSize"] = 18,
+						},
+						["width"] = 388,
+						["portrait"] = {
+							["detachHideBackdrop"] = false,
+							["fullOverlay"] = true,
+							["detachedWidth"] = 15,
+							["camDistanceScale"] = 1,
+							["detachedHeight"] = 169,
+						},
+						["health"] = {
+							["xOffset"] = 2,
+							["frequentUpdates"] = true,
+						},
+						["name"] = {
+							["text_format"] = "",
+							["position"] = "CENTER",
+						},
+						["height"] = 66,
+						["orientation"] = "LEFT",
+						["buffs"] = {
+							["anchorPoint"] = "BOTTOMLEFT",
+							["sizeOverride"] = 0,
+							["yOffset"] = 50,
+							["numrows"] = 3,
+							["attachTo"] = "DEBUFFS",
+							["perrow"] = 12,
+						},
+						["fader"] = {
+							["hover"] = true,
+							["combat"] = true,
+							["power"] = true,
+							["enable"] = false,
+							["range"] = false,
+							["playertarget"] = true,
+							["vehicle"] = true,
+							["health"] = true,
+							["casting"] = true,
+						},
+						["aurabar"] = {
+							["enable"] = false,
+							["maxDuration"] = 300,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["health"] = {
+							["bgUseBarTexture"] = false,
+							["frequentUpdates"] = true,
+						},
+						["power"] = {
+							["height"] = 28,
+						},
+						["height"] = 88,
+						["buffs"] = {
+							["attachTo"] = "DEBUFFS",
+						},
+						["width"] = 100,
+						["raidicon"] = {
+							["enable"] = false,
+						},
+					},
+					["party"] = {
+						["portrait"] = {
+							["enable"] = true,
+						},
+						["power"] = {
+							["attachTextTo"] = "Power",
+							["height"] = 13,
+						},
+						["showPlayer"] = false,
+						["width"] = 266,
+						["name"] = {
+							["position"] = "TOPRIGHT",
+						},
+						["height"] = 56,
+						["healPrediction"] = {
+							["enable"] = true,
+						},
+						["visibility"] = "[@raid2,exists][@party1,noexists] hide;show",
+						["health"] = {
+							["xOffset"] = 4,
+							["bgUseBarTexture"] = false,
+						},
+					},
+				},
+			},
+			["datatexts"] = {
+				["noCombatClick"] = true,
+				["fontSize"] = 14,
+				["panelTransparency"] = true,
+				["noCombatHover"] = true,
+				["panelBackdrop"] = false,
+			},
+			["actionbar"] = {
+				["bar3"] = {
+					["buttons"] = 12,
+					["buttonspacing"] = 1,
+					["backdrop"] = false,
+					["heightMult"] = 3,
+					["inheritGlobalFade"] = true,
+					["showGrid"] = false,
+					["buttonsPerRow"] = 12,
+					["backdropSpacing"] = 1,
+					["buttonsize"] = 55,
+				},
+				["bar6"] = {
+					["backdrop"] = false,
+					["inheritGlobalFade"] = false,
+				},
+				["movementModifier"] = "ALT",
+				["bar8"] = {
+					["backdrop"] = false,
+				},
+				["useRangeColorText"] = true,
+				["desaturateOnCooldown"] = true,
+				["bar9"] = {
+					["backdrop"] = false,
+				},
+				["euiabstyle"] = "Low",
+				["hideCooldownBling"] = true,
+				["bar2"] = {
+					["heightMult"] = 3,
+					["inheritGlobalFade"] = true,
+					["enabled"] = true,
+					["buttonspacing"] = 1,
+					["backdropSpacing"] = 1,
+					["buttonsize"] = 55,
+					["showGrid"] = false,
+				},
+				["rightClickSelfCast"] = true,
+				["bar5"] = {
+					["backdrop"] = false,
+					["backdropSpacing"] = 0,
+					["buttonspacing"] = 0,
+					["buttons"] = 5,
+					["showGrid"] = false,
+					["buttonsPerRow"] = 1,
+					["buttonsize"] = 56,
+					["alpha"] = 0.2,
+				},
+				["bar1"] = {
+					["heightMult"] = 3,
+					["inheritGlobalFade"] = true,
+					["backdrop"] = false,
+					["buttonspacing"] = 1,
+					["backdropSpacing"] = 1,
+					["buttonsize"] = 55,
+					["showGrid"] = false,
+				},
+				["bar7"] = {
+					["backdrop"] = false,
+				},
+				["fontSize"] = 16,
+				["macrotext"] = true,
+				["microbar"] = {
+					["mouseover"] = true,
+					["buttonSpacing"] = -1,
+					["buttonSize"] = 26,
+				},
+				["barPet"] = {
+					["inheritGlobalFade"] = true,
+					["backdrop"] = false,
+					["buttonsPerRow"] = 10,
+				},
+				["bar4"] = {
+					["backdrop"] = false,
+					["backdropSpacing"] = 0,
+					["buttons"] = 5,
+					["showGrid"] = false,
+					["alpha"] = 0.24,
+					["buttonsize"] = 56,
+					["buttonspacing"] = 0,
+				},
+			},
+			["nameplates"] = {
+				["statusbar"] = "Frost Vertical",
+			},
+			["infobar"] = {
+				["height"] = 35,
+				["width"] = 96,
+			},
+			["chat"] = {
+				["socialQueueMessages"] = true,
+				["panelWidth"] = 558,
+				["pinVoiceButtons"] = false,
+				["panelColor"] = {
+					["a"] = 0.9000000059604645,
+					["b"] = 0.05882352941176471,
+					["g"] = 0.05882352941176471,
+					["r"] = 0.05882352941176471,
+				},
+				["autojoin"] = false,
+				["tabFont"] = "默认",
+				["panelHeightRight"] = 158,
+				["font"] = "伤害数字",
+				["panelHeight"] = 266,
+				["lockPositions"] = false,
+				["panelColorConverted"] = true,
+				["panelWidthRight"] = 558,
+				["tabFontSize"] = 15,
+				["panelBackdrop"] = "HIDEBOTH",
+			},
+			["AuraWatch"] = {
+				["loadDefault"] = true,
+				["myclass"] = "DRUID",
+				["DB"] = {
+					{
+						["IconSize"] = 42,
+						["Direction"] = "RIGHT",
+						["Name"] = "玩家增益",
+						["List"] = {
+							{
+								["AuraID"] = 45438,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [1]
+							{
+								["AuraID"] = 66,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["absID"] = true,
+								["filter"] = "BUFF",
+							}, -- [2]
+							{
+								["AuraID"] = 32612,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["absID"] = true,
+								["filter"] = "BUFF",
+							}, -- [3]
+							{
+								["AuraID"] = 110960,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["absID"] = true,
+								["filter"] = "BUFF",
+							}, -- [4]
+							{
+								["AuraID"] = 12472,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [5]
+							{
+								["AuraID"] = 12042,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [6]
+							{
+								["AuraID"] = 190319,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [7]
+							{
+								["AuraID"] = 235313,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [8]
+							{
+								["AuraID"] = 235450,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [9]
+							{
+								["AuraID"] = 11426,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [10]
+							{
+								["AuraID"] = 48107,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [11]
+							{
+								["AuraID"] = 108839,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [12]
+							{
+								["AuraID"] = 198111,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [13]
+							{
+								["AuraID"] = 55342,
+								["duration"] = 40,
+								["trigger"] = "NONE",
+								["filter"] = "ICD",
+							}, -- [14]
+							{
+								["AuraID"] = 205473,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [15]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							12, -- [5]
+						},
+					}, -- [1]
+					{
+						["IconSize"] = 42,
+						["Direction"] = "RIGHT",
+						["Name"] = "玩家重要增益",
+						["List"] = {
+							{
+								["AuraID"] = 44544,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [1]
+							{
+								["AuraID"] = 190446,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [2]
+							{
+								["AuraID"] = 199844,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [3]
+							{
+								["AuraID"] = 48108,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [4]
+							{
+								["AuraID"] = 269651,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [5]
+							{
+								["AuraID"] = 263725,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [6]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							55, -- [5]
+						},
+					}, -- [2]
+					{
+						["IconSize"] = 42,
+						["Direction"] = "RIGHT",
+						["Name"] = "目标减益",
+						["List"] = {
+							{
+								["AuraID"] = 36032,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [1]
+							{
+								["AuraID"] = 44457,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [2]
+							{
+								["AuraID"] = 114923,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [3]
+							{
+								["AuraID"] = 33395,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "all",
+							}, -- [4]
+							{
+								["AuraID"] = 198121,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "all",
+							}, -- [5]
+							{
+								["AuraID"] = 122,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "all",
+							}, -- [6]
+							{
+								["AuraID"] = 120,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [7]
+							{
+								["AuraID"] = 228354,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["absID"] = true,
+								["filter"] = "DEBUFF",
+							}, -- [8]
+							{
+								["AuraID"] = 157997,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [9]
+							{
+								["AuraID"] = 31589,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [10]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Target", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							68, -- [5]
+						},
+					}, -- [3]
+					{
+						["IconSize"] = 48,
+						["Direction"] = "RIGHT",
+						["Name"] = "冷却监视",
+						["List"] = {
+							{
+								["AuraID"] = 475,
+								["filter"] = "CD",
+							}, -- [1]
+							{
+								["AuraID"] = 2139,
+								["filter"] = "CD",
+							}, -- [2]
+							{
+								["AuraID"] = 44457,
+								["filter"] = "CD",
+							}, -- [3]
+							{
+								["AuraID"] = 1953,
+								["filter"] = "CD",
+							}, -- [4]
+							{
+								["AuraID"] = 122,
+								["filter"] = "CD",
+							}, -- [5]
+							{
+								["AuraID"] = 157997,
+								["filter"] = "CD",
+							}, -- [6]
+							{
+								["AuraID"] = 113724,
+								["filter"] = "CD",
+							}, -- [7]
+							{
+								["AuraID"] = 235313,
+								["filter"] = "CD",
+							}, -- [8]
+							{
+								["AuraID"] = 235450,
+								["filter"] = "CD",
+							}, -- [9]
+							{
+								["AuraID"] = 11426,
+								["filter"] = "CD",
+							}, -- [10]
+							{
+								["AuraID"] = 198111,
+								["filter"] = "CD",
+							}, -- [11]
+							{
+								["AuraID"] = 108853,
+								["filter"] = "CD",
+							}, -- [12]
+							{
+								["AuraID"] = 120,
+								["filter"] = "CD",
+							}, -- [13]
+							{
+								["AuraID"] = 153595,
+								["filter"] = "CD",
+							}, -- [14]
+							{
+								["AuraID"] = 108839,
+								["filter"] = "CD",
+							}, -- [15]
+							{
+								["AuraID"] = 214634,
+								["filter"] = "CD",
+							}, -- [16]
+							{
+								["AuraID"] = 194466,
+								["filter"] = "CD",
+							}, -- [17]
+							{
+								["AuraID"] = 224968,
+								["filter"] = "CD",
+							}, -- [18]
+							{
+								["AuraID"] = 84714,
+								["filter"] = "CD",
+							}, -- [19]
+							{
+								["AuraID"] = 153561,
+								["filter"] = "CD",
+							}, -- [20]
+							{
+								["AuraID"] = 31661,
+								["filter"] = "CD",
+							}, -- [21]
+							{
+								["AuraID"] = 12042,
+								["filter"] = "CD",
+							}, -- [22]
+							{
+								["AuraID"] = 116011,
+								["filter"] = "CD",
+							}, -- [23]
+							{
+								["AuraID"] = 205025,
+								["filter"] = "CD",
+							}, -- [24]
+							{
+								["AuraID"] = 195676,
+								["filter"] = "CD",
+							}, -- [25]
+							{
+								["AuraID"] = 205032,
+								["filter"] = "CD",
+							}, -- [26]
+							{
+								["AuraID"] = 157980,
+								["filter"] = "CD",
+							}, -- [27]
+							{
+								["AuraID"] = 12051,
+								["filter"] = "CD",
+							}, -- [28]
+							{
+								["AuraID"] = 12472,
+								["filter"] = "CD",
+							}, -- [29]
+							{
+								["AuraID"] = 55342,
+								["filter"] = "CD",
+							}, -- [30]
+							{
+								["AuraID"] = 190319,
+								["filter"] = "CD",
+							}, -- [31]
+							{
+								["AuraID"] = 235219,
+								["filter"] = "CD",
+							}, -- [32]
+							{
+								["AuraID"] = 45438,
+								["filter"] = "CD",
+							}, -- [33]
+							{
+								["AuraID"] = 66,
+								["filter"] = "CD",
+							}, -- [34]
+							{
+								["AuraID"] = 195710,
+								["filter"] = "CD",
+							}, -- [35]
+							{
+								["AuraID"] = 69179,
+								["filter"] = "CD",
+							}, -- [36]
+							{
+								["AuraID"] = 26297,
+								["filter"] = "CD",
+							}, -- [37]
+							{
+								["AuraID"] = 20572,
+								["filter"] = "CD",
+							}, -- [38]
+							{
+								["AuraID"] = 20577,
+								["filter"] = "CD",
+							}, -- [39]
+							{
+								["AuraID"] = 68992,
+								["filter"] = "CD",
+							}, -- [40]
+							{
+								["AuraID"] = 20589,
+								["filter"] = "CD",
+							}, -- [41]
+							{
+								["AuraID"] = 59752,
+								["filter"] = "CD",
+							}, -- [42]
+							{
+								["AuraID"] = 28880,
+								["filter"] = "CD",
+							}, -- [43]
+							{
+								["AuraID"] = 107079,
+								["filter"] = "CD",
+							}, -- [44]
+							{
+								["AuraID"] = 69070,
+								["filter"] = "CD",
+							}, -- [45]
+							{
+								["AuraID"] = 58984,
+								["filter"] = "CD",
+							}, -- [46]
+							{
+								["AuraID"] = 20594,
+								["filter"] = "CD",
+							}, -- [47]
+							{
+								["AuraID"] = 7744,
+								["filter"] = "CD",
+							}, -- [48]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							99, -- [5]
+						},
+					}, -- [4]
+					{
+						["Interval"] = 6,
+						["Direction"] = "RIGHT",
+						["Name"] = "冷却监视",
+						["List"] = {
+							{
+								["AuraID"] = 88423,
+								["filter"] = "CD",
+							}, -- [1]
+							{
+								["AuraID"] = 2782,
+								["filter"] = "CD",
+							}, -- [2]
+							{
+								["AuraID"] = 106839,
+								["filter"] = "CD",
+							}, -- [3]
+							{
+								["AuraID"] = 33917,
+								["filter"] = "CD",
+							}, -- [4]
+							{
+								["AuraID"] = 48438,
+								["filter"] = "CD",
+							}, -- [5]
+							{
+								["AuraID"] = 18562,
+								["filter"] = "CD",
+							}, -- [6]
+							{
+								["AuraID"] = 6795,
+								["filter"] = "CD",
+							}, -- [7]
+							{
+								["AuraID"] = 22570,
+								["filter"] = "CD",
+							}, -- [8]
+							{
+								["AuraID"] = 78674,
+								["filter"] = "CD",
+							}, -- [9]
+							{
+								["AuraID"] = 102401,
+								["filter"] = "CD",
+							}, -- [10]
+							{
+								["AuraID"] = 205636,
+								["filter"] = "CD",
+							}, -- [11]
+							{
+								["AuraID"] = 5217,
+								["filter"] = "CD",
+							}, -- [12]
+							{
+								["AuraID"] = 99,
+								["filter"] = "CD",
+							}, -- [13]
+							{
+								["AuraID"] = 155835,
+								["filter"] = "CD",
+							}, -- [14]
+							{
+								["AuraID"] = 102359,
+								["filter"] = "CD",
+							}, -- [15]
+							{
+								["AuraID"] = 132469,
+								["filter"] = "CD",
+							}, -- [16]
+							{
+								["AuraID"] = 5211,
+								["filter"] = "CD",
+							}, -- [17]
+							{
+								["AuraID"] = 78675,
+								["filter"] = "CD",
+							}, -- [18]
+							{
+								["AuraID"] = 22812,
+								["filter"] = "CD",
+							}, -- [19]
+							{
+								["AuraID"] = 102342,
+								["filter"] = "CD",
+							}, -- [20]
+							{
+								["AuraID"] = 102793,
+								["filter"] = "CD",
+							}, -- [21]
+							{
+								["AuraID"] = 124974,
+								["filter"] = "CD",
+							}, -- [22]
+							{
+								["AuraID"] = 106951,
+								["absID"] = true,
+								["filter"] = "CD",
+							}, -- [23]
+							{
+								["AuraID"] = 210722,
+								["filter"] = "CD",
+							}, -- [24]
+							{
+								["AuraID"] = 102560,
+								["filter"] = "CD",
+							}, -- [25]
+							{
+								["AuraID"] = 102543,
+								["filter"] = "CD",
+							}, -- [26]
+							{
+								["AuraID"] = 102558,
+								["filter"] = "CD",
+							}, -- [27]
+							{
+								["AuraID"] = 33891,
+								["filter"] = "CD",
+							}, -- [28]
+							{
+								["AuraID"] = 195710,
+								["filter"] = "CD",
+							}, -- [29]
+							{
+								["AuraID"] = 26297,
+								["absID"] = true,
+								["filter"] = "CD",
+							}, -- [30]
+							{
+								["AuraID"] = 68992,
+								["filter"] = "CD",
+							}, -- [31]
+							{
+								["AuraID"] = 58984,
+								["filter"] = "CD",
+							}, -- [32]
+							{
+								["AuraID"] = 20549,
+								["filter"] = "CD",
+							}, -- [33]
+						},
+						["IconSize"] = 48,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							99, -- [5]
+						},
+					}, -- [5]
+				},
+				["ver"] = 2,
+			},
+		},
+		["雄奶奶 - 森金"] = {
+			["databars"] = {
+				["azerite"] = {
+					["textFormat"] = "CURPERCREM",
+					["mouseover"] = true,
+					["width"] = 1774,
+					["hideInVehicle"] = true,
+					["height"] = 18,
+					["textSize"] = 18,
+					["orientation"] = "HORIZONTAL",
+				},
+				["experience"] = {
+					["textFormat"] = "CURPERCREM",
+					["mouseover"] = true,
+					["width"] = 1774,
+					["height"] = 18,
+					["textSize"] = 18,
+					["orientation"] = "HORIZONTAL",
+				},
+				["honor"] = {
+					["enable"] = false,
+				},
+			},
+			["currentTutorial"] = 6,
+			["general"] = {
+				["interruptAnnounce"] = "PARTY",
+				["backdropfadecolor"] = {
+					["b"] = 0.13,
+					["g"] = 0.13,
+					["r"] = 0.13,
+				},
+				["valuecolor"] = {
+					["b"] = 0.1725490196078431,
+					["g"] = 0.4823529411764706,
+					["r"] = 0.996078431372549,
+				},
+				["bordercolor"] = {
+					["b"] = 0,
+					["g"] = 0,
+					["r"] = 0,
+				},
+				["topPanel"] = false,
+				["minimap"] = {
+					["locationFontSize"] = 28,
+					["resetZoom"] = {
+						["enable"] = true,
+						["time"] = 5,
+					},
+					["size"] = 226,
+				},
+				["objectiveFrameAutoHide"] = true,
+			},
+			["Myslot"] = {
+				["sets"] = {
+					["武僧"] = "@ Myslot ( V24)\r\n@ 时间:Sun Aug 18 13:39:23 2019\r\n@ 玩家:牛爹爹\r\n@ 职业:武僧\r\n@ 专精:踏风\r\n@ 等级:110\r\n@ \r\n@ 问题/建议  farmer1992@gmail.com\r\n@ --------------------\r\nGFYEFldo91MKCAgDEAEYxaABCggIBBABGLSoDQoICAUQARiskwYKCAgGEAEYsJMGCggICBABGKezCAoICAkQARi71wcKCAgKEAEYhoMHCggICxABGMzUBgoICAwQARiqmQYKCAgNEAEY4Y8HCggIDhABGP+KBwoICA8QARipmQYKCAgQEAEY+PcGCggIEhABGMCZBwoICBMQARjR3AoKCAgUEAEYpMcGCggIFRABGOa8BwoICBYQARiIgwcKBwgXEAkYmwMKCAgYEAEY2oYHCggIGRACGKDHCAoICB8QAhigxwgKBgggEAYYAQoICCEQAhil0ggKBwgjEAkYnwMKCAgkEAEY9o8FCgcIJhAJGJwCCggIKBABGOqDBwoGCCkQBhgCCgcIKhACGKQ2CggIMRABGOGPBwoICDIQARj/igcKCAgzEAEYqZkGCggINBABGPj3BgoICDUQARikxwYKCAg3EAEYwJkHCggIOBABGNHcCgoICDkQARjmvAcKCAg6EAEYiIMHCggIOxABGIuaBgoICDwQARi8qQcKCAg9EAIYzecCCggIPhACGLyTCAoICD8QAhidwQgKCAhAEAIYkNYICggIQRABGNqGBwoICEIQAhiToQIKCAhEEAEY6vcRCgcIRRAJGIgDCgcIRhAJGKgBCgcIRxAJGLMHCgkISBAJGP///38SCAgCEgQIVxAAEggIAxIECFMQABIICAQSBAhBEAASCAgFEgQIRBAAEggICBIECH0QABIICAoSBAhcEAASCAgLEgQIWxADEggIDBIECG0QABIICA0SBAhsEAASCAgOEgQIeRAAEggIEBIECHQQABIICBESBAhlEAASCAgSEgQIaRAAEggIExIECGgQABIICBQSBAhoEAESCAgVEgQIUhABEggIFxIECGkQAhIICBgSBAhoEAISCAgZEgQIaBBrEggIGhIECDgQABIICBsSBAg5EAASCAgcEgQIOhAAEggIHRIECDsQABIICB4SBAh+EAASCAgfEgQIfxAAEggIIBIECH4QAxIICCESBAh/EAMSCAgiEgQIURADEggIIxIECEUQAxIICCQSBAhREAASCAglEgQIRRAAEggIJhIECAEQAhIICCcSBAgCEAISCAgoEgQIAxACEggIKRIECAQQAhIICCoSBAgFEAISCAgrEgQIBhACEggILBIECAcQAhIICC0SBAgIEAISCAgxEgQIORACEggIMhIECDoQAhIICDQSBAg8EAISCAg1EgQIPRACEggINhIECD4QAhIICDcSBAg/EAISCAg4EgQIQBACEggIORIECDcQAhIJCMYBEgQIOBADEgkIxwESBAg5EAMSCQjIARIECDoQAxIJCMkBEgQIOxADEgkIygESBAg8EAMSCQjLARIECFoQAxIJCMwBEgQIQxADEgkIzQESBAhWEAMSCQjOARIECEYQAxIJCM8BEgQIRxADEgkI0AESBAhSEAMSCQjRARIECFgQAxIJCNIBEgQIWhAAEgkI0wESBAhYEAASCQjUARIECEMQABIJCNUBEgQIVhAAEgkI1gESBAhGEAASCQjXARIECEcQABIJCNgBEgQIUhAAEgkI2QESBAhUEAASCQjaARIECH4QARIJCNsBEgQIfxABEgkI3AESBAh+EAISCQjdARIECH8QAhIJCN4BEgQIcRAAEgkI6wESBAhvEAASCAhUEgQIchAAEggIVRIECHIQARIICFYSBAhyEAISCAhXEgQIchBrEggIXBIECAEQABIICF8SBAgEEAASCAhgEgQIBRAAEggIYRIECAEQARIICGISBAgCEAESCAhjEgQIAxABEggIZBIECAQQARIICGUSBAgFEAESCAhoEgQIZBAAEggIaRIECFYQARIICGoSBAhWEAISCAhwEgQIVBABEgkIhgESBAh1EAASDgh2EgQIQhABGgQIDBAAEggIdxIECAgQABIICHgSBAgJEAASCAh5EgQIChAAEggIehIECAsQABIICHUSBAhDEAESCQiEARIECFUQABIICH0SBAhQEAASCAh+EgQISxAAEggIfxIECEkQARIJCIEBEgQIThAAEgkIlgESBAhZEAASCQiXARIECFkQARIJCIUBEgQIURABEgkIiAESBAhbEAASCQiTARIECE0QARIJCI0BEgQIWBABEgkIigESBAhGEAESCQi1AhIECEkQABIJCLYCEgQISRACEgkIggESBAhIEAASCQi3AhIECFAQARIJCLgCEgQIWhABEgkIpgISBAhKEAESCQicARIECHwQABIJCJ0BEgQIexAAEgkIngESBAhNEAISCQifARIECFMQAhIJCKABEgQIXRACEgkIoQESBAhcEAISCQikARIECFIQAhIKCKUBEgUIgQEQABIJCLIBEgQIahAAEgkIswESBAhrEAASCQi0ARIECHAQABIJCLUBEgQIbhAAEgkI/wESBAgyEAASCQiBAhIECDAQABqrAwoG5Z2Q6aqREpYDI3Nob3d0b29sdGlwCi9zdGFydGF0dGFjawovY2FzdHNlcXVlbmNlIFtub2NoYW5uZWxpbmddIHJlc2V0PTgvY29tYmF0IOi0r+aXpeWHuyznjJvomY7mjows6LSv5pel5Ye7LOaXreaXpeS4nOWNh+i4oizotK/ml6Xlh7ss5bm754Gt6LiiLOi0r+aXpeWHuyzlubvnga3ouKIs6LSv5pel5Ye7LOaXreaXpeS4nOWNh+i4oizotK/ml6Xlh7ss5bm754Gt6LiiLOecn+awlOazoizotK/ml6Xlh7ss54yb6JmO5o6MLOi0r+aXpeWHuyzomY7nnLzphZIs5pet5pel5Lic5Y2H6LiiLOi0r+aXpeWHuyzlubvnga3ouKIs56e76Iqx5o6l5pyoLOaAkumbt+egtCzotK/ml6Xlh7ss5pet5pel5Lic5Y2H6LiiLOecn+awlOazoizotK/ml6Xlh7ss5bm754Gt6LiiCi/mlr3mlL4g55m96JmO5LiL5YehCi/mlr3mlL4g6LGq6IO96YWSChgBIgYxMzIyMjYa5wEKA+mlvxLVAS9ydW4gbG9jYWwgYT17NDU0NzAsNDcyMDcsNDcyMDgsNDcyMDksNDcyMTAsNDcyMTEsNDcyMTIsNDcyMTN9Zm9yIGkscSBpbiBpcGFpcnMoYSlkbyBwcmludChmb3JtYXQoIuesrCVzIOW8oDogJXMiLGksIElzUXVlc3RGbGFnZ2VkQ29tcGxldGVkKHEpIGFuZCAiMTI0Y0ZGMDBGRjAw5bey5a6M5oiQMTI0ciIgb3IgIjEyNGNGRkZGMDAwMOacquWujOaIkDEyNHIiKSkgZW5kChgCIgYxMzYxMDNwGHoJ54mb54i554i5",
+				},
+			},
+			["v11NamePlateReset"] = true,
+			["auras"] = {
+				["debuffs"] = {
+					["horizontalSpacing"] = 0,
+				},
+				["buffs"] = {
+					["horizontalSpacing"] = 0,
+					["verticalSpacing"] = 0,
+				},
+			},
+			["euiscript"] = {
+				["idq"] = true,
+			},
+			["RightChatPanelFaded"] = true,
+			["movers"] = {
+				["TopCenterContainerMover"] = "TOP,ElvUIParent,TOP,153,-442",
+				["EuiInfoBar1Mover"] = "TOP,ElvUIParent,TOP,44,0",
+				["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,53,220",
+				["ElvUF_RaidMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,403",
+				["LeftChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,0",
+				["GMMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-75,-5",
+				["BuffsMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,291,-328",
+				["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,279,852",
+				["EuiComboPointAnchorMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-323,-85",
+				["BagsMover"] = "BOTTOM,ElvUIParent,BOTTOM,-239,288",
+				["BossButton"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-477,179",
+				["LootFrameMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-458,261",
+				["ZoneAbility"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-413,179",
+				["SocialMenuMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,0,0",
+				["ElvUF_PetTargetMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,409,-1",
+				["RightChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,293",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,0,615",
+				["PetAB"] = "BOTTOM,ElvUIParent,BOTTOM,-152,165",
+				["AutoButtonAnchor2Mover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-346,98",
+				["ElvUF_FocusMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-482,-113",
+				["ElvUIBagMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,353,334",
+				["AutoButtonAnchorMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-308,139",
+				["ClassBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-238,165",
+				["MicrobarMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,0,26",
+				["ElvUF_TargetMover"] = "TOP,ElvUIParent,TOP,0,-34",
+				["VehicleSeatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-324,0",
+				["ElvUF_TargetTargetMover"] = "TOP,ElvUIParent,TOP,268,-24",
+				["ExperienceBarMover"] = "TOP,ElvUIParent,TOP,-1,-16",
+				["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,5,55",
+				["ElvUIBankMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,349,315",
+				["EuiExecuteMover"] = "BOTTOM,ElvUIParent,BOTTOM,265,202",
+				["LossControlMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-449,0",
+				["LevelUpBossBannerMover"] = "TOP,ElvUIParent,TOP,7,-474",
+				["MirrorTimer1Mover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-293,-9",
+				["EuiInfoBar4Mover"] = "TOP,ElvUIParent,TOP,-99,0",
+				["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,5,0",
+				["EuiInfoBar3Mover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-257,0",
+				["ElvUF_PlayerAuraMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,0,-81",
+				["ElvUF_FocusCastbarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-480,-150",
+				["ElvAB_4"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-59,295",
+				["ArenaHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-253,284",
+				["AltPowerBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,0,-82",
+				["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,5,110",
+				["ElvAB_5"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,291",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,872,197",
+				["EuiInfoBar2Mover"] = "TOP,ElvUIParent,TOP,140,0",
+				["ElvNP_PlayerMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-459,292",
+				["ElvUF_PetMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,280,0",
+				["TalkingHeadFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,0,-186",
+				["VOICECHAT"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,0,-174",
+				["AzeriteBarMover"] = "TOP,ElvUIParent,TOP,-1,0",
+				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,294",
+				["ElvUF_TargetCastbarMover"] = "TOP,ElvUIParent,TOP,0,-100",
+				["TooltipMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,212,316",
+				["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,279,916",
+				["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-206,-175",
+				["ElvUF_PlayerMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,0,0",
+				["ElvUF_PlayerSwingBarMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,280,4",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,375",
+				["AlertFrameMover"] = "BOTTOM,ElvUIParent,BOTTOM,2,459",
+				["DebuffsMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,395,-146",
+				["MinimapMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,0",
+			},
+			["tooltip"] = {
+				["targetInfo"] = false,
+				["playerTitles"] = false,
+				["cursorAnchor"] = true,
+				["guildRanks"] = false,
+				["hh"] = false,
+			},
+			["unitframe"] = {
+				["number"] = "CNW",
+				["fontSize"] = 26,
+				["statusbar"] = "Sinaris",
+				["unitframeType"] = 3,
+				["units"] = {
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focus"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["debuffs"] = {
+							["anchorPoint"] = "BOTTOMLEFT",
+							["attachTo"] = "FRAME",
+							["maxDuration"] = 0,
+						},
+						["disableTargetGlow"] = false,
+						["range"] = {
+							["fontSize"] = 18,
+						},
+						["health"] = {
+							["xOffset"] = 2,
+							["frequentUpdates"] = true,
+						},
+						["power"] = {
+							["attachTextTo"] = "Power",
+							["text_format"] = "[powercolor][power:current-percent]",
+							["xOffset"] = 0,
+							["height"] = 18,
+						},
+						["portrait"] = {
+							["detachHideBackdrop"] = false,
+							["fullOverlay"] = true,
+							["detachedWidth"] = 15,
+							["detachedHeight"] = 169,
+							["camDistanceScale"] = 1,
+						},
+						["aurabar"] = {
+							["enable"] = false,
+							["maxDuration"] = 300,
+						},
+						["middleClickFocus"] = false,
+						["castbar"] = {
+							["width"] = 388,
+							["InterruptSound"] = true,
+							["height"] = 26,
+						},
+						["width"] = 388,
+						["fader"] = {
+							["hover"] = true,
+							["combat"] = true,
+							["power"] = true,
+							["enable"] = false,
+							["range"] = false,
+							["playertarget"] = true,
+							["health"] = true,
+							["casting"] = true,
+							["vehicle"] = true,
+						},
+						["name"] = {
+							["position"] = "CENTER",
+							["text_format"] = "",
+						},
+						["orientation"] = "LEFT",
+						["buffs"] = {
+							["sizeOverride"] = 0,
+							["yOffset"] = 45,
+							["anchorPoint"] = "BOTTOMLEFT",
+							["numrows"] = 3,
+							["perrow"] = 12,
+							["attachTo"] = "DEBUFFS",
+						},
+						["height"] = 66,
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["enable"] = true,
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["player"] = {
+						["classbar"] = {
+							["detachFromFrame"] = true,
+							["spacing"] = 10,
+							["fill"] = "fill",
+							["detachedWidth"] = 188,
+							["height"] = 16,
+						},
+						["height"] = 100,
+						["buffs"] = {
+							["sizeOverride"] = 0,
+							["enable"] = true,
+							["yOffset"] = -100,
+							["anchorPoint"] = "BOTTOMLEFT",
+							["numrows"] = 2,
+						},
+						["fader"] = {
+							["enable"] = true,
+						},
+						["castbar"] = {
+							["width"] = 280,
+							["height"] = 50,
+						},
+						["portrait"] = {
+							["yOffset"] = -0.03000000000000003,
+							["camDistanceScale"] = 1.66,
+							["xOffset"] = 0.21,
+						},
+						["width"] = 280,
+						["health"] = {
+							["frequentUpdates"] = true,
+							["bgUseBarTexture"] = true,
+						},
+						["CombatIcon"] = {
+							["size"] = 28,
+						},
+						["power"] = {
+							["attachTextTo"] = "Power",
+							["xOffset"] = 0,
+							["height"] = 28,
+						},
+					},
+					["pet"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["power"] = {
+							["height"] = 28,
+						},
+						["width"] = 100,
+						["height"] = 88,
+						["buffs"] = {
+							["attachTo"] = "DEBUFFS",
+						},
+						["health"] = {
+							["bgUseBarTexture"] = false,
+							["frequentUpdates"] = true,
+						},
+						["raidicon"] = {
+							["enable"] = false,
+						},
+					},
+					["party"] = {
+						["portrait"] = {
+							["enable"] = true,
+						},
+						["showPlayer"] = false,
+						["healPrediction"] = {
+							["enable"] = true,
+						},
+						["name"] = {
+							["position"] = "TOPRIGHT",
+						},
+						["height"] = 56,
+						["visibility"] = "[@raid2,exists][@party1,noexists] hide;show",
+						["power"] = {
+							["attachTextTo"] = "Power",
+							["height"] = 13,
+						},
+						["width"] = 266,
+						["health"] = {
+							["xOffset"] = 4,
+							["bgUseBarTexture"] = false,
+						},
+					},
+				},
+				["colors"] = {
+					["healthclass"] = true,
+					["borderColor"] = {
+						["b"] = 0,
+						["g"] = 0,
+						["r"] = 0,
+					},
+					["castColor"] = {
+						["b"] = 0.31,
+						["g"] = 0.31,
+						["r"] = 0.31,
+					},
+					["frameGlow"] = {
+						["mainGlow"] = {
+							["enable"] = true,
+							["class"] = true,
+						},
+						["mouseoverGlow"] = {
+							["class"] = true,
+						},
+					},
+					["classbackdrop"] = true,
+				},
+			},
+			["datatexts"] = {
+				["noCombatHover"] = true,
+				["panelTransparency"] = true,
+				["fontSize"] = 14,
+				["panelBackdrop"] = false,
+				["noCombatClick"] = true,
+			},
+			["bags"] = {
+				["bagSize"] = 45,
+				["reverseLoot"] = true,
+				["junkIcon"] = true,
+				["junkDesaturate"] = true,
+				["bagWidth"] = 666,
+				["countFontSize"] = 12,
+				["vendorGrays"] = {
+					["details"] = true,
+					["interval"] = 0.1,
+					["enable"] = true,
+				},
+				["bankWidth"] = 450,
+			},
+			["hideTutorial"] = true,
+			["chat"] = {
+				["socialQueueMessages"] = true,
+				["panelHeightRight"] = 158,
+				["font"] = "伤害数字",
+				["panelWidth"] = 558,
+				["panelHeight"] = 266,
+				["tabFont"] = "默认",
+				["pinVoiceButtons"] = false,
+				["tabFontSize"] = 15,
+				["panelColorConverted"] = true,
+				["lockPositions"] = false,
+				["panelWidthRight"] = 558,
+				["panelBackdrop"] = "HIDEBOTH",
+				["panelColor"] = {
+					["a"] = 0.9000000059604645,
+					["b"] = 0.05882352941176471,
+					["g"] = 0.05882352941176471,
+					["r"] = 0.05882352941176471,
+				},
+			},
+			["CooldownFlash"] = {
+				["enable"] = true,
+			},
+			["AuraWatch"] = {
+				["loadDefault"] = true,
+				["myclass"] = "MAGE",
+				["DB"] = {
+					{
+						["Interval"] = 6,
+						["Direction"] = "RIGHT",
+						["Name"] = "玩家增益",
+						["List"] = {
+							{
+								["AuraID"] = 45438,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [1]
+							{
+								["AuraID"] = 66,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["absID"] = true,
+								["filter"] = "BUFF",
+							}, -- [2]
+							{
+								["AuraID"] = 32612,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["absID"] = true,
+								["filter"] = "BUFF",
+							}, -- [3]
+							{
+								["AuraID"] = 110960,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["absID"] = true,
+								["filter"] = "BUFF",
+							}, -- [4]
+							{
+								["AuraID"] = 12472,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [5]
+							{
+								["AuraID"] = 12042,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [6]
+							{
+								["AuraID"] = 190319,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [7]
+							{
+								["AuraID"] = 235313,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [8]
+							{
+								["AuraID"] = 235450,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [9]
+							{
+								["AuraID"] = 11426,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [10]
+							{
+								["AuraID"] = 48107,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [11]
+							{
+								["AuraID"] = 108839,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [12]
+							{
+								["AuraID"] = 198111,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [13]
+							{
+								["AuraID"] = 55342,
+								["duration"] = 40,
+								["trigger"] = "NONE",
+								["filter"] = "ICD",
+							}, -- [14]
+							{
+								["AuraID"] = 205473,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [15]
+						},
+						["IconSize"] = 42,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							12, -- [5]
+						},
+					}, -- [1]
+					{
+						["Interval"] = 6,
+						["Direction"] = "RIGHT",
+						["Name"] = "玩家重要增益",
+						["List"] = {
+							{
+								["AuraID"] = 44544,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [1]
+							{
+								["AuraID"] = 190446,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [2]
+							{
+								["AuraID"] = 199844,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [3]
+							{
+								["AuraID"] = 48108,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [4]
+							{
+								["AuraID"] = 269651,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [5]
+							{
+								["AuraID"] = 263725,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [6]
+						},
+						["IconSize"] = 42,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							55, -- [5]
+						},
+					}, -- [2]
+					{
+						["Interval"] = 6,
+						["Direction"] = "RIGHT",
+						["Name"] = "目标减益",
+						["List"] = {
+							{
+								["AuraID"] = 36032,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "DEBUFF",
+							}, -- [1]
+							{
+								["AuraID"] = 44457,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [2]
+							{
+								["AuraID"] = 114923,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [3]
+							{
+								["AuraID"] = 33395,
+								["Caster"] = "all",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [4]
+							{
+								["AuraID"] = 198121,
+								["Caster"] = "all",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [5]
+							{
+								["AuraID"] = 122,
+								["Caster"] = "all",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [6]
+							{
+								["AuraID"] = 120,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [7]
+							{
+								["AuraID"] = 228354,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["absID"] = true,
+								["filter"] = "DEBUFF",
+							}, -- [8]
+							{
+								["AuraID"] = 157997,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [9]
+							{
+								["AuraID"] = 31589,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [10]
+						},
+						["IconSize"] = 42,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Target", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							68, -- [5]
+						},
+					}, -- [3]
+					{
+						["Interval"] = 6,
+						["Direction"] = "RIGHT",
+						["Name"] = "冷却监视",
+						["List"] = {
+							{
+								["AuraID"] = 475,
+								["filter"] = "CD",
+							}, -- [1]
+							{
+								["AuraID"] = 2139,
+								["filter"] = "CD",
+							}, -- [2]
+							{
+								["AuraID"] = 44457,
+								["filter"] = "CD",
+							}, -- [3]
+							{
+								["AuraID"] = 1953,
+								["filter"] = "CD",
+							}, -- [4]
+							{
+								["AuraID"] = 122,
+								["filter"] = "CD",
+							}, -- [5]
+							{
+								["AuraID"] = 157997,
+								["filter"] = "CD",
+							}, -- [6]
+							{
+								["AuraID"] = 113724,
+								["filter"] = "CD",
+							}, -- [7]
+							{
+								["AuraID"] = 235313,
+								["filter"] = "CD",
+							}, -- [8]
+							{
+								["AuraID"] = 235450,
+								["filter"] = "CD",
+							}, -- [9]
+							{
+								["AuraID"] = 11426,
+								["filter"] = "CD",
+							}, -- [10]
+							{
+								["AuraID"] = 198111,
+								["filter"] = "CD",
+							}, -- [11]
+							{
+								["AuraID"] = 108853,
+								["filter"] = "CD",
+							}, -- [12]
+							{
+								["AuraID"] = 120,
+								["filter"] = "CD",
+							}, -- [13]
+							{
+								["AuraID"] = 153595,
+								["filter"] = "CD",
+							}, -- [14]
+							{
+								["AuraID"] = 108839,
+								["filter"] = "CD",
+							}, -- [15]
+							{
+								["AuraID"] = 214634,
+								["filter"] = "CD",
+							}, -- [16]
+							{
+								["AuraID"] = 194466,
+								["filter"] = "CD",
+							}, -- [17]
+							{
+								["AuraID"] = 224968,
+								["filter"] = "CD",
+							}, -- [18]
+							{
+								["AuraID"] = 84714,
+								["filter"] = "CD",
+							}, -- [19]
+							{
+								["AuraID"] = 153561,
+								["filter"] = "CD",
+							}, -- [20]
+							{
+								["AuraID"] = 31661,
+								["filter"] = "CD",
+							}, -- [21]
+							{
+								["AuraID"] = 12042,
+								["filter"] = "CD",
+							}, -- [22]
+							{
+								["AuraID"] = 116011,
+								["filter"] = "CD",
+							}, -- [23]
+							{
+								["AuraID"] = 205025,
+								["filter"] = "CD",
+							}, -- [24]
+							{
+								["AuraID"] = 195676,
+								["filter"] = "CD",
+							}, -- [25]
+							{
+								["AuraID"] = 205032,
+								["filter"] = "CD",
+							}, -- [26]
+							{
+								["AuraID"] = 157980,
+								["filter"] = "CD",
+							}, -- [27]
+							{
+								["AuraID"] = 12051,
+								["filter"] = "CD",
+							}, -- [28]
+							{
+								["AuraID"] = 12472,
+								["filter"] = "CD",
+							}, -- [29]
+							{
+								["AuraID"] = 55342,
+								["filter"] = "CD",
+							}, -- [30]
+							{
+								["AuraID"] = 190319,
+								["filter"] = "CD",
+							}, -- [31]
+							{
+								["AuraID"] = 235219,
+								["filter"] = "CD",
+							}, -- [32]
+							{
+								["AuraID"] = 45438,
+								["filter"] = "CD",
+							}, -- [33]
+							{
+								["AuraID"] = 66,
+								["filter"] = "CD",
+							}, -- [34]
+							{
+								["AuraID"] = 195710,
+								["filter"] = "CD",
+							}, -- [35]
+							{
+								["AuraID"] = 69179,
+								["filter"] = "CD",
+							}, -- [36]
+							{
+								["AuraID"] = 26297,
+								["filter"] = "CD",
+							}, -- [37]
+							{
+								["AuraID"] = 20572,
+								["filter"] = "CD",
+							}, -- [38]
+							{
+								["AuraID"] = 20577,
+								["filter"] = "CD",
+							}, -- [39]
+							{
+								["AuraID"] = 68992,
+								["filter"] = "CD",
+							}, -- [40]
+							{
+								["AuraID"] = 20589,
+								["filter"] = "CD",
+							}, -- [41]
+							{
+								["AuraID"] = 59752,
+								["filter"] = "CD",
+							}, -- [42]
+							{
+								["AuraID"] = 28880,
+								["filter"] = "CD",
+							}, -- [43]
+							{
+								["AuraID"] = 107079,
+								["filter"] = "CD",
+							}, -- [44]
+							{
+								["AuraID"] = 69070,
+								["filter"] = "CD",
+							}, -- [45]
+							{
+								["AuraID"] = 58984,
+								["filter"] = "CD",
+							}, -- [46]
+							{
+								["AuraID"] = 20594,
+								["filter"] = "CD",
+							}, -- [47]
+							{
+								["AuraID"] = 7744,
+								["filter"] = "CD",
+							}, -- [48]
+						},
+						["IconSize"] = 48,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							99, -- [5]
+						},
+					}, -- [4]
+				},
+				["ver"] = 2,
+			},
+			["actionbar"] = {
+				["bar8"] = {
+					["backdrop"] = false,
+				},
+				["desaturateOnCooldown"] = true,
+				["bar9"] = {
+					["backdrop"] = false,
+				},
+				["euiabstyle"] = "Low",
+				["bar1"] = {
+					["buttonspacing"] = 1,
+					["heightMult"] = 3,
+					["inheritGlobalFade"] = true,
+					["backdropSpacing"] = 1,
+					["backdrop"] = false,
+					["showGrid"] = false,
+					["buttonsize"] = 55,
+				},
+				["bar7"] = {
+					["backdrop"] = false,
+				},
+				["barPet"] = {
+					["inheritGlobalFade"] = true,
+					["buttonsPerRow"] = 10,
+					["backdrop"] = false,
+				},
+				["fontSize"] = 16,
+				["movementModifier"] = "ALT",
+				["rightClickSelfCast"] = true,
+				["useRangeColorText"] = true,
+				["microbar"] = {
+					["buttonSize"] = 26,
+					["mouseover"] = true,
+					["buttonSpacing"] = -1,
+				},
+				["hideCooldownBling"] = true,
+				["bar2"] = {
+					["buttonspacing"] = 1,
+					["heightMult"] = 3,
+					["inheritGlobalFade"] = true,
+					["backdropSpacing"] = 1,
+					["enabled"] = true,
+					["showGrid"] = false,
+					["buttonsize"] = 55,
+				},
+				["bar5"] = {
+					["buttonspacing"] = 0,
+					["backdropSpacing"] = 0,
+					["buttons"] = 5,
+					["alpha"] = 0.16,
+					["backdrop"] = false,
+					["showGrid"] = false,
+					["buttonsPerRow"] = 1,
+					["buttonsize"] = 56,
+				},
+				["bar3"] = {
+					["buttonspacing"] = 1,
+					["heightMult"] = 3,
+					["inheritGlobalFade"] = true,
+					["backdropSpacing"] = 1,
+					["buttons"] = 12,
+					["backdrop"] = false,
+					["showGrid"] = false,
+					["buttonsPerRow"] = 12,
+					["buttonsize"] = 55,
+				},
+				["bar6"] = {
+					["inheritGlobalFade"] = false,
+					["backdrop"] = false,
+				},
+				["macrotext"] = true,
+				["bar4"] = {
+					["buttonspacing"] = 0,
+					["backdropSpacing"] = 0,
+					["buttons"] = 5,
+					["backdrop"] = false,
+					["alpha"] = 0.16,
+					["showGrid"] = false,
+					["buttonsize"] = 56,
+				},
+			},
+			["nameplates"] = {
+				["statusbar"] = "Frost Vertical",
+			},
+			["infobar"] = {
+				["height"] = 35,
+				["width"] = 96,
+			},
+		},
+		["独孤牛儿 - 森金"] = {
+			["currentTutorial"] = 1,
+			["movers"] = {
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,971",
+			},
+			["unitframe"] = {
+				["units"] = {
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["player"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focus"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["fader"] = {
+							["enable"] = false,
+							["range"] = false,
+						},
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pet"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+				},
+			},
+			["v11NamePlateReset"] = true,
+			["AuraWatch"] = {
+				["loadDefault"] = true,
+				["myclass"] = "DRUID",
+				["DB"] = {
+					{
+						["IconSize"] = 42,
+						["Direction"] = "RIGHT",
+						["Name"] = "玩家增益",
+						["List"] = {
+							{
+								["AuraID"] = 102560,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [1]
+							{
+								["AuraID"] = 102543,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [2]
+							{
+								["AuraID"] = 102558,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [3]
+							{
+								["AuraID"] = 117679,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [4]
+							{
+								["AuraID"] = 61336,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [5]
+							{
+								["AuraID"] = 22812,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [6]
+							{
+								["AuraID"] = 52610,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [7]
+							{
+								["AuraID"] = 106951,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["absID"] = true,
+								["filter"] = "BUFF",
+							}, -- [8]
+							{
+								["AuraID"] = 5217,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [9]
+							{
+								["AuraID"] = 194223,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [10]
+							{
+								["AuraID"] = 124974,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [11]
+							{
+								["AuraID"] = 200851,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [12]
+							{
+								["AuraID"] = 192081,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [13]
+							{
+								["AuraID"] = 158792,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [14]
+							{
+								["AuraID"] = 164547,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [15]
+							{
+								["AuraID"] = 164545,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [16]
+							{
+								["AuraID"] = 170856,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [17]
+							{
+								["AuraID"] = 1850,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [18]
+							{
+								["AuraID"] = 102351,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [19]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							12, -- [5]
+						},
+					}, -- [1]
+					{
+						["IconSize"] = 42,
+						["Direction"] = "RIGHT",
+						["Name"] = "玩家重要增益",
+						["List"] = {
+							{
+								["AuraID"] = 202425,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [1]
+							{
+								["AuraID"] = 279709,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [2]
+							{
+								["AuraID"] = 145152,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [3]
+							{
+								["AuraID"] = 16870,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [4]
+							{
+								["AuraID"] = 114108,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [5]
+							{
+								["AuraID"] = 69369,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [6]
+							{
+								["AuraID"] = 213680,
+								["filter"] = "BUFF",
+								["UnitID"] = "player",
+								["Caster"] = "player",
+							}, -- [7]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							55, -- [5]
+						},
+					}, -- [2]
+					{
+						["IconSize"] = 42,
+						["Direction"] = "RIGHT",
+						["Name"] = "目标减益",
+						["List"] = {
+							{
+								["AuraID"] = 164812,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [1]
+							{
+								["AuraID"] = 164815,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [2]
+							{
+								["AuraID"] = 202347,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [3]
+							{
+								["AuraID"] = 210722,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [4]
+							{
+								["AuraID"] = 155722,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["absID"] = true,
+								["filter"] = "DEBUFF",
+							}, -- [5]
+							{
+								["AuraID"] = 1079,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [6]
+							{
+								["AuraID"] = 77758,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [7]
+							{
+								["AuraID"] = 45334,
+								["filter"] = "DEBUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [8]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Target", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							12, -- [5]
+						},
+					}, -- [3]
+					{
+						["IconSize"] = 48,
+						["Direction"] = "RIGHT",
+						["Name"] = "目标增益",
+						["List"] = {
+							{
+								["AuraID"] = 33763,
+								["filter"] = "BUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [1]
+							{
+								["AuraID"] = 774,
+								["filter"] = "BUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [2]
+							{
+								["AuraID"] = 155777,
+								["filter"] = "BUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [3]
+							{
+								["AuraID"] = 8936,
+								["filter"] = "BUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [4]
+							{
+								["AuraID"] = 48438,
+								["filter"] = "BUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [5]
+							{
+								["AuraID"] = 102351,
+								["filter"] = "BUFF",
+								["UnitID"] = "target",
+								["Caster"] = "player",
+							}, -- [6]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Target", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							68, -- [5]
+						},
+					}, -- [4]
+					{
+						["IconSize"] = 48,
+						["Direction"] = "RIGHT",
+						["Name"] = "冷却监视",
+						["List"] = {
+							{
+								["AuraID"] = 88423,
+								["filter"] = "CD",
+							}, -- [1]
+							{
+								["AuraID"] = 2782,
+								["filter"] = "CD",
+							}, -- [2]
+							{
+								["AuraID"] = 106839,
+								["filter"] = "CD",
+							}, -- [3]
+							{
+								["AuraID"] = 33917,
+								["filter"] = "CD",
+							}, -- [4]
+							{
+								["AuraID"] = 48438,
+								["filter"] = "CD",
+							}, -- [5]
+							{
+								["AuraID"] = 18562,
+								["filter"] = "CD",
+							}, -- [6]
+							{
+								["AuraID"] = 6795,
+								["filter"] = "CD",
+							}, -- [7]
+							{
+								["AuraID"] = 22570,
+								["filter"] = "CD",
+							}, -- [8]
+							{
+								["AuraID"] = 78674,
+								["filter"] = "CD",
+							}, -- [9]
+							{
+								["AuraID"] = 102401,
+								["filter"] = "CD",
+							}, -- [10]
+							{
+								["AuraID"] = 205636,
+								["filter"] = "CD",
+							}, -- [11]
+							{
+								["AuraID"] = 5217,
+								["filter"] = "CD",
+							}, -- [12]
+							{
+								["AuraID"] = 99,
+								["filter"] = "CD",
+							}, -- [13]
+							{
+								["AuraID"] = 155835,
+								["filter"] = "CD",
+							}, -- [14]
+							{
+								["AuraID"] = 102359,
+								["filter"] = "CD",
+							}, -- [15]
+							{
+								["AuraID"] = 132469,
+								["filter"] = "CD",
+							}, -- [16]
+							{
+								["AuraID"] = 5211,
+								["filter"] = "CD",
+							}, -- [17]
+							{
+								["AuraID"] = 78675,
+								["filter"] = "CD",
+							}, -- [18]
+							{
+								["AuraID"] = 22812,
+								["filter"] = "CD",
+							}, -- [19]
+							{
+								["AuraID"] = 102342,
+								["filter"] = "CD",
+							}, -- [20]
+							{
+								["AuraID"] = 102793,
+								["filter"] = "CD",
+							}, -- [21]
+							{
+								["AuraID"] = 124974,
+								["filter"] = "CD",
+							}, -- [22]
+							{
+								["AuraID"] = 106951,
+								["absID"] = true,
+								["filter"] = "CD",
+							}, -- [23]
+							{
+								["AuraID"] = 210722,
+								["filter"] = "CD",
+							}, -- [24]
+							{
+								["AuraID"] = 102560,
+								["filter"] = "CD",
+							}, -- [25]
+							{
+								["AuraID"] = 102543,
+								["filter"] = "CD",
+							}, -- [26]
+							{
+								["AuraID"] = 102558,
+								["filter"] = "CD",
+							}, -- [27]
+							{
+								["AuraID"] = 33891,
+								["filter"] = "CD",
+							}, -- [28]
+							{
+								["AuraID"] = 195710,
+								["filter"] = "CD",
+							}, -- [29]
+							{
+								["AuraID"] = 26297,
+								["absID"] = true,
+								["filter"] = "CD",
+							}, -- [30]
+							{
+								["AuraID"] = 68992,
+								["filter"] = "CD",
+							}, -- [31]
+							{
+								["AuraID"] = 58984,
+								["filter"] = "CD",
+							}, -- [32]
+							{
+								["AuraID"] = 20549,
+								["filter"] = "CD",
+							}, -- [33]
+						},
+						["Interval"] = 6,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							99, -- [5]
+						},
+					}, -- [5]
+				},
+				["ver"] = 2,
+			},
+			["chat"] = {
+				["panelColorConverted"] = true,
+				["panelColor"] = {
+					["a"] = 0.9,
+				},
+			},
+		},
+		["午盾 - 森金"] = {
+			["currentTutorial"] = 1,
+			["unitframe"] = {
+				["units"] = {
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["player"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focus"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["fader"] = {
+							["enable"] = false,
+							["range"] = false,
+						},
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pet"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+				},
+			},
+			["movers"] = {
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,983",
+			},
+			["v11NamePlateReset"] = true,
+			["AuraWatch"] = {
+				["loadDefault"] = true,
+				["myclass"] = "WARRIOR",
+				["DB"] = {
+					{
+						["Interval"] = 6,
+						["Direction"] = "RIGHT",
+						["Name"] = "玩家增益",
+						["List"] = {
+							{
+								["AuraID"] = 248622,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [1]
+							{
+								["AuraID"] = 262228,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [2]
+							{
+								["AuraID"] = 260708,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [3]
+							{
+								["AuraID"] = 190456,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [4]
+							{
+								["AuraID"] = 871,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [5]
+							{
+								["AuraID"] = 12975,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [6]
+							{
+								["AuraID"] = 184364,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [7]
+							{
+								["AuraID"] = 2565,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [8]
+							{
+								["AuraID"] = 23920,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [9]
+							{
+								["AuraID"] = 152277,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["spec"] = 3,
+								["filter"] = "BUFF",
+							}, -- [10]
+							{
+								["AuraID"] = 118038,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [11]
+							{
+								["AuraID"] = 18499,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [12]
+							{
+								["AuraID"] = 107574,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [13]
+							{
+								["AuraID"] = 12292,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [14]
+							{
+								["AuraID"] = 1719,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [15]
+							{
+								["AuraID"] = 32216,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [16]
+						},
+						["IconSize"] = 42,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							12, -- [5]
+						},
+					}, -- [1]
+					{
+						["Interval"] = 6,
+						["Direction"] = "RIGHT",
+						["Name"] = "玩家重要增益",
+						["List"] = {
+							{
+								["AuraID"] = 7384,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [1]
+							{
+								["AuraID"] = 215572,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [2]
+							{
+								["AuraID"] = 202539,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [3]
+							{
+								["AuraID"] = 202574,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [4]
+							{
+								["AuraID"] = 52437,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [5]
+							{
+								["AuraID"] = 131116,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [6]
+							{
+								["AuraID"] = 85739,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [7]
+							{
+								["AuraID"] = 184362,
+								["Caster"] = "player",
+								["UnitID"] = "player",
+								["filter"] = "BUFF",
+							}, -- [8]
+						},
+						["IconSize"] = 42,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							55, -- [5]
+						},
+					}, -- [2]
+					{
+						["Interval"] = 6,
+						["Direction"] = "RIGHT",
+						["Name"] = "目标减益",
+						["List"] = {
+							{
+								["AuraID"] = 280773,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [1]
+							{
+								["AuraID"] = 772,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [2]
+							{
+								["AuraID"] = 167105,
+								["Caster"] = "player",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [3]
+							{
+								["AuraID"] = 1715,
+								["Caster"] = "all",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [4]
+							{
+								["AuraID"] = 1160,
+								["Caster"] = "all",
+								["UnitID"] = "target",
+								["filter"] = "DEBUFF",
+							}, -- [5]
+						},
+						["IconSize"] = 42,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Target", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							68, -- [5]
+						},
+					}, -- [3]
+					{
+						["Interval"] = 6,
+						["Direction"] = "RIGHT",
+						["Name"] = "冷却监视",
+						["List"] = {
+							{
+								["AuraID"] = 6552,
+								["filter"] = "CD",
+							}, -- [1]
+							{
+								["AuraID"] = 23922,
+								["filter"] = "CD",
+							}, -- [2]
+							{
+								["AuraID"] = 46968,
+								["filter"] = "CD",
+							}, -- [3]
+							{
+								["AuraID"] = 107570,
+								["filter"] = "CD",
+							}, -- [4]
+							{
+								["AuraID"] = 6343,
+								["filter"] = "CD",
+							}, -- [5]
+							{
+								["AuraID"] = 355,
+								["filter"] = "CD",
+							}, -- [6]
+							{
+								["AuraID"] = 167105,
+								["filter"] = "CD",
+							}, -- [7]
+							{
+								["AuraID"] = 100,
+								["filter"] = "CD",
+							}, -- [8]
+							{
+								["AuraID"] = 23920,
+								["filter"] = "CD",
+							}, -- [9]
+							{
+								["AuraID"] = 18499,
+								["filter"] = "CD",
+							}, -- [10]
+							{
+								["AuraID"] = 6544,
+								["filter"] = "CD",
+							}, -- [11]
+							{
+								["AuraID"] = 1160,
+								["filter"] = "CD",
+							}, -- [12]
+							{
+								["AuraID"] = 184364,
+								["filter"] = "CD",
+							}, -- [13]
+							{
+								["AuraID"] = 152277,
+								["filter"] = "CD",
+							}, -- [14]
+							{
+								["AuraID"] = 5246,
+								["filter"] = "CD",
+							}, -- [15]
+							{
+								["AuraID"] = 12975,
+								["filter"] = "CD",
+							}, -- [16]
+							{
+								["AuraID"] = 97462,
+								["filter"] = "CD",
+							}, -- [17]
+							{
+								["AuraID"] = 871,
+								["filter"] = "CD",
+							}, -- [18]
+							{
+								["AuraID"] = 205545,
+								["filter"] = "CD",
+							}, -- [19]
+							{
+								["AuraID"] = 1719,
+								["filter"] = "CD",
+							}, -- [20]
+							{
+								["AuraID"] = 107574,
+								["filter"] = "CD",
+							}, -- [21]
+							{
+								["AuraID"] = 195710,
+								["filter"] = "CD",
+							}, -- [22]
+							{
+								["AuraID"] = 69179,
+								["filter"] = "CD",
+							}, -- [23]
+							{
+								["AuraID"] = 26297,
+								["filter"] = "CD",
+							}, -- [24]
+							{
+								["AuraID"] = 20572,
+								["filter"] = "CD",
+							}, -- [25]
+							{
+								["AuraID"] = 20577,
+								["filter"] = "CD",
+							}, -- [26]
+							{
+								["AuraID"] = 68992,
+								["filter"] = "CD",
+							}, -- [27]
+							{
+								["AuraID"] = 20589,
+								["filter"] = "CD",
+							}, -- [28]
+							{
+								["AuraID"] = 59752,
+								["filter"] = "CD",
+							}, -- [29]
+							{
+								["AuraID"] = 28880,
+								["filter"] = "CD",
+							}, -- [30]
+							{
+								["AuraID"] = 107079,
+								["filter"] = "CD",
+							}, -- [31]
+							{
+								["AuraID"] = 69070,
+								["filter"] = "CD",
+							}, -- [32]
+							{
+								["AuraID"] = 58984,
+								["filter"] = "CD",
+							}, -- [33]
+							{
+								["AuraID"] = 20594,
+								["filter"] = "CD",
+							}, -- [34]
+							{
+								["AuraID"] = 20549,
+								["filter"] = "CD",
+							}, -- [35]
+							{
+								["AuraID"] = 7744,
+								["filter"] = "CD",
+							}, -- [36]
+						},
+						["IconSize"] = 48,
+						["Mode"] = "ICON",
+						["Alpha"] = 1,
+						["Pos"] = {
+							"BOTTOMLEFT", -- [1]
+							"ElvUF_Player", -- [2]
+							"TOPLEFT", -- [3]
+							0, -- [4]
+							99, -- [5]
+						},
+					}, -- [4]
+				},
+				["ver"] = 2,
+			},
+			["hideTutorial"] = true,
+			["chat"] = {
+				["panelColorConverted"] = true,
+				["panelColor"] = {
+					["a"] = 0.9,
+				},
+			},
+		},
+	},
+}
+ElvPrivateDB = {
+	["profileKeys"] = {
+		["独孤牛儿 - 森金"] = "独孤牛儿 - 森金",
+		["风雨思年华 - 森金"] = "风雨思年华 - 森金",
+		["仔酷 - 森金"] = "仔酷 - 森金",
+		["午盾 - 森金"] = "午盾 - 森金",
+		["牛爹爹 - 屠魔山谷"] = "牛爹爹 - 屠魔山谷",
+		["雄奶奶 - 森金"] = "雄奶奶 - 森金",
+		["巨目巨目巨目 - 森金"] = "巨目巨目巨目 - 森金",
+		["奶奶的大刀 - 森金"] = "奶奶的大刀 - 森金",
+	},
+	["profiles"] = {
+		["独孤牛儿 - 森金"] = {
+			["nameplates"] = {
+				["enable"] = false,
+			},
+			["auras"] = {
+				["enable"] = false,
+			},
+			["install_complete"] = "11.18",
+		},
+		["风雨思年华 - 森金"] = {
+			["nameplates"] = {
+				["enable"] = false,
+			},
+			["install_complete"] = "11.20",
+			["theme"] = "transparent",
+			["auras"] = {
+				["enable"] = false,
+			},
+		},
+		["仔酷 - 森金"] = {
+			["nameplates"] = {
+				["enable"] = false,
+			},
+			["auras"] = {
+				["enable"] = false,
+			},
+			["install_complete"] = "11.18",
+		},
+		["午盾 - 森金"] = {
+			["nameplates"] = {
+				["enable"] = false,
+			},
+			["auras"] = {
+				["enable"] = false,
+			},
+			["install_complete"] = "11.18",
+		},
+		["牛爹爹 - 屠魔山谷"] = {
+			["general"] = {
+				["normTex"] = "Sinaris",
+				["chatBubbleName"] = true,
+				["glossTex"] = "Sinaris",
+			},
+			["actionbar"] = {
+				["masque"] = {
+					["stanceBar"] = true,
+					["petBar"] = true,
+					["actionbars"] = true,
+				},
+			},
+			["nameplates"] = {
+				["enable"] = false,
+			},
+			["auras"] = {
+				["enable"] = false,
+			},
+			["install_complete"] = "11.20",
+		},
+		["雄奶奶 - 森金"] = {
+			["general"] = {
+				["normTex"] = "Sinaris",
+			},
+			["auras"] = {
+				["enable"] = false,
+				["disableBlizzard"] = false,
+			},
+			["actionbar"] = {
+				["masque"] = {
+					["actionbars"] = true,
+				},
+			},
+			["nameplates"] = {
+				["enable"] = false,
+			},
+			["theme"] = "classic",
+			["install_complete"] = "11.20",
+		},
+		["巨目巨目巨目 - 森金"] = {
+			["nameplates"] = {
+				["enable"] = false,
+			},
+			["auras"] = {
+				["enable"] = false,
+				["disableBlizzard"] = false,
+			},
+			["install_complete"] = "11.18",
+		},
+		["奶奶的大刀 - 森金"] = {
+			["nameplates"] = {
+				["enable"] = false,
+			},
+			["install_complete"] = "11.18",
+			["auras"] = {
+				["enable"] = false,
+			},
+		},
+	},
+}
+AzeriteTooltipDB = {
+	["profileKeys"] = {
+		["独孤牛儿 - 森金"] = "Default",
+		["风雨思年华 - 森金"] = "Default",
+		["仔酷 - 森金"] = "Default",
+		["午盾 - 森金"] = "Default",
+		["牛爹爹 - 屠魔山谷"] = "Default",
+		["雄奶奶 - 森金"] = "Default",
+		["巨目巨目巨目 - 森金"] = "Default",
+		["奶奶的大刀 - 森金"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

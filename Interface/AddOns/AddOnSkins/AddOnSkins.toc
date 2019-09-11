@@ -1,0 +1,10 @@
+﻿## Interface: 80200
+## Title: |cffC495DDEUI|r |cffFFFFFFAddOnSkins|r
+## Title-zhCN: |cffC495DDEUI|r插件美化模块
+## Title-zhTW: |cffC495DDEUI|r插件美化模塊
+## Version: 4.21
+## Author: Azilroka, Whiro
+## SavedVariables: AddOnSkinsDB, AddOnSkinsDS
+## OptionalDeps: ElvUI
+
+Load_AddOnSkins.xml

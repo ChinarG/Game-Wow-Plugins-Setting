@@ -1,0 +1,17 @@
+## Interface: 80200
+## Title: |cffC495DDEUI|rHandyNotes: Cauldrons
+## Title-zhCN: |cffC495DDEUI|r地图标记-大锅模块
+## Title-zhTW: |cffC495DDEUI|r地圖標記-坩堝模块
+## Notes: Where are the Alchemy Master Tool Cauldrons?
+## Author: Imoom
+## Version: 1.0.1
+## DefaultState: enabled
+## X-Category: Map
+## X-eMail: 
+## SavedVariables: HandyNotes_CauldronsDB
+## RequiredDeps: HandyNotes
+## Credit: Kemayo
+
+handler.lua
+config.lua
+Cauldron.lua

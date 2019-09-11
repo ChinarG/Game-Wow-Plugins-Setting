@@ -1,12 +1,12 @@
 local mod	= DBM:NewMod(2354, "DBM-EternalPalace", nil, 1179)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20190731025920")
+mod:SetRevision("2019071740256")
 mod:SetCreatureID(152236)
 mod:SetEncounterID(2304)
 mod:SetZone()
 mod:SetUsedIcons(1, 2, 3, 4, 6, 7)
-mod:SetHotfixNoticeRev(20190724000000)--2019, 7, 24
+mod:SetHotfixNoticeRev(20190716000000)--2019, 7, 16
 --mod:SetMinSyncRevision(16950)
 --mod.respawnTime = 29
 
@@ -15,10 +15,11 @@ mod:RegisterCombat("combat")
 mod:RegisterEventsInCombat(
 	"SPELL_CAST_START 297398",
 	"SPELL_CAST_SUCCESS 296569 296662 296725 298056",
-	"SPELL_AURA_APPLIED 296650 296725 296943 296940 296942 296939 296941 296938 297397 302989",
-	"SPELL_AURA_REMOVED 296650 296943 296940 296942 296939 296941 296938 297397 302989",
+	"SPELL_AURA_APPLIED 296650 296725 296943 296940 296942 296939 296941 296938 302989 297397",
+	"SPELL_AURA_REMOVED 296650 296943 296940 296942 296939 296941 296938 302989",
 	"SPELL_PERIODIC_DAMAGE 296752",
 	"SPELL_PERIODIC_MISSED 296752"
+--	"UNIT_SPELLCAST_SUCCEEDED boss1"
 )
 
 --[[
@@ -34,28 +35,27 @@ local warnBrinyBubble					= mod:NewTargetNoFilterAnnounce(297324, 4)
 local warnUpsurge						= mod:NewSpellAnnounce(298055, 3)
 
 local specWarnRipplingWave				= mod:NewSpecialWarningCount(296688, false, nil, 2, 2, 2)
-local specWarnBarnacleBash				= mod:NewSpecialWarningTaunt(296725, nil, nil, nil, 1, 2)
-local specWarnBubbleTaunt				= mod:NewSpecialWarningTaunt(297324, nil, nil, nil, 1, 2)
 local specWarnBrinyBubble				= mod:NewSpecialWarningMoveAway(297324, nil, nil, nil, 1, 2)
 local yellBrinyBubble					= mod:NewYell(297324)
 local yellBrinyBubbleFades				= mod:NewShortFadesYell(297324)
-local specWarnBrinyBubbleNear			= mod:NewSpecialWarningClose(297324, false, nil, 2, 1, 2)
+local specWarnCrushingNear				= mod:NewSpecialWarningClose(297324, nil, nil, nil, 1, 2)
+local specWarnBarnacleBash				= mod:NewSpecialWarningTaunt(296725, nil, nil, nil, 1, 2)
 local specWarnArcingAzerite				= mod:NewSpecialWarningYouPos(296944, nil, nil, nil, 3, 9)
-local yellArcingAzerite					= mod:NewPosYell(296944, DBM_CORE_AUTO_YELL_CUSTOM_POSITION)
-local yellArcingAzeriteFades			= mod:NewIconFadesYell(296944)
+local yellArcingAzerite					= mod:NewYell(296944)
+local yellArcingAzeriteFades			= mod:NewShortFadesYell(296944)
 local specWarnGTFO						= mod:NewSpecialWarningGTFO(296752, nil, nil, nil, 1, 8)
 
 --mod:AddTimerLine(BOSS)
 --local timerCoralGrowthCD				= mod:NewCDCountTimer(30, 296555, nil, nil, nil, 3, nil, nil, nil, 1, 4)
 local timerRipplingwaveCD				= mod:NewCDCountTimer(35, 296688, nil, nil, nil, 3, nil, nil, nil, 3, 4)
-local timerBarnacleBashCD				= mod:NewCDCountTimer(15, 296725, nil, nil, nil, 5, nil, DBM_CORE_TANK_ICON, nil, mod:IsTank() and 2, 4)
 local timerBrinyBubbleCD				= mod:NewCDCountTimer(15, 297324, nil, nil, nil, 3, nil, DBM_CORE_TANK_ICON..DBM_CORE_DAMAGE_ICON, nil, 2, 4)
 local timerUpsurgeCD					= mod:NewCDCountTimer(15.3, 298055, nil, nil, nil, 3)
+local timerBarnacleBashCD				= mod:NewCDCountTimer(15, 296725, nil, nil, nil, 5, nil, DBM_CORE_TANK_ICON, nil, mod:IsTank() and 2, 4)
 --Stage 2
 local timerArcingAzeriteCD				= mod:NewCDCountTimer(35, 296944, nil, nil, nil, 3, nil, nil, nil, 3, 4)
 local timerShieldCD						= mod:NewCDTimer(70.5, 296650, nil, nil, nil, 6, nil, nil, nil, 1, 4)
 
-local berserkTimer						= mod:NewBerserkTimer(600)
+--local berserkTimer					= mod:NewBerserkTimer(600)
 
 mod:AddRangeFrameOption("4/12")
 mod:AddInfoFrameOption(296650, true)
@@ -86,13 +86,13 @@ do
 		table.wipe(lines)
 		table.wipe(sortedLines)
 		if mod.vb.blueone and mod.vb.bluetwo then
-			addLine("|TInterface\\Icons\\Ability_Bossashvane_Icon03.blp:12:12|t*"..mod.vb.blueone, mod.vb.bluetwo)
+			addLine("|TInterface\\Icons\\Ability_Bossashvane_Icon03.blp:12:12|t"..mod.vb.blueone, mod.vb.bluetwo)
 		end
 		if mod.vb.redone and mod.vb.redtwo then
-			addLine("|TInterface\\Icons\\Ability_Bossashvane_Icon02.blp:12:12|t*"..mod.vb.redone, mod.vb.redtwo)
+			addLine("|TInterface\\Icons\\Ability_Bossashvane_Icon02.blp:12:12|t"..mod.vb.redone, mod.vb.redtwo)
 		end
 		if mod.vb.greenone and mod.vb.greentwo then
-			addLine("|TInterface\\Icons\\Ability_Bossashvane_Icon01.blp:12:12|t*"..mod.vb.greenone, mod.vb.greentwo)
+			addLine("|TInterface\\Icons\\Ability_Bossashvane_Icon01.blp:12:12|t"..mod.vb.greenone, mod.vb.greentwo)
 		end
 		return lines, sortedLines
 	end
@@ -109,7 +109,6 @@ function mod:OnCombatStart(delay)
 	self.vb.blueone, self.vb.bluetwo = nil, nil
 	self.vb.redone, self.vb.redtwo = nil, nil
 	self.vb.greenone, self.vb.greentwo = nil, nil
-	berserkTimer:Start(self:IsMythic() and 505 or self:IsHeroic() and 559-delay)--Not seen normal mode berserk yet
 end
 
 function mod:OnCombatEnd()
@@ -126,7 +125,7 @@ function mod:SPELL_CAST_START(args)
 	if spellId == 297398 then--Briny Bubble. 297398 verified, other two unknown (or spellId == 297402 or spellId == 297324)
 		self.vb.spellPicker = 0
 		--Always 15.9 seconds after in all difficulties when shield is up, but when shield is down, it's 24 seconds after on easy but still 15.9 on hard
-		timerBarnacleBashCD:Start(not self.vb.shieldDown and self:IsEasy() and 23.9 or 15.9, 1)--start to success
+		timerBarnacleBashCD:Start(not self.vb.shieldDown and self:IsEasy() and 24 or 15.9, self.vb.spellPicker+1)--start to success
 	end
 end
 
@@ -141,9 +140,9 @@ function mod:SPELL_CAST_SUCCESS(args)
 	elseif spellId == 296725 then--Barnacle Bash
 		self.vb.spellPicker = self.vb.spellPicker + 1
 		if self.vb.spellPicker == 2 then--Two bash been cast, Briny is next
-			timerBrinyBubbleCD:Start(self.vb.shieldDown and 9.9 or self:IsLFR() and 15 or 13.9, self.vb.spellPicker+1)--Success to start
+			timerBrinyBubbleCD:Start(self.vb.shieldDown and 10 or 15, self.vb.spellPicker+1)--Success to start
 		else
-			timerBarnacleBashCD:Start(14.9, self.vb.spellPicker+1)--success to success
+			timerBarnacleBashCD:Start(self.vb.shieldDown and 15 or 16, self.vb.spellPicker+1)--success to success
 		end
 	elseif spellId == 296662 then
 		self.vb.ripplingWave = self.vb.ripplingWave + 1
@@ -192,15 +191,18 @@ function mod:SPELL_AURA_APPLIED(args)
 		timerShieldCD:Stop()
 		local easy = self:IsEasy() or false
 		if self.vb.shieldCount == 1 then
+			self.vb.shieldCount = true
 			timerBarnacleBashCD:Start(easy and 10 or 8, 1)--SUCCESS
 			timerUpsurgeCD:Start(easy and 12 or 9, 1)
 			timerRipplingwaveCD:Start(easy and 17 or 15, 1)
 			--timerCoralGrowthCD:Start(30.5, 1)
+			--timerBrinyBubbleCD:Start(easy and 41 or 37)--Not started here
 		else
 			timerUpsurgeCD:Start(easy and 15.5 or 12, 1)
 			timerBarnacleBashCD:Start(easy and 13.8 or 11.7, 1)--SUCCESS
 			timerRipplingwaveCD:Start(20.7, 1)
 			--timerCoralGrowthCD:Start(30.5, 1)
+			--timerBrinyBubbleCD:Start(easy and 44.8 or 40.7)--Not started here
 		end
 		if self.Options.RangeFrame then
 			if self:IsRanged() then
@@ -214,8 +216,7 @@ function mod:SPELL_AURA_APPLIED(args)
 			DBM.InfoFrame:Show(2, "enemyabsorb", nil, args.amount, "boss1")
 		end
 	elseif spellId == 296725 then
-		if not args:IsPlayer() and self.vb.spellPicker < 2 then
-			--Only show for first bash, there is no reason to taunt after 2nd bash, at least not until bubble, which has it's own taunt warning
+		if not args:IsPlayer() then
 			specWarnBarnacleBash:Show(args.destName)
 			specWarnBarnacleBash:Play("tauntboss")
 		end
@@ -231,8 +232,8 @@ function mod:SPELL_AURA_APPLIED(args)
 			if args:IsPlayer() then
 				specWarnArcingAzerite:Show("|TInterface\\Icons\\Ability_Bossashvane_Icon01.blp:12:12|tGreen|TInterface\\Icons\\Ability_Bossashvane_Icon01.blp:12:12|t|")
 				specWarnArcingAzerite:Play("breakcoral")
-				yellArcingAzerite:Yell(4, "")
-				yellArcingAzeriteFades:Countdown(spellId, nil, 4)
+				yellArcingAzerite:Yell()
+				yellArcingAzeriteFades:Countdown(spellId)
 			end
 			if spellId == 296941 then
 				self.vb.greenone = args.destName
@@ -247,8 +248,8 @@ function mod:SPELL_AURA_APPLIED(args)
 			if args:IsPlayer() then
 				specWarnArcingAzerite:Show("|TInterface\\Icons\\Ability_Bossashvane_Icon02.blp:12:12|tRed|TInterface\\Icons\\Ability_Bossashvane_Icon02.blp:12:12|t")
 				specWarnArcingAzerite:Play("breakcoral")
-				yellArcingAzerite:Yell(7, "")
-				yellArcingAzeriteFades:Countdown(spellId, nil, 7)
+				yellArcingAzerite:Yell()
+				yellArcingAzeriteFades:Countdown(spellId)
 			end
 			if spellId == 296942 then
 				self.vb.redone = args.destName
@@ -263,8 +264,8 @@ function mod:SPELL_AURA_APPLIED(args)
 			if args:IsPlayer() then
 				specWarnArcingAzerite:Show("|TInterface\\Icons\\Ability_Bossashvane_Icon03.blp:12:12|tBlue|TInterface\\Icons\\Ability_Bossashvane_Icon03.blp:12:12|t")
 				specWarnArcingAzerite:Play("breakcoral")
-				yellArcingAzerite:Yell(6, "")
-				yellArcingAzeriteFades:Countdown(spellId, nil, 6)
+				yellArcingAzerite:Yell()
+				yellArcingAzeriteFades:Countdown(spellId)
 			end
 			if spellId == 296943 then
 				self.vb.blueone = args.destName
@@ -284,31 +285,22 @@ function mod:SPELL_AURA_APPLIED(args)
 				DBM.InfoFrame:Update()
 			end
 		end
-	elseif spellId == 297397 or spellId == 302989 then--Briny targetting spell
+	elseif spellId == 302989 then--Briny targetting spell
 		warnBrinyBubble:CombinedShow(0.3, args.destname)
 		if args:IsPlayer() then
-			specWarnBrinyBubbleNear:Cancel()
-			specWarnBrinyBubbleNear:CancelVoice()
 			specWarnBrinyBubble:Show()
 			specWarnBrinyBubble:Play("runout")
 			yellBrinyBubble:Yell()
 			yellBrinyBubbleFades:Countdown(spellId)
-		else
-			local uId = DBM:GetRaidUnitId(args.destName)
-			if self:IsTanking(uId) then
-				specWarnBubbleTaunt:Show(args.destName)
-				specWarnBubbleTaunt:Play("tauntboss")
-			end
-			if self:CheckNearby(12, args.destName) and not DBM:UnitDebuff("player", spellId) then
-				specWarnBrinyBubbleNear:CombinedShow(0.3, args.destName)
-				specWarnBrinyBubbleNear:ScheduleVoice(0.3, "runaway")
-			end
 		end
-	--[[elseif spellId == 297333 or spellId == 302992 then--Briny in bubble spell
+	elseif spellId == 297397 then--Briny in bubble spell
 		if args:IsPlayer() then
 			--Yell again, but no further special warnings
 			yellBrinyBubble:Yell()
-		end--]]
+		elseif self:CheckNearby(12, args.destname) then--If one is near you, you need to run away from it
+			specWarnCrushingNear:Show(args.destname)
+			specWarnCrushingNear:Play("runaway")
+		end
 	end
 end
 
@@ -327,7 +319,7 @@ function mod:SPELL_AURA_REMOVED(args)
 		timerUpsurgeCD:Stop()
 		timerBarnacleBashCD:Stop()
 		timerBarnacleBashCD:Start(13, 1)--SUCCESS
-		timerUpsurgeCD:Start(17.9, 1)
+		timerUpsurgeCD:Start(18, 1)
 		timerArcingAzeriteCD:Start(20.5, 1)
 		timerShieldCD:Start(70.5)
 		if self.Options.InfoFrame then
@@ -365,7 +357,7 @@ function mod:SPELL_AURA_REMOVED(args)
 		if self.Options.SetIconOnArcingAzerite then
 			self:SetIcon(args.destName, 0)
 		end
-	elseif (spellId == 297397 or spellId == 302989) and args:IsPlayer() then--Briny targetting spell
+	elseif spellId == 302989 and args:IsPlayer() then--Briny targetting spell
 		yellBrinyBubbleFades:Cancel()
 	end
 end
@@ -377,3 +369,17 @@ function mod:SPELL_PERIODIC_DAMAGE(_, _, _, _, destGUID, _, _, _, spellId, spell
 	end
 end
 mod.SPELL_PERIODIC_MISSED = mod.SPELL_PERIODIC_DAMAGE
+
+--[[
+function mod:UNIT_SPELLCAST_SUCCEEDED(uId, _, spellId)
+	if spellId == 297437 then--Lady Ashvane Spell Picker
+		self.vb.spellPicker = self.vb.spellPicker + 1
+		if self.vb.spellPicker == 3 then
+			self.vb.spellPicker = 0
+			timerBarnacleBashCD:Start(15.9, self.vb.spellPicker+1)
+		elseif self.vb.spellPicker == 2 then--Two bash been cast, crushing is next
+			timerBrinyBubbleCD:Start(15.9, self.vb.spellPicker+1)
+		end
+	end
+end
+--]]

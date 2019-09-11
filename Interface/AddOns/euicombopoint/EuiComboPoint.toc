@@ -1,0 +1,10 @@
+﻿## Interface: 80000
+## Title: |cffC495DDEui|rComboPoint
+## Title-zhCN: |cffC495DDEUI|r职业资源数字显示
+## Title-zhTW: |cffC495DDEUI|r職業資源數字顯示
+## Author: eui.cc
+## X-Category: ElvUI
+## RequiredDeps: ElvUI
+## Version: 3.8
+
+EuiComboPoint.xml

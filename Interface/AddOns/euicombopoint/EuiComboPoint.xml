@@ -1,0 +1,107 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="EuiComboPoint.lua"/>
+	<!--Script file="EuiComboPoint2.lua"/-->
+	
+	<Frame name="EuiStartTimerBar" virtual="true">
+		<Animations>	
+			<AnimationGroup parentKey="startNumbers">
+				<Scale target="$parentDigit1" scaleX="0.25" scaleY="0.25" duration="0.0" order="1"/>
+				<Scale target="$parentDigit2" scaleX="0.25" scaleY="0.25" duration="0.0" order="1"/>
+				<Scale target="$parentGlow1" scaleX="0.25" scaleY="0.25" duration="0.0" order="1"/>
+				<Scale target="$parentGlow2" scaleX="0.25" scaleY="0.25" duration="0.0" order="1"/>
+				<Alpha target="$parentDigit1" change="1" 				duration="0.0" order="1"/>
+				<Alpha target="$parentDigit2" change="1" 				duration="0.0" order="1"/>
+				<Alpha target="$parentGlow1" change="1" 				duration="0.0" order="1"/>
+				<Alpha target="$parentGlow2" change="1" 				duration="0.0" order="1"/>
+				
+				<Scale target="$parentDigit1" scaleX="4" scaleY="4" duration="0.0" smoothing="OUT" order="2"/>
+				<Scale target="$parentDigit2" scaleX="4" scaleY="4" duration="0.0" smoothing="OUT" order="2"/>
+				<Scale target="$parentGlow1" scaleX="4" scaleY="4" duration="0.0" smoothing="OUT" order="2"/>
+				<Scale target="$parentGlow2" scaleX="4" scaleY="4" duration="0.0" smoothing="OUT" order="2"/>
+				<Alpha target="$parentGlow1" change="-1.0" 			duration="0.0" smoothing="IN" order="2"/>
+				<Alpha target="$parentGlow2" change="-1.0" 			duration="0.0" smoothing="IN" order="2"/>
+				
+				<Scripts>
+					<OnPlay>
+						local frame = self:GetParent();
+						EuiStartTimer_SetTexNumbers(frame, frame.digit1, frame.digit2)
+					</OnPlay>
+				</Scripts>
+			</AnimationGroup>
+		</Animations>
+		
+		<Size x="206" y="26"/>
+		<Layers>
+			<Layer level="OVERLAY">
+				<Texture name="$parentDigit1" parentKey="digit1" alpha="1"/>
+				<Texture name="$parentDigit2" parentKey="digit2" alpha="1"/>
+			</Layer>
+			<Layer level="OVERLAY" textureSubLevel="2">
+				<Texture name="$parentGlow1" parentKey="glow1" alpha="0">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parentDigit1" x="0" y="0"/>
+						<Anchor point="BOTTOMRIGHT" relativeTo="$parentDigit1" x="0" y="0"/>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentGlow2" parentKey="glow2" alpha="0">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parentDigit2" x="0" y="0"/>
+						<Anchor point="BOTTOMRIGHT" relativeTo="$parentDigit2" x="0" y="0"/>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+	</Frame>
+	
+	<!--Frame name="EuiStartTimerBar2" virtual="true">
+		<Animations>	
+			<AnimationGroup parentKey="startNumbers">
+				<Scale target="$parentDigit1" scaleX="0.25" scaleY="0.25" duration="0.0" order="1"/>
+				<Scale target="$parentDigit2" scaleX="0.25" scaleY="0.25" duration="0.0" order="1"/>
+				<Scale target="$parentGlow1" scaleX="0.25" scaleY="0.25" duration="0.0" order="1"/>
+				<Scale target="$parentGlow2" scaleX="0.25" scaleY="0.25" duration="0.0" order="1"/>
+				<Alpha target="$parentDigit1" change="1" 				duration="0.0" order="1"/>
+				<Alpha target="$parentDigit2" change="1" 				duration="0.0" order="1"/>
+				<Alpha target="$parentGlow1" change="1" 				duration="0.0" order="1"/>
+				<Alpha target="$parentGlow2" change="1" 				duration="0.0" order="1"/>
+				
+				<Scale target="$parentDigit1" scaleX="4" scaleY="4" duration="0.3" smoothing="OUT" order="2"/>
+				<Scale target="$parentDigit2" scaleX="4" scaleY="4" duration="0.3" smoothing="OUT" order="2"/>
+				<Scale target="$parentGlow1" scaleX="4" scaleY="4" duration="0.3" smoothing="OUT" order="2"/>
+				<Scale target="$parentGlow2" scaleX="4" scaleY="4" duration="0.3" smoothing="OUT" order="2"/>
+				<Alpha target="$parentGlow1" change="-1.0" 			duration="0.3" smoothing="IN" order="2"/>
+				<Alpha target="$parentGlow2" change="-1.0" 			duration="0.3" smoothing="IN" order="2"/>
+				
+				<Scripts>
+					<OnPlay>
+						local frame = self:GetParent();
+						EuiStartTimer2_SetTexNumbers(frame, frame.digit1, frame.digit2)
+					</OnPlay>
+				</Scripts>
+			</AnimationGroup>
+		</Animations>
+		
+		<Size x="206" y="26"/>
+		<Layers>
+			<Layer level="OVERLAY">
+				<Texture name="$parentDigit1" parentKey="digit1" alpha="1"/>
+				<Texture name="$parentDigit2" parentKey="digit2" alpha="1"/>
+			</Layer>
+			<Layer level="OVERLAY" textureSubLevel="2">
+				<Texture name="$parentGlow1" parentKey="glow1" alpha="0">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parentDigit1" x="0" y="0"/>
+						<Anchor point="BOTTOMRIGHT" relativeTo="$parentDigit1" x="0" y="0"/>
+					</Anchors>
+				</Texture>
+				<Texture name="$parentGlow2" parentKey="glow2" alpha="0">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parentDigit2" x="0" y="0"/>
+						<Anchor point="BOTTOMRIGHT" relativeTo="$parentDigit2" x="0" y="0"/>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+	</Frame-->	
+</Ui>

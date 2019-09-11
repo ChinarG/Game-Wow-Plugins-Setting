@@ -1,6 +1,157 @@
 
 SexyMap2DB = {
-	["独孤牛儿-森金"] = {
+	["牛爹爹-屠魔山谷"] = {
+		["ping"] = {
+			["showPing"] = true,
+			["showAt"] = "map",
+		},
+		["coordinates"] = {
+			["enabled"] = false,
+			["fontColor"] = {
+			},
+			["borderColor"] = {
+			},
+			["locked"] = false,
+			["backgroundColor"] = {
+			},
+		},
+		["buttons"] = {
+			["lockDragging"] = false,
+			["radius"] = 10,
+			["TEMP2"] = true,
+			["allowDragging"] = true,
+			["visibilitySettings"] = {
+				["MinimapZoomIn"] = "never",
+				["MinimapZoneTextButton"] = "always",
+				["MiniMapWorldMapButton"] = "never",
+				["QueueStatusMinimapButton"] = "always",
+				["GarrisonLandingPageMinimapButton"] = "always",
+				["MinimapZoomOut"] = "never",
+				["MiniMapMailFrame"] = "always",
+				["TimeManagerClockButton"] = "always",
+			},
+			["dragPositions"] = {
+			},
+			["TEMP"] = true,
+			["controlVisibility"] = true,
+		},
+		["hudmap"] = {
+			["scale"] = 1.4,
+			["hudColor"] = {
+			},
+			["alpha"] = 0.7,
+			["textColor"] = {
+				["a"] = 1,
+				["r"] = 0.5,
+				["g"] = 1,
+				["b"] = 0.5,
+			},
+		},
+		["zonetext"] = {
+			["bgColor"] = {
+				["a"] = 1,
+				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
+			},
+			["fontColor"] = {
+			},
+			["borderColor"] = {
+				["a"] = 1,
+				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
+			},
+			["xOffset"] = 0,
+			["yOffset"] = 0,
+		},
+		["clock"] = {
+			["bgColor"] = {
+				["a"] = 1,
+				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
+			},
+			["fontColor"] = {
+			},
+			["borderColor"] = {
+				["a"] = 1,
+				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
+			},
+			["xOffset"] = 0,
+			["yOffset"] = 0,
+		},
+		["borders"] = {
+			["applyPreset"] = false,
+			["borders"] = {
+				{
+					["name"] = "Rune 1",
+					["r"] = 0.309803921568628,
+					["scale"] = 1.4,
+					["rotSpeed"] = -30,
+					["g"] = 0.47843137254902,
+					["texture"] = "SPELLS\\AURARUNE256.BLP",
+				}, -- [1]
+				{
+					["a"] = 0.379999995231628,
+					["rotSpeed"] = 60,
+					["r"] = 0.196078431372549,
+					["scale"] = 2.1,
+					["name"] = "Rune 2",
+					["g"] = 0.290196078431373,
+					["texture"] = "SPELLS\\AuraRune_A.blp",
+				}, -- [2]
+				{
+					["a"] = 0.3,
+					["name"] = "Fade",
+					["r"] = 0,
+					["scale"] = 1.6,
+					["g"] = 0.223529411764706,
+					["texture"] = "SPELLS\\T_VFX_HERO_CIRCLE.BLP",
+				}, -- [3]
+			},
+			["backdrop"] = {
+				["show"] = false,
+				["textureColor"] = {
+				},
+				["settings"] = {
+					["bgFile"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+					["edgeFile"] = "Interface\\Tooltips\\UI-Tooltip-Border",
+					["tile"] = false,
+					["edgeSize"] = 16,
+					["insets"] = {
+						["top"] = 4,
+						["right"] = 4,
+						["left"] = 4,
+						["bottom"] = 4,
+					},
+				},
+				["borderColor"] = {
+				},
+				["scale"] = 1,
+			},
+			["hideBlizzard"] = true,
+		},
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
+			},
+			["lock"] = false,
+		},
+		["core"] = {
+			["clamp"] = true,
+			["lock"] = false,
+			["rightClickToConfig"] = true,
+			["autoZoom"] = 5,
+			["shape"] = "Interface\\AddOns\\SexyMap\\shapes\\circle.tga",
+			["northTag"] = true,
+		},
+	},
+	["presets"] = {
+	},
+	["雄奶奶-森金"] = {
 		["core"] = {
 			["clamp"] = true,
 			["lock"] = false,
@@ -11,16 +162,13 @@ SexyMap2DB = {
 		},
 		["coordinates"] = {
 			["enabled"] = false,
-			["font"] = "默认",
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 			},
-			["xOffset"] = 0,
-			["updateRate"] = 1,
+			["locked"] = false,
 			["backgroundColor"] = {
 			},
-			["yOffset"] = 10,
 		},
 		["movers"] = {
 			["enabled"] = false,
@@ -29,6 +177,7 @@ SexyMap2DB = {
 			["lock"] = false,
 		},
 		["buttons"] = {
+			["TEMP2"] = true,
 			["radius"] = 10,
 			["lockDragging"] = false,
 			["allowDragging"] = true,
@@ -44,6 +193,7 @@ SexyMap2DB = {
 			},
 			["dragPositions"] = {
 			},
+			["TEMP"] = true,
 			["controlVisibility"] = true,
 		},
 		["clock"] = {
@@ -53,7 +203,6 @@ SexyMap2DB = {
 				["g"] = 0,
 				["r"] = 0,
 			},
-			["font"] = "默认",
 			["fontColor"] = {
 			},
 			["borderColor"] = {
@@ -74,7 +223,7 @@ SexyMap2DB = {
 					["scale"] = 1.4,
 					["rotSpeed"] = -30,
 					["g"] = 0.4784313725490196,
-					["texture"] = 165630,
+					["texture"] = "SPELLS\\AURARUNE256.BLP",
 				}, -- [1]
 				{
 					["a"] = 0.3799999952316284,
@@ -83,7 +232,7 @@ SexyMap2DB = {
 					["scale"] = 2.1,
 					["name"] = "Rune 2",
 					["g"] = 0.2901960784313725,
-					["texture"] = 165638,
+					["texture"] = "SPELLS\\AuraRune_A.blp",
 				}, -- [2]
 				{
 					["a"] = 0.3,
@@ -91,7 +240,7 @@ SexyMap2DB = {
 					["r"] = 0,
 					["scale"] = 1.6,
 					["g"] = 0.2235294117647059,
-					["texture"] = 167062,
+					["texture"] = "SPELLS\\T_VFX_HERO_CIRCLE.BLP",
 				}, -- [3]
 			},
 			["backdrop"] = {
@@ -123,7 +272,6 @@ SexyMap2DB = {
 				["g"] = 0,
 				["r"] = 0,
 			},
-			["font"] = "默认",
 			["fontColor"] = {
 			},
 			["borderColor"] = {
@@ -139,317 +287,5 @@ SexyMap2DB = {
 			["showPing"] = true,
 			["showAt"] = "map",
 		},
-	},
-	["雄奶奶-森金"] = "global",
-	["global"] = {
-		["core"] = {
-			["clamp"] = false,
-			["point"] = "BOTTOMRIGHT",
-			["relpoint"] = "BOTTOMRIGHT",
-			["autoZoom"] = 4,
-			["northTag"] = true,
-			["y"] = 26.60151100158691,
-			["x"] = -24.36350822448731,
-			["lock"] = true,
-			["scale"] = 1.66,
-			["shape"] = "Interface\\AddOns\\SexyMap\\shapes\\circle.tga",
-			["rightClickToConfig"] = true,
-		},
-		["coordinates"] = {
-			["enabled"] = false,
-			["fontSize"] = 8,
-			["fontColor"] = {
-			},
-			["xOffset"] = 0,
-			["updateRate"] = 1,
-			["yOffset"] = 10,
-			["font"] = "默认",
-			["borderColor"] = {
-			},
-			["backgroundColor"] = {
-			},
-		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
-			},
-			["lock"] = false,
-		},
-		["buttons"] = {
-			["radius"] = 10,
-			["lockDragging"] = false,
-			["allowDragging"] = true,
-			["visibilitySettings"] = {
-				["MinimapZoomIn"] = "never",
-				["MiniMapMailFrame"] = "always",
-				["TimeManagerClockButton"] = "hover",
-				["QueueStatusMinimapButton"] = "hover",
-				["GarrisonLandingPageMinimapButton"] = "hover",
-				["MinimapZoneTextButton"] = "always",
-				["MinimapZoomOut"] = "never",
-				["MiniMapWorldMapButton"] = "never",
-			},
-			["dragPositions"] = {
-				["LibDBIcon10_Bartender4"] = -37.82405362162969,
-				["MiniMapMailFrame"] = 6.196502775791954,
-				["LibDBIcon10_DetailsStreamer"] = 145.4023405124975,
-				["LibDBIcon10_Skinner"] = 242.4238894450541,
-				["LibDBIcon10_AtlasLoot"] = -19.99804999455206,
-				["LibDBIcon10_Details"] = 177.2517673931866,
-				["MiniMapTracking"] = 113.8010591227356,
-			},
-			["controlVisibility"] = true,
-		},
-		["clock"] = {
-			["bgColor"] = {
-				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
-				["r"] = 0,
-			},
-			["font"] = "默认",
-			["fontColor"] = {
-			},
-			["borderColor"] = {
-				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
-				["r"] = 0,
-			},
-			["xOffset"] = 0,
-			["yOffset"] = 0,
-		},
-		["borders"] = {
-			["applyPreset"] = false,
-			["borders"] = {
-				{
-					["name"] = "Rune 1",
-					["r"] = 0.3098039215686275,
-					["scale"] = 1.4,
-					["rotSpeed"] = -30,
-					["g"] = 0.4784313725490196,
-					["texture"] = 165630,
-				}, -- [1]
-				{
-					["a"] = 0.3799999952316284,
-					["rotSpeed"] = 60,
-					["r"] = 0.196078431372549,
-					["scale"] = 2.1,
-					["name"] = "Rune 2",
-					["g"] = 0.2901960784313725,
-					["texture"] = 165638,
-				}, -- [2]
-				{
-					["a"] = 0.3,
-					["name"] = "Fade",
-					["r"] = 0,
-					["scale"] = 1.6,
-					["g"] = 0.2235294117647059,
-					["texture"] = 167062,
-				}, -- [3]
-			},
-			["backdrop"] = {
-				["show"] = false,
-				["textureColor"] = {
-				},
-				["settings"] = {
-					["bgFile"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-					["edgeFile"] = "Interface\\Tooltips\\UI-Tooltip-Border",
-					["tile"] = false,
-					["edgeSize"] = 16,
-					["insets"] = {
-						["top"] = 4,
-						["right"] = 4,
-						["left"] = 4,
-						["bottom"] = 4,
-					},
-				},
-				["borderColor"] = {
-				},
-				["scale"] = 1,
-			},
-			["hideBlizzard"] = true,
-		},
-		["zonetext"] = {
-			["bgColor"] = {
-				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
-				["r"] = 0,
-			},
-			["font"] = "默认",
-			["fontColor"] = {
-			},
-			["borderColor"] = {
-				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
-				["r"] = 0,
-			},
-			["xOffset"] = 0,
-			["yOffset"] = 0,
-		},
-		["ping"] = {
-			["showPing"] = true,
-			["showAt"] = "map",
-		},
-	},
-	["presets"] = {
-	},
-}
-SexyMap82 = {
-	["backup"] = {
-		["雄奶奶-森金"] = "global",
-		["global"] = {
-			["core"] = {
-				["clamp"] = false,
-				["point"] = "BOTTOMRIGHT",
-				["relpoint"] = "BOTTOMRIGHT",
-				["autoZoom"] = 6,
-				["northTag"] = true,
-				["y"] = 25.99923896789551,
-				["x"] = -34.00056457519531,
-				["lock"] = false,
-				["scale"] = 1.66,
-				["shape"] = "Interface\\AddOns\\SexyMap\\shapes\\circle.tga",
-				["rightClickToConfig"] = true,
-			},
-			["coordinates"] = {
-				["enabled"] = false,
-				["font"] = "默认",
-				["fontColor"] = {
-				},
-				["borderColor"] = {
-				},
-				["xOffset"] = 0,
-				["updateRate"] = 1,
-				["backgroundColor"] = {
-				},
-				["yOffset"] = 10,
-			},
-			["movers"] = {
-				["enabled"] = false,
-				["framePositions"] = {
-				},
-				["lock"] = false,
-			},
-			["buttons"] = {
-				["radius"] = 10,
-				["lockDragging"] = false,
-				["allowDragging"] = true,
-				["visibilitySettings"] = {
-					["MinimapZoomIn"] = "never",
-					["MiniMapMailFrame"] = "always",
-					["TimeManagerClockButton"] = "always",
-					["QueueStatusMinimapButton"] = "always",
-					["GarrisonLandingPageMinimapButton"] = "always",
-					["MinimapZoneTextButton"] = "always",
-					["MinimapZoomOut"] = "never",
-					["MiniMapWorldMapButton"] = "never",
-				},
-				["dragPositions"] = {
-					["LibDBIcon10_Skinner"] = 244.3588916129565,
-					["LibDBIcon10_Bartender4"] = -63.17212130599611,
-				},
-				["controlVisibility"] = true,
-			},
-			["clock"] = {
-				["bgColor"] = {
-					["a"] = 1,
-					["b"] = 0,
-					["g"] = 0,
-					["r"] = 0,
-				},
-				["font"] = "默认",
-				["fontColor"] = {
-				},
-				["borderColor"] = {
-					["a"] = 1,
-					["b"] = 0,
-					["g"] = 0,
-					["r"] = 0,
-				},
-				["xOffset"] = 0,
-				["yOffset"] = 0,
-			},
-			["borders"] = {
-				["applyPreset"] = false,
-				["borders"] = {
-					{
-						["name"] = "Rune 1",
-						["r"] = 0.3098039215686275,
-						["scale"] = 1.4,
-						["rotSpeed"] = -30,
-						["g"] = 0.4784313725490196,
-						["texture"] = 165630,
-					}, -- [1]
-					{
-						["a"] = 0.3799999952316284,
-						["rotSpeed"] = 60,
-						["r"] = 0.196078431372549,
-						["scale"] = 2.1,
-						["name"] = "Rune 2",
-						["g"] = 0.2901960784313725,
-						["texture"] = 165638,
-					}, -- [2]
-					{
-						["a"] = 0.3,
-						["name"] = "Fade",
-						["r"] = 0,
-						["scale"] = 1.6,
-						["g"] = 0.2235294117647059,
-						["texture"] = 167062,
-					}, -- [3]
-				},
-				["backdrop"] = {
-					["show"] = false,
-					["textureColor"] = {
-					},
-					["settings"] = {
-						["bgFile"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-						["edgeFile"] = "Interface\\Tooltips\\UI-Tooltip-Border",
-						["tile"] = false,
-						["edgeSize"] = 16,
-						["insets"] = {
-							["top"] = 4,
-							["right"] = 4,
-							["left"] = 4,
-							["bottom"] = 4,
-						},
-					},
-					["borderColor"] = {
-					},
-					["scale"] = 1,
-				},
-				["hideBlizzard"] = true,
-			},
-			["zonetext"] = {
-				["bgColor"] = {
-					["a"] = 1,
-					["b"] = 0,
-					["g"] = 0,
-					["r"] = 0,
-				},
-				["font"] = "默认",
-				["fontColor"] = {
-				},
-				["borderColor"] = {
-					["a"] = 1,
-					["b"] = 0,
-					["g"] = 0,
-					["r"] = 0,
-				},
-				["xOffset"] = 0,
-				["yOffset"] = 0,
-			},
-			["ping"] = {
-				["showPing"] = true,
-				["showAt"] = "map",
-			},
-		},
-		["presets"] = {
-		},
-	},
-	["convert"] = {
 	},
 }

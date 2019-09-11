@@ -1,0 +1,12 @@
+## Interface: 80200
+## Title: |cffC495DDEUI|rHandyNotes_DungeonLocations
+## Title-zhCN: |cffC495DDEUI|r地图标记-副本入口
+## Title-zhTW: |cffC495DDEUI|r地圖標記-副本入口
+## Version: 1.46
+## Notes: Shows locations of old world dungeon and raid entrances
+## Author: Caliaha of Cairne
+## RequiredDeps: HandyNotes
+## SavedVariables: HandyNotes_DungeonLocationsDB
+
+locales\Locales.xml
+HandyNotes_DungeonLocations.lua
