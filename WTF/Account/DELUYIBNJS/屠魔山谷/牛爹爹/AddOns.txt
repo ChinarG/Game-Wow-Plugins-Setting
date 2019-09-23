@@ -56,3 +56,13 @@ DBM-DMF: enabled
 DBM-ZuldazarRaid: enabled
 DBM-CrucibleofStorms: enabled
 DBM-DefaultSkin: enabled
+SellOMatic2_Item: enabled
+SellOMatic2_Destroy: enabled
+SellOMatic2_List: enabled
+EventAlertMod: enabled
+AdiBags: enabled
+AdiBags_Config: enabled
+SellOMatic2: enabled
+TidyPlates_ThreatPlates: enabled
+TomTom: enabled
+euicombopoint: enabled

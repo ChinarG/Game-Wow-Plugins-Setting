@@ -15,8 +15,8 @@ W: 365
 H: 240
 Frame: CompactRaidMainFrame
 FrameLevel: 1
-Anchor: CENTER
+Anchor: TOPLEFT
 X: 0
-Y: 0
+Y: -175
 W: 64
 H: 36

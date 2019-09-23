@@ -46,48 +46,48 @@ RematchSettings = {
 		},
 		["Script"] = {
 		},
-		["Moveset"] = {
+		["Types"] = {
 		},
-		["Tough"] = {
+		["Favorite"] = {
 		},
-		["Level"] = {
+		["Collected"] = {
+		},
+		["Strong"] = {
 		},
 		["Similar"] = {
-		},
-		["Sources"] = {
 		},
 		["Breed"] = {
 		},
 		["Rarity"] = {
 		},
-		["Strong"] = {
+		["Sources"] = {
 		},
-		["Collected"] = {
+		["Level"] = {
 		},
-		["Favorite"] = {
+		["Tough"] = {
 		},
-		["Types"] = {
+		["Moveset"] = {
 		},
-	},
-	["LevelingQueue"] = {
 	},
 	["JournalUsed"] = true,
-	["SelectedTab"] = 1,
+	["LevelingQueue"] = {
+	},
+	["CustomScaleValue"] = 100,
 	["CollapsedOptHeaders"] = {
 	},
-	["JournalPanel"] = 1,
+	["SpecialSlots"] = {
+	},
 	["PreferredMode"] = 1,
 	["ActivePanel"] = 1,
 	["Sanctuary"] = {
 	},
+	["ElvUIToastDefaulted"] = true,
+	["CornerPos"] = "BOTTOMLEFT",
 	["QueueSanctuary"] = {
 	},
-	["CornerPos"] = "BOTTOMLEFT",
-	["ElvUIToastDefaulted"] = true,
-	["SpecialSlots"] = {
-	},
+	["JournalPanel"] = 1,
 	["YPos"] = 297.9999694824219,
-	["CustomScaleValue"] = 100,
+	["SelectedTab"] = 1,
 	["PetNotes"] = {
 	},
 }

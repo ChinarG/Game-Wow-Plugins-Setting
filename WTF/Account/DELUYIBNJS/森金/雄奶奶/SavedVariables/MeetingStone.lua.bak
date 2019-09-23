@@ -9,8 +9,8 @@ MEETINGSTONE_CHARACTER_DB = {
 			["version"] = "80200.03",
 			["settings"] = {
 				["storage"] = {
-					["y"] = -239.0985717773438,
-					["point"] = "RIGHT",
+					["y"] = 0,
+					["point"] = "TOPRIGHT",
 					["scale"] = 1,
 				},
 			},
