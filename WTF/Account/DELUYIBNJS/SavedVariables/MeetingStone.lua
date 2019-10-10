@@ -56,8 +56,33 @@ MEETINGSTONE_UI_DB = {
 			},
 			["ActivitiesData"] = {
 				["data"] = "$1$Z$S244`魔兽主播活动`怀旧服：经典旧世地下城（部落）`9月28日（周六）20：00，斗鱼TV超人气主播：炎凉大宝宝（房间号：128314）与您携手闯荡艾泽拉斯。*J社交组队，小团体行动是怀旧服一条永恒不变的真理，毕竟好汉难敌四手，再强的稀有精英也架不住人海战术，瞧瞧炎凉大宝宝的小分队在本期怀旧服满级3大本的活动中会带给我们怎样的惊喜。`http://w.163.com/special/convene-stone/`1`3$$",
+				["new"] = false,
 			},
 		},
 		["version"] = "80200.03",
+		["filters"] = {
+			[2] = {
+				["BossKilled"] = {
+					["min"] = 0,
+					["enable"] = false,
+					["max"] = 0,
+				},
+				["ItemLevel"] = {
+					["min"] = 0,
+					["enable"] = false,
+					["max"] = 0,
+				},
+				["Age"] = {
+					["min"] = 0,
+					["enable"] = false,
+					["max"] = 0,
+				},
+				["Members"] = {
+					["min"] = 0,
+					["enable"] = false,
+					["max"] = 0,
+				},
+			},
+		},
 	},
 }

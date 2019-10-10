@@ -6,7 +6,6 @@ MEETINGSTONE_CHARACTER_DB = {
 	["profiles"] = {
 		["雄奶奶 - 森金"] = {
 			["appShine"] = "80200.03",
-			["version"] = "80200.03",
 			["settings"] = {
 				["storage"] = {
 					["y"] = 0,
@@ -14,9 +13,13 @@ MEETINGSTONE_CHARACTER_DB = {
 					["scale"] = 1,
 				},
 			},
-			["lastSearchCode"] = "6-0-0-0",
+			["lastSearchCode"] = "1-247-649-0",
+			["version"] = "80200.03",
+			["advShine"] = "80200.03",
 			["searchHistoryList"] = {
-				"6-0-0-0", -- [1]
+				"1-247-649-0", -- [1]
+				"2-144-537-0", -- [2]
+				"6-0-0-0", -- [3]
 			},
 		},
 	},

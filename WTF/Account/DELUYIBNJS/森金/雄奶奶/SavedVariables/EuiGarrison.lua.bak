@@ -1,10 +1,12 @@
 
 MasterPlanPC = {
-	["moN"] = 2,
-	["moE"] = 1.7,
 	["version"] = "20180905A",
-	["moC"] = 2,
-	["moV"] = 0.235,
+	["goldCollectedS"] = 0,
+	["moE"] = 3.95,
+	["moC"] = 3,
+	["moN"] = 6,
+	["moV"] = 1.0125,
+	["goldCollected"] = 3803800,
 }
 SVPC_GarrisonMissionManager = {
 	["ignored_followers"] = {

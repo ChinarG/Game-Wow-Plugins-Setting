@@ -5,8 +5,6 @@ MEETINGSTONE_CHARACTER_DB = {
 	},
 	["profiles"] = {
 		["风雨思年华 - 森金"] = {
-			["version"] = "80200.03",
-			["lastSearchCode"] = "6-0-0-0",
 			["settings"] = {
 				["storage"] = {
 					["y"] = -237.0419235229492,
@@ -17,6 +15,8 @@ MEETINGSTONE_CHARACTER_DB = {
 			["searchHistoryList"] = {
 				"6-0-0-0", -- [1]
 			},
+			["version"] = "80200.03",
+			["lastSearchCode"] = "6-0-0-0",
 		},
 	},
 }

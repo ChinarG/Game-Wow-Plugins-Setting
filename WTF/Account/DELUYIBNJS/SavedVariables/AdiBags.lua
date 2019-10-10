@@ -16,28 +16,28 @@ AdiBagsDB = {
 		},
 		["AdiBags_TooltipInfo"] = {
 		},
-		["Equipment"] = {
+		["MoneyFrame"] = {
+		},
+		["CurrencyFrame"] = {
 		},
 		["DataSource"] = {
 		},
 		["ItemSets"] = {
 		},
-		["CurrencyFrame"] = {
-		},
 		["Junk"] = {
 		},
-		["MoneyFrame"] = {
+		["Equipment"] = {
 		},
 	},
 	["profileKeys"] = {
 		["仔酷 - 森金"] = "Default",
 		["风雨思年华 - 森金"] = "Default",
-		["雄奶奶 - 森金"] = "Default",
+		["巨目巨目巨目 - 森金"] = "Default",
 		["午盾 - 森金"] = "Default",
 		["牛爹爹 - 屠魔山谷"] = "Default",
-		["奶奶的大刀 - 森金"] = "Default",
+		["雄奶奶 - 森金"] = "Default",
 		["独孤牛儿 - 森金"] = "Default",
-		["巨目巨目巨目 - 森金"] = "Default",
+		["奶奶的大刀 - 森金"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -45,16 +45,19 @@ AdiBagsDB = {
 				["stackable"] = true,
 				["others"] = true,
 			},
-			["scale"] = 1.3,
+			["columnWidth"] = {
+				["Bank"] = 14,
+				["Backpack"] = 7,
+			},
 			["maxHeight"] = 0.59,
 			["skin"] = {
 				["ReagentBankColor"] = {
 					nil, -- [1]
 					0.5019607843137255, -- [2]
 				},
-				["border"] = "None",
-				["background"] = "Blizzard Dialog Background Gold",
 				["borderWidth"] = 1,
+				["background"] = "Blizzard Dialog Background Gold",
+				["border"] = "None",
 				["insets"] = 0,
 			},
 			["bagFont"] = {
@@ -62,9 +65,8 @@ AdiBagsDB = {
 			},
 			["positions"] = {
 				["Backpack"] = {
-					["xOffset"] = -43.66954276041361,
-					["point"] = "TOPRIGHT",
-					["yOffset"] = -187.811026492127,
+					["xOffset"] = -307.7539255118754,
+					["yOffset"] = 155.7789371571562,
 				},
 			},
 			["sectionFont"] = {
@@ -73,10 +75,7 @@ AdiBagsDB = {
 				["g"] = 0.9294117647058824,
 			},
 			["positionMode"] = "manual",
-			["columnWidth"] = {
-				["Backpack"] = 7,
-				["Bank"] = 14,
-			},
+			["scale"] = 1.3,
 		},
 	},
 }

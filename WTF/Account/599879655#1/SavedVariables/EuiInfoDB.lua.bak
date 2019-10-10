@@ -1,0 +1,3 @@
+
+playersDB = nil
+PlayersDBJSON = nil

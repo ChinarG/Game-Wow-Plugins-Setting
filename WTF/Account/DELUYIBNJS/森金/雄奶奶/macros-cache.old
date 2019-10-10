@@ -1,0 +1,8 @@
+VER 3 0100000000000001 "DB_AaslaanFire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_AaslaanFire
+END
+VER 3 0100000000000002 "DB_Fire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Fire
+END

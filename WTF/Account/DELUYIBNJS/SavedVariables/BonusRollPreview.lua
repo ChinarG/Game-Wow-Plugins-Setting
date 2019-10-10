@@ -4,8 +4,8 @@ BonusRollPreviewDB = {
 		"CENTER", -- [1]
 		"UIParent", -- [2]
 		"CENTER", -- [3]
-		-6.00006628036499, -- [4]
-		-3.000003576278687, -- [5]
+		10.56346225738525, -- [4]
+		22.88054466247559, -- [5]
 	},
 	["fillDirection"] = "UP",
 	["alwaysShow"] = false,

@@ -7,12 +7,12 @@ MasqueDB = {
 	["profileKeys"] = {
 		["独孤牛儿 - 森金"] = "Default",
 		["风雨思年华 - 森金"] = "Default",
-		["奶奶的大刀 - 森金"] = "Default",
+		["仔酷 - 森金"] = "Default",
 		["午盾 - 森金"] = "Default",
 		["牛爹爹 - 屠魔山谷"] = "Default",
-		["雄奶奶 - 森金"] = "Default",
+		["奶奶的大刀 - 森金"] = "Default",
 		["巨目巨目巨目 - 森金"] = "Default",
-		["仔酷 - 森金"] = "Default",
+		["雄奶奶 - 森金"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -87,11 +87,35 @@ MasqueDB = {
 							1, -- [4]
 						},
 					},
-					["SkinID"] = "Cirque",
+					["SkinID"] = "Gears",
 					["Gloss"] = 1,
 					["Inherit"] = false,
 				},
 				["ElvUI_Stance Bar"] = {
+					["Colors"] = {
+						["Normal"] = {
+							0.7, -- [1]
+							0.7, -- [2]
+							0.7, -- [3]
+							1, -- [4]
+						},
+						["Highlight"] = {
+							1, -- [1]
+							0, -- [2]
+							0.8470588235294118, -- [3]
+							1, -- [4]
+						},
+						["Checked"] = {
+							0.08235294117647059, -- [1]
+							0.9019607843137255, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+					},
+					["SkinID"] = "Cirque",
+					["Gloss"] = 1,
+				},
+				["ElvUI_Pet Bar"] = {
 					["Colors"] = {
 						["Normal"] = {
 							0.7, -- [1]
@@ -139,30 +163,6 @@ MasqueDB = {
 					["SkinID"] = "Cirque",
 					["Gloss"] = 1,
 					["Inherit"] = false,
-				},
-				["ElvUI_Pet Bar"] = {
-					["Colors"] = {
-						["Normal"] = {
-							0.7, -- [1]
-							0.7, -- [2]
-							0.7, -- [3]
-							1, -- [4]
-						},
-						["Highlight"] = {
-							1, -- [1]
-							0, -- [2]
-							0.8470588235294118, -- [3]
-							1, -- [4]
-						},
-						["Checked"] = {
-							0.08235294117647059, -- [1]
-							0.9019607843137255, -- [2]
-							0, -- [3]
-							1, -- [4]
-						},
-					},
-					["SkinID"] = "Cirque",
-					["Gloss"] = 1,
 				},
 				["Masque"] = {
 					["Colors"] = {

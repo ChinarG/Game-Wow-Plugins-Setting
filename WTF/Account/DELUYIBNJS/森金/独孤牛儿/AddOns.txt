@@ -200,7 +200,7 @@ EuiScript: enabled
 ElvUI: enabled
 TinyInspect: enabled
 ElvUI_OptionsUI: enabled
-MeetingStone: enabled
+MeetingStone: disabled
 DBM-Party-BfA: enabled
 DBM-Azeroth-BfA: enabled
 DBM-EternalPalace: enabled

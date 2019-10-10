@@ -1,13 +1,13 @@
-VER 3 0000000000000002 "Decursive" "INV_MISC_QUESTIONMARK"
-/stopcasting
-/cast [@mouseover,nomod,exists] 清创生血;  [@mouseover,exists,mod:ctrl] 清创生血; [@mouseover,exists,mod:shift] 清创生血
+VER 3 0000000000000002 "一分宏" "1344650"
+/run M=function(z,x)SendChatMessage(x,"WHISPER",nil,z)end;M("想静静-贫瘠之地","1")M("王权富贵-海加尔","1")M("颜老师-风暴之鳞","1")M("谎言-加尔","1")M("月色下的乞丐-辛达苟萨","44296")M("阿焦大做饭-希尔瓦娜斯","1")M("时丶光-地狱咆哮","1")M("郑矢娜-战歌",9)M("红了眼眶-血色十字军",1)
+/喊 你帮我CD，我帮你宣传！/n微信关注《WOWWHT》获取免费CD，支持
 END
-VER 3 0000000000000003 "坐骑" "INV_Misc_QuestionMark"
-#showtooltip
-/startattack
-/castsequence [nochanneling] reset=8/combat 贯日击,猛虎掌,贯日击,旭日东升踢,贯日击,幻灭踢,贯日击,幻灭踢,贯日击,旭日东升踢,贯日击,幻灭踢,真气波,贯日击,猛虎掌,贯日击,虎眼酒,旭日东升踢,贯日击,幻灭踢,移花接木,怒雷破,贯日击,旭日东升踢,真气波,贯日击,幻灭踢
-/施放 白虎下凡
-/施放 豪能酒
+VER 3 0000000000000005 "二分CD" "136120"
+/run M=function(z,x)SendChatMessage(x,"WHISPER",nil,z)end;M("随心而遇-战歌","1")M("演员壹号-影之哀伤","1")M("假中医-死亡之翼","1")M("Lau-太阳之井","1")M("溟炎-洛丹伦","1")M("月娜-战歌","1")M("丿长空-凤凰之神","1")M("噬魔者-图拉扬",1)M("罐子-冬寒","1")M("亻壬忄生-安苏","1")
+/喊 你帮我CD，我帮你宣传！/n微信关注《WOWWHT》获取免费CD，支持
+END
+VER 3 0000000000000006 "结束宏" "136222"
+/run Q=function(z)M(z,0)end;Q"郑矢娜-战歌"Q"月色下的乞丐-辛达苟萨"Q"阿焦大做饭-希尔瓦娜斯"Q"月娜-战歌"Q"假中医-死亡之翼"Q"Lau-太阳之井"Q"红了眼眶-血色十字军"Q"罐子-冬寒"Q"噬魔者-图拉扬"Q"丿长空-凤凰之神"Q"九筱妖-布兰卡德"Q"演员壹号-影之哀伤"Q"想静静-贫瘠之地"Q"亻壬忄生-安苏"Q"王权富贵-海加尔"Q"颜老师-风暴之鳞"Q"随心而遇-战歌"Q"谎言-加尔"
 END
 VER 3 0000000000000004 "饿" "136103"
 /run local a={45470,47207,47208,47209,47210,47211,47212,47213}for i,q in ipairs(a)do print(format("第%s 张: %s",i, IsQuestFlaggedCompleted(q) and "124cFF00FF00已完成124r" or "124cFFFF0000未完成124r")) end
